@@ -1,13 +1,13 @@
 \documentclass[11pt]{article}
 \usepackage{graphicx} %Required for diagrams
 \usepackage[bookmarks=true]{hyperref}
-\usepackage{bookmark}
-\usepackage{hyperref}
+\usepackage{bookmark}%Required to do pdf bookmarking
+\usepackage{hyperref} %Required for referencing website pages
 
 \begin{document}
 \input{./titlePage.tex}
 
-\tableofcontents
+\tableofcontents	%Creates Table of contents from sections and subsections, etc...
 \newpage
 
 
@@ -44,14 +44,91 @@ Temporary words
 \newpage
 \section{Temporary Space}
 \subsection{Kyhle}
+Use diagrams for points 4,5,and 6
+\subsubsection{Point 1:}
 \begin{enumerate}
 \item 
+\textbf{Scope:}
+Users should be able to create, read, update and delete posts.
+\newline
+\textbf{Limitations/exclusions:} Not all users should be able to use all the functions. Some users may even CRUD other users posts.
+
 \item 
+\textbf{Use case Prioritization:} Critical
+
 \item 
-\item 
-\item 
-\item 
+\textbf{Use case/Service Contracts:} 
+\newline
+
+\textbf{Pre-Conditions: }
+\begin{itemize}
+\item User must be connected to the buzz system.
+\item User must be registered to update and delete posts. 
+\end{itemize}
+ 
+
+\textbf{Post-Conditions: }
+\begin{itemize}
+\item User may be required to be level x, in order to update specific posts.
+\item User must be level x to delete posts.
+\end{itemize}
 \end{enumerate}
+
+\subsubsection{Point 2:} 
+\begin{enumerate}
+\item 
+\textbf{Scope:}
+The system must keep track of who has read what, and highlight unread messages for each user.
+\newline
+\textbf{Limitations/exclusions:} 
+
+\item 
+\textbf{Use case Prioritization:} Critical
+
+\item 
+\textbf{Use case/Service Contracts:} 
+\newline
+\textbf{Pre-Conditions: }
+\begin{itemize}
+\item User must be registered to the buzz system.
+\end{itemize}
+ 
+
+\textbf{Post-Conditions: }
+\begin{itemize}
+\item 
+\end{itemize}
+\end{enumerate}
+
+
+\subsubsection{Point 3:} 
+\begin{enumerate}
+\item 
+\textbf{Scope:}
+This deals with the restriction of posting messages.
+\newline
+\textbf{Limitations/exclusions:} 
+Message length should be restricted. Content type should also be restricted based on level and status of the user posting the message.
+
+\item 
+\textbf{Use case Prioritization:} Critical
+
+\item 
+\textbf{Use case/Service Contracts:} 
+\newline
+\textbf{Pre-Conditions: }
+\begin{itemize}
+\item User must be registered to the buzz system.
+\end{itemize}
+ 
+
+\textbf{Post-Conditions: }
+\begin{itemize}
+\item User may need to be level x, in order to post on specific boards.
+\item User may need to be level x, to post specific content.
+\end{itemize}
+\end{enumerate}
+
 \newpage
 
 \subsection{Andrew}
