@@ -79,6 +79,7 @@ Users should be able to create, read, update and delete posts.
 
 \textbf{Pre-Conditions: }
 \begin{itemize}
+\item Buzz space must exist.
 \item User must be connected to the buzz system.
 
 \item \textit{Create: }
@@ -121,13 +122,13 @@ Users should be able to create, read, update and delete posts.
 \item \textit{Update: }
 	\begin{itemize}
 	\item Post will be updated if user has required permissions.
-	\item Post may not have been updated if permission requirements aren't met.
+	\item Post may not have been updated due to some error.
 	\end{itemize}
 \item \textit{Delete: }
 	\begin{itemize}
 	\item Post will be marked as deleted, and thus removed from the discussion board.
 	\item Post is not actually removed from the server, it is however hidden from all users.
-	\item Post may not have been deleted if permission requirements aren't met. 
+	\item Post may not have been deleted due to some error. 
 	\end{itemize}
 
 \end{itemize}
@@ -149,6 +150,7 @@ The system must keep track of who has read what, and highlight unread messages f
 \newline
 \textbf{Pre-Conditions: }
 \begin{itemize}
+\item Buzz space must exist.
 \item User must be registered to the buzz system.
 \item User must be logged into the system while viewing the post.
 \end{itemize}
@@ -157,7 +159,7 @@ The system must keep track of who has read what, and highlight unread messages f
 \textbf{Post-Conditions: }
 \begin{itemize}
 \item Post is marked as read.
-\item Post remains unmarked because user isn't registered or logged into the system while viewing the post.
+\item Post remains unmarked due to some error.
 \end{itemize}
 \end{enumerate}
 
@@ -179,17 +181,17 @@ Message length should be restricted. Content type should also be restricted base
 \newline
 \textbf{Pre-Conditions: }
 \begin{itemize}
+\item Buzz space must exist.
 \item User must be registered to the buzz system.
 \item User must have necessary permissions to create posts of a certain length or content type.
-\item Content type and message length must be established by the creator of that specific buzz.
+\item Content type and message length must be established by the creator of that specific buzz (configurable).
 \end{itemize}
  
 
 \textbf{Post-Conditions: }
 \begin{itemize}
 \item Post is created.
-\item Post may not have been created because user doesn't have required permissions.
-\item post created with incorrect length or content type due to creator of the buzz not configuring the requirements.
+\item Post may not have been created due to some error.
 \end{itemize}
 \end{enumerate}
 
@@ -199,6 +201,7 @@ Message length should be restricted. Content type should also be restricted base
 <<<<<<< HEAD
 \subsubsection{Point 1:}
 \begin{enumerate}
+\item
 •	Restrict users to post on specified levels based on their status of the user posting the message.
 \newline
 \textbf{Use case Prioritization:} Important
