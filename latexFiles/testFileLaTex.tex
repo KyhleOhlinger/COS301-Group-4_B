@@ -7,52 +7,192 @@
 \begin{document}
 \input{./titlePage.tex}
 
-\tableofcontents	%Creates Table of contents from sections and subsections, etc...
+\tableofcontents	%Creates Table of contents from sections and 							 subsections, etc...
 \newpage
 
 
 \section{Introduction}
 
-The purpose of this document is to fully specify and outline the functional requirements of "The use of Online Discussions in Teaching (TODT)" research project, received from the Computer Science Education Didactic and Applications Research (CSEDAR) team of the Computer Science Department of the University of Pretoria. The document also serves to give the client and developers a clear description and elaboration of the system to be implemented in its totality.
+The purpose of this document is to fully specify and outline the functional requirements of "The use of Online Discussions in Teaching (TODT)" research project, received from the Computer Science Education Didactic and Applications Research (CSEDAR) team, of the Computer Science Department of the University of Pretoria. The document also serves to give the client and developers a clear description and elaboration of the system to be implemented in its totality.
 
 \section{Vision}
 
-The project aims to provide an online space which will be integrated into the CS website, where students, teaching assistants, and lecturers can engage in activities
-related to learning the content of our module.The system will also apply game concepts to motivate students to increase the quality of their participation and consequently experience deeper learning of the course content.
+The project aims to provide an online space, which will be integrated into the CS website, where students, teaching assistants, and lecturers can engage in activities related to learning the content of specific modules. The system will also apply game-like concepts to motivate students to increase the quality of their participation, and consequently experience a deeper understanding of the course content.
 
 \section{Background and System Description}
 
-This project is due to the Computer Science department of the University of Pretoria having problems with the currently available tools for discussion forums, the following
-problems are hampering positive engagement of both teaching staff and students: Unorganised content, user inexperience and  low levels of excitement.
-\newline
-The System intends to create an online discussion forum that has automated feedback on common mistakes, game-like presention as well as automated feedback. The system also provides the COS 301 students with the opportunity to learn about the procedures used for creating, designing and developing projects for businesses, while also providing the University with a potentially new system that may, be released as an opensource project, that could possibly be implemented worldwide.
-\subsection{Related project}
-The project is a face lift to the existing dicussion forum of the Department of Computer Sciences and aims to improve the existing one by bringing new features that help Students to be more involved in dicussing certian modules.
+This project is due to the Computer Science department of the University of Pretoria having problems with the currently available tools for discussion forums. The following problems are hampering positive engagement of both teaching staff and students:
+\begin{itemize}
+\item Unorganised content,
+\item User Inexperience, and 
+\item Low levels of excitement.
+\end{itemize}
+The System intends to create an online discussion forum that has automated feedback on common mistakes, game-like presention as well as automated structuring. \newline
+The system also provides the COS 301 students with the opportunity to learn about the procedures used for creating, designing and developing projects for businesses, while also providing the University of Pretoria with a potentially new system that may be released as an opensource project, that could possibly be implemented worldwide.
+\subsection{Related Project}
+The project is a face lift to the existing discussion forum of the Department of Computer Sciences, and aims to improve the existing one by bringing new features that would encourage students to be more involved in discussing certain modules.
 \subsection{System Environment}
-The system will interract with LDAP ,which will handle credentials avoiding the need for a database
+The system will interact with LDAP ,which will handle credentials avoiding the need for a database.
 
 \section{The Stakeholders}
 
 \subsection{The Client}
 The Client is Ms Vreda Pieterse at the Department of Computer Science.
 \subsection{The customers}
-The Customers are Students of the Computer science who are enrolled in the modules and lectures in the department
+The Customers are Students of the Computer science who are enrolled in the modules, and lectures in the department.
 \subsection{Maintenance Users}
-The system will be assigned admimstartors from the Computer Science department and they will ensure its maintenace
-
-
-
+The system will be assigned administrators from the Computer Science department and they will ensure its maintenance.
 
 \newpage
 \section{Functional Requirements}
-Temporary words
 \subsection{Scope and Limitations/Exclusions}
-Temporary words
-\subsection{Use case Prioritization}
-Temporary words
-\subsection{Use case/Services Contracts}
-Temporary words
+\textbf{Scope: } \newline
+The scope of the Buzz System project can be encapsulated as a solution that allows the users of the system to:
+\begin{itemize}
+\item Have access to basic the functionalities that are common on all online forums.
+\item The administrative staff should be able to manage the registration of users to the forum.
+\item User has to be able to participate in discussions. 
+\end{itemize}
+The system shall be designed primarily for use by lecturers, teaching
+assistants, and students for the core purpose of engaging in activities related to learning the content of specific modules, and increasing the participation, and consequently deeper understanding of the modules at hand. \newline
+\textbf{Limitations/Exclusions: } \newline
+
 \subsection{Required Functionality}
+The following system processes describe the functional requirements of the system.
+\begin{enumerate}
+\item CRUD Operations:
+	\begin{itemize}
+	\item \textbf{Purpose:}
+	Users should be able to create, read, update and delete posts.
+	\newline
+	\textbf{Limitations:} Not all users should be able to use all the functions. Some users may even CRUD other users posts.
+	\item \textbf{Importance: } Critical
+	\item \textbf{Pre-Conditions: }
+		\begin{itemize}
+		\item Buzz space must exist.
+		\item User must be connected to the buzz system.\item 	
+		
+		\textit{Create: }
+			\begin{itemize}
+    			\item Must have necessary permission to create posts.
+    			\item Must be registered on the buzz system.
+  			\end{itemize}
+  			
+		\item \textit{Read: }
+			\begin{itemize}
+			\item Post must exist.
+			\end{itemize}
+	
+		\item \textit{Update: }
+			\begin{itemize}
+			\item Post must exist.
+			\item Must either be owner of the post, or have necessary 				permissions to update the post.
+			\end{itemize}
+
+		\item \textit{Delete: }
+			\begin{itemize}
+			\item Post must exist.
+			\item Must either be owner of the post, or have necessary 				permissions to delete the post
+			\end{itemize}  			
+  			
+		\end{itemize}
+		\item \textbf{Post-Conditions: }
+		\begin{itemize}
+		\item \textit{Create: }
+			\begin{itemize}
+			\item Post will have been created.
+			\item Post may not have been created, due to some error.
+			\end{itemize}
+		\item \textit{Read: }
+			\begin{itemize}
+			\item If logged in, post will be marked as read for the 				specific user.
+			\end{itemize}
+		\item \textit{Update: }
+			\begin{itemize}
+			\item Post will be updated if user has required 						permissions.
+			\item Post may not have been updated due to some error.
+			\end{itemize}
+		\item \textit{Delete: }
+			\begin{itemize}
+			\item Post will be marked as deleted, and thus removed 					from the discussion board.
+			\item Post is not actually removed from the server, it is 					however hidden from all users.
+		\item Post may not have been deleted due to some error. 
+			\end{itemize}			
+			
+		\end{itemize}
+	
+	\end{itemize}
+	
+\item Tracking read and unread messages:
+\begin{itemize}
+\item 
+\textbf{Purpose:}
+The system must keep track of who has read what, and highlight unread messages for each user.
+\newline
+
+\item \textbf{Importance:} Critical
+\item \textbf{Pre-Conditions: }
+	\begin{itemize}
+	\item Buzz space must exist.
+	\item User must be registered to the buzz system.
+	\item User must be logged into the system while viewing the post.
+	\end{itemize}
+
+\textbf{Post-Conditions: }
+	\begin{itemize}
+	\item Post is marked as read.
+	\item Post remains unmarked due to some error.
+	\end{itemize}
+
+\end{itemize}
+
+
+\item Message Restrictions: 
+\begin{itemize}
+\item \textbf{Purpose:}
+This deals with the restriction of posting messages.
+\newline
+\textbf{Limitations:} 
+Message length should be restricted. Content type should also be restricted based on level and status of the user posting the message.
+
+\item \textbf{Importance:} Critical\newline
+\textbf{Pre-Conditions: }
+	\begin{itemize}
+	\item Buzz space must exist.
+	\item User must be registered to the buzz system.
+	\item User must have necessary permissions to create posts of a 		certain length or content type.
+	\item Content type and message length must be established by the 		creator of that specific buzz (configurable).
+	\end{itemize}
+
+\textbf{Post-Conditions: }
+	\begin{itemize}
+	\item Post is created.
+	\item Post may not have been created due to some error.
+	\end{itemize}
+\end{itemize}
+\end{enumerate}
+
+
+\subsection{Use case Prioritization}
+\begin{itemize}
+\item \textbf{Critical: }
+	\begin{itemize}
+		\item CRUD operations.
+		\item Tracking read and unread messages.
+		\item Message Restrictions.
+	\end{itemize}
+
+\item \textbf{Important: }
+	\begin{itemize}
+		\item ...
+	\end{itemize}
+
+\item \textbf{Nice-to-Have: }
+	\begin{itemize}
+		\item ...
+	\end{itemize}
+\end{itemize}
+\subsection{Use case/Services Contracts}
 Temporary words
 \subsection{Process Specifications}
 Temporary words
@@ -61,141 +201,6 @@ Temporary words
 
 \newpage
 \section{Temporary Space}
-\subsection{Kyhle}
-Use diagrams for points 4,5,and 6
-\subsubsection{Point 1:}
-\begin{enumerate}
-\item 
-\textbf{Scope:}
-Users should be able to create, read, update and delete posts.
-\newline
-\textbf{Limitations/exclusions:} Not all users should be able to use all the functions. Some users may even CRUD other users posts.
-
-\item 
-\textbf{Use case Prioritization:} Critical
-
-\item 
-\textbf{Use case/Service Contracts:} 
-
-\textbf{Pre-Conditions: }
-\begin{itemize}
-\item Buzz space must exist.
-\item User must be connected to the buzz system.
-
-\item \textit{Create: }
-	\begin{itemize}
-    	\item Must have necessary permission to create posts.
-    	\item Must be registered on the buzz system.
-  	\end{itemize}
-
-\item \textit{Read: }
-	\begin{itemize}
-	\item Post must exist.
-	\end{itemize}
-	
-\item \textit{Update: }
-	\begin{itemize}
-	\item Post must exist.
-	\item Must either be owner of the post, or have necessary 		permissions to update the post.
-	\end{itemize}
-
-\item \textit{Delete: }
-	\begin{itemize}
-	\item Post must exist.
-	\item Must either be owner of the post, or have necessary permissions to delete the post
-	\end{itemize}
-\end{itemize}
- 
-
-\textbf{Post-Conditions: }
-\begin{itemize}
-
-\item \textit{Create: }
-	\begin{itemize}
-	\item Post will have been created.
-	\item Post may not have been created, due to some error.
-	\end{itemize}
-\item \textit{Read: }
-	\begin{itemize}
-	\item If logged in, post will be marked as read for the specific user.
-	\end{itemize}
-\item \textit{Update: }
-	\begin{itemize}
-	\item Post will be updated if user has required permissions.
-	\item Post may not have been updated due to some error.
-	\end{itemize}
-\item \textit{Delete: }
-	\begin{itemize}
-	\item Post will be marked as deleted, and thus removed from the discussion board.
-	\item Post is not actually removed from the server, it is however hidden from all users.
-	\item Post may not have been deleted due to some error. 
-	\end{itemize}
-
-\end{itemize}
-\end{enumerate}
-
-\subsubsection{Point 2:} 
-\begin{enumerate}
-\item 
-\textbf{Scope:}
-The system must keep track of who has read what, and highlight unread messages for each user.
-\newline
-\textbf{Limitations/exclusions:} 
-
-\item 
-\textbf{Use case Prioritization:} Critical
-
-\item 
-\textbf{Use case/Service Contracts:} 
-\newline
-\textbf{Pre-Conditions: }
-\begin{itemize}
-\item Buzz space must exist.
-\item User must be registered to the buzz system.
-\item User must be logged into the system while viewing the post.
-\end{itemize}
- 
-
-\textbf{Post-Conditions: }
-\begin{itemize}
-\item Post is marked as read.
-\item Post remains unmarked due to some error.
-\end{itemize}
-\end{enumerate}
-
-
-\subsubsection{Point 3:} 
-\begin{enumerate}
-\item 
-\textbf{Scope:}
-This deals with the restriction of posting messages.
-\newline
-\textbf{Limitations/exclusions:} 
-Message length should be restricted. Content type should also be restricted based on level and status of the user posting the message.
-
-\item 
-\textbf{Use case Prioritization:} Critical
-
-\item 
-\textbf{Use case/Service Contracts:} 
-\newline
-\textbf{Pre-Conditions: }
-\begin{itemize}
-\item Buzz space must exist.
-\item User must be registered to the buzz system.
-\item User must have necessary permissions to create posts of a certain length or content type.
-\item Content type and message length must be established by the creator of that specific buzz (configurable).
-\end{itemize}
- 
-
-\textbf{Post-Conditions: }
-\begin{itemize}
-\item Post is created.
-\item Post may not have been created due to some error.
-\end{itemize}
-\end{enumerate}
-
-\newpage
 
 \subsection{Andrew}
 <<<<<<< HEAD
