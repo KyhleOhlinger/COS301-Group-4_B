@@ -1,8 +1,11 @@
 \documentclass[11pt]{article}
+
 \usepackage{graphicx} %Required for diagrams
 \usepackage[bookmarks=true]{hyperref}
 \usepackage{bookmark}%Required to do pdf bookmarking
 \usepackage{hyperref}%Required for referencing website pages
+
+
 
 \begin{document}
 \input{./titlePage.tex}
@@ -591,6 +594,7 @@ Users will be limited to 4 filter categories, namely: topic, date posted/last up
 
 \newpage
 
+\graphicspath{ {../Diagrams/Tienie/} }
 \subsection{Tienie}
 \subsubsection{Point 1: }
 \begin{enumerate}
@@ -599,12 +603,39 @@ This deals with the built in plagiarism checker. It describes the functionality 
 \newline
 \textbf{Limitations/exclusions:} 
 The plagiarism checker is built into the system, and is thus not an optional feature for users posting. However, the checker may be configurable (i.e. turned on and off) by board administrators.
-\item \textbf{Use case Prioritization: } Nice-To-Have
-\item \textbf{Use case/Service Contracts: }
-\graphicspath{ {C:/Users/Tienie/Desktop/GitLat/Activity.jpg} }
-\item 
-\item 
-\item 
+\item 	\textbf{Use case Prioritization: } Nice-To-Have
+\item 	\textbf{Use case/Service Contracts: }
+		\begin{itemize}
+			\item	\textbf{Pre-Conditions}
+			\begin{itemize}
+	  			\item All posts from within the website will need to be available for traversal in text format.
+	  			\item A reference collection of documents assumed to be valid will need to be obtained for traversal in text format.
+	  			\item A similarity threshold will need to be agreed upon.
+	  			\item Access to the Internet (not just Intranet) is a must.
+	  			\item A google Search Engine ID and API Key for getting RESTful results to get web search results for comparison in JSON format (Google Custom Search Engine – 100 Free Search Queries Per Day)
+	  		\end{itemize}
+	  		\item	\textbf{Post-Conditions}
+	  		\begin{itemize}
+	  			\item A moderator must be alerted if the plagiarism percentage surpasses the allowed threshold.
+	  			\item The percentage of plagiarism detected must be alerted to a moderator if it surpasses the threshold.
+	  			\item If plagiarism is detected above the allowed threshold, the post must be highlighted as suspicious.
+	  			\item Unique documents scanned must be added to the repository of reference documents.
+	  		\end{itemize}
+	  		\newpage
+	  		\item	\textbf{Request and Results Data Structures}
+	  		\begin{center}
+	  			\includegraphics[scale=0.5]{InputOutput.jpg}
+	  		\end{center}
+	  	\end{itemize}
+\item	\textbf{Required Functionality}
+	  		\begin{center}
+	  			\includegraphics[scale=0.40]{UseCase.jpg}
+	  		\end{center}
+	  		\newpage
+\item \textbf{Process Specifications}
+	  		\begin{center}
+	  			\includegraphics[scale=0.40]{Activity.jpg}
+	  		\end{center}
 \end{enumerate}
 
 \newpage

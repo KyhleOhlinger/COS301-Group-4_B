@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.22)  22 FEB 2015 18:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.22)  22 FEB 2015 19:35
 entering extended mode
 **testFileLaTex.tex
 (C:\Users\Tienie\Desktop\COS\latexFiles\testFileLaTex.tex
@@ -186,20 +186,20 @@ File: bkm-pdftex.def 2011/12/02 v1.24 bookmark driver for pdfTeX (HO)
 \BKM@id=\count98
 ))
 (C:\Users\Tienie\Desktop\COS\latexFiles\testFileLaTex.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -216,7 +216,7 @@ LaTeX Font Info:    ... okay on input line 7.
 \everyMPtoPDFconversion=\toks16
 )
 \AtBeginShipoutBox=\box27
-Package hyperref Info: Link coloring OFF on input line 7.
+Package hyperref Info: Link coloring OFF on input line 10.
  ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -225,9 +225,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count105
 )
-LaTeX Info: Redefining \ref on input line 7.
-LaTeX Info: Redefining \pageref on input line 7.
-LaTeX Info: Redefining \nameref on input line 7.
+LaTeX Info: Redefining \ref on input line 10.
+LaTeX Info: Redefining \pageref on input line 10.
+LaTeX Info: Redefining \nameref on input line 10.
 
 (C:\Users\Tienie\Desktop\COS\latexFiles\titlePage.tex
 <University_of_Pretoria_Logo.png, id=3, 900.36375pt x 269.50688pt>
@@ -251,24 +251,24 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 ...\numberline {6.6}name}{19}{subsection.6.6}
+l.36 ...umberline {6.6}Tienie}{19}{subsection.6.6}
                                                    [1])
 \tf@toc=\write3
  [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 29.
 
 ("F:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
  [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 56--59
+Underfull \hbox (badness 10000) in paragraph at lines 59--62
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 129--132
+Underfull \hbox (badness 10000) in paragraph at lines 132--135
 
  []
 
@@ -283,7 +283,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ƒ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--235
+Underfull \hbox (badness 10000) in paragraph at lines 213--238
 
  []
 
@@ -306,7 +306,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ƒ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--263
+Underfull \hbox (badness 10000) in paragraph at lines 246--266
 
  []
 
@@ -315,69 +315,113 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ¢ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--285
+Underfull \hbox (badness 10000) in paragraph at lines 267--288
 
  []
 
 [10] [11] [12] [13] [14]
-Overfull \hbox (0.55753pt too wide) in paragraph at lines 458--462
+Overfull \hbox (0.55753pt too wide) in paragraph at lines 461--465
 []\OT1/cmr/bx/n/10.95 Use case Pri-or-i-ti-za-tion: \OT1/cmr/m/n/10.95 Im-por-t
 ant \OT1/cmr/bx/n/10.95 Use case/Service Con-tracts: 
  []
 
 [15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 551--555
+Underfull \hbox (badness 10000) in paragraph at lines 554--558
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--558
+Underfull \hbox (badness 10000) in paragraph at lines 559--561
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 571--573
+Underfull \hbox (badness 10000) in paragraph at lines 574--576
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 571--573
+Underfull \hbox (badness 10000) in paragraph at lines 574--576
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 571--573
+Underfull \hbox (badness 10000) in paragraph at lines 574--576
 
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 574--575
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 574--575
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--577
+Underfull \hbox (badness 10000) in paragraph at lines 578--580
 
  []
 
-[18] [19] [20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 624.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 624.
- (C:\Users\Tienie\Desktop\COS\latexFiles\testFileLaTex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 624.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 624.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 624.
+[18]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+ [19]
+<../Diagrams/Tienie/InputOutput.jpg, id=220, 824.07875pt x 231.86626pt>
+File: ../Diagrams/Tienie/InputOutput.jpg Graphic file (type jpg)
+
+<use ../Diagrams/Tienie/InputOutput.jpg>
+Package pdftex.def Info: ../Diagrams/Tienie/InputOutput.jpg used on input line 
+627.
+(pdftex.def)             Requested size: 412.03836pt x 115.93283pt.
+
+Overfull \hbox (103.50345pt too wide) in paragraph at lines 627--628
+ [] 
+ []
+
+<../Diagrams/Tienie/UseCase.jpg, id=221, 1035.87pt x 546.04pt>
+File: ../Diagrams/Tienie/UseCase.jpg Graphic file (type jpg)
+
+<use ../Diagrams/Tienie/UseCase.jpg>
+Package pdftex.def Info: ../Diagrams/Tienie/UseCase.jpg used on input line 632.
+
+(pdftex.def)             Requested size: 414.34065pt x 218.41212pt.
+
+Overfull \hbox (81.71571pt too wide) in paragraph at lines 632--633
+ [] 
+ []
+
+[20 <C:/Users/Tienie/Desktop/COS/Diagrams/Tienie/InputOutput.jpg> <C:/Users/Tie
+nie/Desktop/COS/Diagrams/Tienie/UseCase.jpg>]
+<../Diagrams/Tienie/Activity.jpg, id=227, 1021.8175pt x 626.34pt>
+File: ../Diagrams/Tienie/Activity.jpg Graphic file (type jpg)
+
+<use ../Diagrams/Tienie/Activity.jpg>
+Package pdftex.def Info: ../Diagrams/Tienie/Activity.jpg used on input line 637
+.
+(pdftex.def)             Requested size: 408.71976pt x 250.53156pt.
+
+Overfull \hbox (76.09482pt too wide) in paragraph at lines 637--638
+ [] 
+ []
+
+[21 <C:/Users/Tienie/Desktop/COS/Diagrams/Tienie/Activity.jpg>] [22]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 655.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 655.
+
+(C:\Users\Tienie\Desktop\COS\latexFiles\testFileLaTex.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 655.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 655.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 655.
  ) 
 Here is how much of TeX's memory you used:
- 5376 strings out of 493921
- 79602 string characters out of 3144873
+ 5394 strings out of 493921
+ 80107 string characters out of 3144873
  160239 words of memory out of 3000000
- 8537 multiletter control sequences out of 15000+200000
+ 8549 multiletter control sequences out of 15000+200000
  9192 words of font info for 32 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  29i,5n,30p,486b,569s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -389,9 +433,9 @@ ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><F:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><F:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><F:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on testFileLaTex.pdf (21 pages, 374597 bytes).
+Output written on testFileLaTex.pdf (23 pages, 812095 bytes).
 PDF statistics:
- 399 PDF objects out of 1000 (max. 8388607)
- 116 named destinations out of 1000 (max. 500000)
- 310 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 410 PDF objects out of 1000 (max. 8388607)
+ 117 named destinations out of 1000 (max. 500000)
+ 325 words of extra memory for PDF output out of 10000 (max. 10000000)
 
