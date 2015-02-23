@@ -206,31 +206,32 @@ Temporary words
 \section{Temporary Space}
 
 \subsection{Andrew}
-<<<<<<< HEAD
 \subsubsection{Point 1:}
 \begin{enumerate}
 \item
-•	Restrict users to post on specified levels based on their status of the user posting the message.
+\textbf{Scope:}
+Restrict users to post on specified levels based on their status of the user posting the message.
 \newline
 \textbf{Use case Prioritization:} Important
 \newline
-Use case/Services contracts
+\textbf{Use case/Service Contracts:} 
 \newline
-Pre-Conditions:
+\textbf{Pre-Conditions: }
 \newline
-Creator of the forum will not have any restrictions and can create new threads.
-\newline
-Post-Conditions:
-Non-registered user:
+\item User must be registered to the buzz system.
+\end{itemize}
+\textbf{Post-Conditions: }
+\begin{itemize}
+\itemNon-registered user:
 User will not be able to post comment create new threads without acquiring an account.
 \newline
-Low level user:
+\itemLow level user:
 When a user is on level x users may only post y number of topic or comments on other users posts per day. New posts can only be posted in pre-existing threads made by higher level users and no new threads may be made by low level users. 
 \newline
-Medium level user:
+\itemMedium level user:
 User may add and create any number of posts per day but are limited to the z number of threads that they can create per day.
 \newline
-High level user:
+\itemHigh level user:
 High level users have no posting restrictions. They made add any number of threads and are not limited to any number of posts per day.
  \newline
  All values are configurable by the Creator.
@@ -238,62 +239,64 @@ High level users have no posting restrictions. They made add any number of threa
  \end{enumerate}
  
 \subsubsection{Point 2:}
-•	Allow staff to manage content i.e. summaries, close or hide threads and move things around.
+\begin{enumerate}
+\item 
+\textbf{Scope:}
+Allow staff to manage content i.e. summaries, close or hide threads and move things around.
 \newline
 \textbf{Use case Prioritization:} Important
 	
+\item
+\textbf{Use case/Service Contracts:} 
+\newline
+\textbf{Pre-Conditions: }
+\begin{itemize}
+\item User must be registered to the buzz system.
+\item User must have necessary privileges.
+\item Users may not edit, move or change another user’s posts threads or comments that are on the same or on a higher level that they are.
+\end{itemize}
 
-Use case/Services contracts
-\newline
-Pre-Conditions:
-\newline
-Users may not edit, move or change another user’s posts threads or comments that are on the same or on a higher level that they are.
-\newline
-Post-Conditions:
-\newline
-Staff or high level users:
+\textbf{Post-Conditions: }
+\begin{itemize}
+\itemStaff or high level users:
 User may move threads to their relevant categories. Remove unused or unimportant threads. Lock or close threads so users cannot post within them if the topic has been already been answered. Post may be edited to fix error or to remove irrelevant data.
 \newline
-Medium level user:
+\itemMedium level user:
 User may move posts to the relevant threads but may not edit change or update user’s posts.
 \newline
-Low level and non-registered users:
+\itemLow level and non-registered users:
 User may not edit, move or change another user’s posts threads or comments.
 \newline
 All values are configurable by the Creator.
 \newline
+\end{enumerate}
  
 \subsubsection{Point 3:}
-•	Provide functionality to support semi-automatic creation of thread summaries.
+\begin{enumerate}
+\item Provide functionality to support semi-automatic creation of thread summaries.
 \newline
+\item
 \textbf{Use case Prioritization:} Nice-To-Have
 Use case/Services contracts
 \newline
-Pre-Conditions:
+\item 
+\textbf{Use case/Service Contracts:} 
 \newline
-Medium, High and Creator may state whether a certain thread may or may not be summarized.
+\item Medium, High and Creator may state whether a certain thread may or may not be summarized.
 \newline
-Post-Conditions:
-When a Thread has been marked for summary then all posts which have been highly rated and important would be moved closer to the top and unrelated or unnecessary posts would be move further away from the top to the bottom with all linked comments. High level users may override whether the summarized posts are relevant and can manually move the posts to where they best fit.
+\textbf{Post-Conditions: }
+\begin{itemize}
+\item When a Thread has been marked for summary then all posts which have been highly rated and important would be moved closer to the top and unrelated or unnecessary posts would be move further away from the top to the bottom with all linked comments. 
+\item High level users may override whether the summarized posts are relevant and can manually move the posts to where they best fit.
+\item All levels of users are able to rate posts and comments on how important they see the post.
 \newline
-All levels of users are able to rate posts and comments on how important they see the post.
-\newline
-High level users would get the highest x points per rating.
-Medium level users would get the highest y points per rating.
-Low level users would get the highest z points per rating.
-Non registered users cannot rate posts.
+\item High level users would get the highest x points per rating.
+\item Medium level users would get the highest y points per rating.
+\item Low level users would get the highest z points per rating.
+\item Non registered users cannot rate posts.
 \newline
 All values are configurable by the Creator.
-\newline
-
-=======
-\begin{enumerate}
-\item 
-\item 
-\item 
-\item 
-\item 
-\item 
+\end{itemize}
 \end{enumerate}
 
 \newpage
