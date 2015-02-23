@@ -10,26 +10,26 @@
 \contentsline {section}{\numberline {5}Functional Requirements}{5}{section.5}
 \contentsline {subsection}{\numberline {5.1}Scope and Limitations/Exclusions}{5}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Required Functionality}{5}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Use case Prioritization}{7}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Use case/Services Contracts}{8}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Process Specifications}{8}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Domain Model}{8}{subsection.5.6}
-\contentsline {section}{\numberline {6}Temporary Space}{9}{section.6}
-\contentsline {subsection}{\numberline {6.1}Andrew}{9}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Sifiso}{10}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Point 1:}{10}{subsubsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2}Point 2:}{10}{subsubsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.3}Point 3:}{11}{subsubsection.6.2.3}
-\contentsline {subsubsection}{\numberline {6.2.4}Point 4:}{11}{subsubsection.6.2.4}
-\contentsline {subsection}{\numberline {6.3}Maret}{13}{subsection.6.3}
-\contentsline {subsubsection}{\numberline {6.3.1}Point 1:}{13}{subsubsection.6.3.1}
-\contentsline {subsubsection}{\numberline {6.3.2}Point 2:}{13}{subsubsection.6.3.2}
-\contentsline {subsection}{\numberline {6.4}Matthew}{14}{subsection.6.4}
-\contentsline {subsubsection}{\numberline {6.4.1}Point 1:}{14}{subsubsection.6.4.1}
-\contentsline {subsubsection}{\numberline {6.4.2}Point 2:}{14}{subsubsection.6.4.2}
-\contentsline {subsection}{\numberline {6.5}Sphelele}{15}{subsection.6.5}
-\contentsline {subsubsection}{\numberline {6.5.1}Point 1: }{15}{subsubsection.6.5.1}
-\contentsline {subsubsection}{\numberline {6.5.2}Point 2:}{16}{subsubsection.6.5.2}
-\contentsline {subsection}{\numberline {6.6}Tienie}{17}{subsection.6.6}
-\contentsline {subsubsection}{\numberline {6.6.1}Point 1: }{17}{subsubsection.6.6.1}
-\contentsline {subsection}{\numberline {6.7}name}{20}{subsection.6.7}
+\contentsline {subsection}{\numberline {5.3}Use case Prioritization}{9}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Use case/Services Contracts}{10}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Process Specifications}{10}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Domain Model}{10}{subsection.5.6}
+\contentsline {section}{\numberline {6}Temporary Space}{11}{section.6}
+\contentsline {subsection}{\numberline {6.1}Andrew}{11}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Sifiso}{12}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Point 1:}{12}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Point 2:}{12}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.3}Point 3:}{13}{subsubsection.6.2.3}
+\contentsline {subsubsection}{\numberline {6.2.4}Point 4:}{13}{subsubsection.6.2.4}
+\contentsline {subsection}{\numberline {6.3}Maret}{15}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}Point 1:}{15}{subsubsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.2}Point 2:}{15}{subsubsection.6.3.2}
+\contentsline {subsection}{\numberline {6.4}Matthew}{16}{subsection.6.4}
+\contentsline {subsubsection}{\numberline {6.4.1}Point 1:}{16}{subsubsection.6.4.1}
+\contentsline {subsubsection}{\numberline {6.4.2}Point 2:}{16}{subsubsection.6.4.2}
+\contentsline {subsection}{\numberline {6.5}Sphelele}{17}{subsection.6.5}
+\contentsline {subsubsection}{\numberline {6.5.1}Point 1: }{17}{subsubsection.6.5.1}
+\contentsline {subsubsection}{\numberline {6.5.2}Point 2:}{18}{subsubsection.6.5.2}
+\contentsline {subsection}{\numberline {6.6}Tienie}{19}{subsection.6.6}
+\contentsline {subsubsection}{\numberline {6.6.1}Point 1: }{19}{subsubsection.6.6.1}
+\contentsline {subsection}{\numberline {6.7}name}{22}{subsection.6.7}

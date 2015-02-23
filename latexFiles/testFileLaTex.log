@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.4)  23 FEB 2015 16:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.4)  23 FEB 2015 16:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -283,105 +283,109 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--135
 
  []
 
-[6] [7] [8] [9] [10] [11] [12]
-Overfull \hbox (0.55753pt too wide) in paragraph at lines 377--381
+[6] [7]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [8] [9] [10] [11] [12] [13] [14]
+Overfull \hbox (0.55753pt too wide) in paragraph at lines 501--505
 []\OT1/cmr/bx/n/10.95 Use case Pri-or-i-ti-za-tion: \OT1/cmr/m/n/10.95 Im-por-t
 ant \OT1/cmr/bx/n/10.95 Use case/Service Con-tracts: 
  []
 
-[13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 470--474
+[15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 594--598
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 475--477
+Underfull \hbox (badness 10000) in paragraph at lines 599--601
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--492
+Underfull \hbox (badness 10000) in paragraph at lines 614--616
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--492
+Underfull \hbox (badness 10000) in paragraph at lines 614--616
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--492
+Underfull \hbox (badness 10000) in paragraph at lines 614--616
 
  []
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 493--494
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 493--494
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 617--618
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--496
+Underfull \hbox (badness 10000) in paragraph at lines 617--618
 
  []
 
-[16]
+
+Underfull \hbox (badness 10000) in paragraph at lines 618--620
+
+ []
+
+[18]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [17]
-<../Diagrams/Tienie/InputOutput.jpg, id=200, 824.07875pt x 231.86626pt>
+ [19]
+<../Diagrams/Tienie/InputOutput.jpg, id=213, 824.07875pt x 231.86626pt>
 File: ../Diagrams/Tienie/InputOutput.jpg Graphic file (type jpg)
 
 <use ../Diagrams/Tienie/InputOutput.jpg>
 Package pdftex.def Info: ../Diagrams/Tienie/InputOutput.jpg used on input line 
-543.
+667.
 (pdftex.def)             Requested size: 412.03836pt x 115.93283pt.
 
-Overfull \hbox (103.50345pt too wide) in paragraph at lines 543--544
+Overfull \hbox (103.50345pt too wide) in paragraph at lines 667--668
  [] 
  []
 
-<../Diagrams/Tienie/UseCase.jpg, id=201, 1035.87pt x 546.04pt>
+<../Diagrams/Tienie/UseCase.jpg, id=214, 1035.87pt x 546.04pt>
 File: ../Diagrams/Tienie/UseCase.jpg Graphic file (type jpg)
 
 <use ../Diagrams/Tienie/UseCase.jpg>
-Package pdftex.def Info: ../Diagrams/Tienie/UseCase.jpg used on input line 548.
+Package pdftex.def Info: ../Diagrams/Tienie/UseCase.jpg used on input line 672.
 
 (pdftex.def)             Requested size: 414.34065pt x 218.41212pt.
 
-Overfull \hbox (81.71571pt too wide) in paragraph at lines 548--549
+Overfull \hbox (81.71571pt too wide) in paragraph at lines 672--673
  [] 
  []
 
-[18 <../Diagrams/Tienie/InputOutput.jpg> <../Diagrams/Tienie/UseCase.jpg>]
-<../Diagrams/Tienie/Activity.jpg, id=208, 1021.8175pt x 626.34pt>
+[20 <../Diagrams/Tienie/InputOutput.jpg> <../Diagrams/Tienie/UseCase.jpg>]
+<../Diagrams/Tienie/Activity.jpg, id=220, 1021.8175pt x 626.34pt>
 File: ../Diagrams/Tienie/Activity.jpg Graphic file (type jpg)
 
 <use ../Diagrams/Tienie/Activity.jpg>
-Package pdftex.def Info: ../Diagrams/Tienie/Activity.jpg used on input line 553
+Package pdftex.def Info: ../Diagrams/Tienie/Activity.jpg used on input line 677
 .
 (pdftex.def)             Requested size: 408.71976pt x 250.53156pt.
 
-Overfull \hbox (76.09482pt too wide) in paragraph at lines 553--554
+Overfull \hbox (76.09482pt too wide) in paragraph at lines 677--678
  [] 
  []
 
-[19 <../Diagrams/Tienie/Activity.jpg>] [20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 571.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 571.
+[21 <../Diagrams/Tienie/Activity.jpg>] [22]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 695.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 695.
  (./testFileLaTex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 571.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 571.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 571.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 695.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 695.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 695.
  ) 
 Here is how much of TeX's memory you used:
- 5490 strings out of 493304
- 81501 string characters out of 6139871
+ 5496 strings out of 493304
+ 81543 string characters out of 6139871
  166695 words of memory out of 5000000
  8813 multiletter control sequences out of 15000+600000
  9192 words of font info for 32 fonts, out of 8000000 for 9000
@@ -395,10 +399,10 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti12.pfb>
-Output written on testFileLaTex.pdf (21 pages, 772072 bytes).
+Output written on testFileLaTex.pdf (23 pages, 774986 bytes).
 PDF statistics:
- 382 PDF objects out of 1000 (max. 8388607)
- 343 compressed objects within 4 object streams
- 105 named destinations out of 1000 (max. 500000)
+ 396 PDF objects out of 1000 (max. 8388607)
+ 355 compressed objects within 4 object streams
+ 111 named destinations out of 1000 (max. 500000)
  301 words of extra memory for PDF output out of 10000 (max. 10000000)
 
