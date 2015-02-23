@@ -15,6 +15,10 @@
 \tableofcontents	%Creates Table of contents from sections and 							 subsections, etc...
 \newpage
 
+\listoffigures		%Creates a table of figures from all images in the 					document
+
+\newpage
+
 
 \section{Introduction}
 
@@ -65,6 +69,8 @@ assistants, and students for the core purpose of engaging in activities related 
 \subsection{Required Functionality}
 The following system processes describe the functional requirements of the system.
 \begin{enumerate}
+\graphicspath{ {../Diagrams/Kyhle/Use_Case_Diagrams/} }
+
 \item CRUD Operations:
 	\begin{itemize}
 	\item \textbf{Purpose:}
@@ -128,6 +134,11 @@ The following system processes describe the functional requirements of the syste
 	
 	\end{itemize}
 	
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{CRUD.jpg}
+    	\caption{CRUD Use case diagram}
+	\end{figure}
+	
 \item Tracking read and unread messages:
 \begin{itemize}
 \item 
@@ -151,7 +162,11 @@ The system must keep track of who has read what, and highlight unread messages f
 
 \end{itemize}
 
-
+\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{messageTracking.jpg}
+    	\caption{Message Tracking Use case diagram}
+	\end{figure}
+	
 \item Message Restrictions: 
 \begin{itemize}
 \item \textbf{Purpose:}
@@ -175,7 +190,10 @@ Message length should be restricted. Content type should also be restricted base
 	\item Post may not have been created due to some error.
 	\end{itemize}
 \end{itemize}
-
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{messageRestrictions.jpg}
+    	\caption{Message Restrictions Use case diagram}
+	\end{figure}
 
 \item Social Tagging 
 \begin{itemize}
@@ -324,10 +342,27 @@ inform about a new comment on the buzz space user commented
 		\item Read Later Section
 	\end{itemize}
 \end{itemize}
-\subsection{Use case/Services Contracts}
-Temporary words
+
+
 \subsection{Process Specifications}
-Temporary words
+Requirements around the processes which needs to be followed regarding the use cases: \newline
+\graphicspath{ {../Diagrams/Kyhle/Activity_Diagrams/} }
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{CRUD.jpg}
+    	\caption{CRUD Activity diagram}
+	\end{figure}
+    	
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{messageTracking.jpg}
+    	\caption{Message Tracking Use case diagram}
+	\end{figure}
+	
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{messageRestrictions.jpg}
+    	\caption{Message Restrictions Use case diagram}
+	\end{figure}
+
+
 \subsection{Domain Model}
 Temporary words
 
