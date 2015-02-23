@@ -516,7 +516,7 @@ All users will have this feature by default
 \begin{itemize}
 \item The user must be registered to the buzz system.
 \item The message template should exist.
-\item The system must be able to select a cetain group based on specific information, to send the group message to.
+\item The system or a high level user must be able to select a cetain group based on specific information, to send a message to the recipient(s).
 \end{itemize}
  \textbf{Post-Conditions: }
 \begin{itemize}
@@ -531,7 +531,7 @@ All users will have this feature by default
 \begin{enumerate}
 \item 
 \textbf{Scope}
-The system must automatically change the status of a user based on his participation.
+The system must automatically change the status of a user based on his participation: the more a user participate, the more the user will be able to do.
 \newline
 \textbf{Limitations/exclusions:}
 \item
@@ -542,7 +542,7 @@ The system must automatically change the status of a user based on his participa
 \begin{itemize}
 \item The user must be registered to the buzz system.
 \item The user must be logged in for his status to be affected by his participation.
-\item The users current status will be updated, so he must have a current status.
+\item The user must have a current status.
 \end{itemize}
  \textbf{Post-Conditions: }
 \begin{itemize}
@@ -552,6 +552,30 @@ The system must automatically change the status of a user based on his participa
 \end{itemize}
 \end{enumerate}
 
+\subsubsection{Point 3:}
+\begin{enumerate}
+\item 
+\textbf{Scope}
+The system must be able to integrate seamlessly with any specified host site.
+\newline
+\textbf{Limitations/exclusions:}
+\item
+\textbf{Use case Prioritization:} Critical
+\textbf{Use case/Service Contracts:} 
+\newline
+\textbf{Pre-Conditions: }
+\begin{itemize}
+\item The host site must support the BuzzSpace systems technologies.
+\item The BuzzSpace system must support the host sites technologies.
+\item The host site must have enough space available for the BuzzSpace.
+\end{itemize}
+ \textbf{Post-Conditions: }
+\begin{itemize}
+\item The buzzSpace must be created.
+\item The database of the BuzzSpace must be updated with the data on the host site.
+\item 
+\end{itemize}
+\end{enumerate}
 
 \subsection{Matthew}
 \subsubsection{Point 1:}
