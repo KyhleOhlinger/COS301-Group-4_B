@@ -32,4 +32,5 @@
 \contentsline {subsubsection}{\numberline {6.5.2}Point 2:}{18}{subsubsection.6.5.2}
 \contentsline {subsection}{\numberline {6.6}Tienie}{19}{subsection.6.6}
 \contentsline {subsubsection}{\numberline {6.6.1}Point 1: }{19}{subsubsection.6.6.1}
-\contentsline {subsection}{\numberline {6.7}name}{22}{subsection.6.7}
+\contentsline {subsubsection}{\numberline {6.6.2}Point 2: }{22}{subsubsection.6.6.2}
+\contentsline {subsection}{\numberline {6.7}name}{26}{subsection.6.7}
