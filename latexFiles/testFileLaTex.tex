@@ -2,6 +2,7 @@
 
 \usepackage{graphicx} %Required for diagrams
 \usepackage[export]{adjustbox} %Required to Adjust Image alignment
+\usepackage{float}
 \usepackage[bookmarks=true]{hyperref}
 \usepackage{bookmark}%Required to do pdf bookmarking
 \usepackage{hyperref}%Required for referencing website pages
@@ -665,19 +666,20 @@ The plagiarism checker is built into the system, and is thus not an optional fea
 	  		\end{itemize}
 	  		\newpage
 	  		\item	\textbf{Request and Results Data Structures}
-	  		\begin{center}
-	  			\includegraphics[scale=0.5,left]{InputOutput.jpg}
-	  		\end{center}
+	  		\begin{figure}[H]
+    			\includegraphics[scale=0.5]{InputOutput.jpg}
+			\end{figure}
 	  	\end{itemize}
 \item	\textbf{Required Functionality}
-	  		\begin{center}
-	  			\includegraphics[scale=0.40,left]{UseCase.jpg}
-	  		\end{center}
-	  		\newpage
+	\begin{figure}[H]
+    	\includegraphics[scale=0.4]{UseCase.jpg}
+	\end{figure}
+\newpage
 \item \textbf{Process Specifications}
-	  		\begin{center}
-	  			\includegraphics[scale=0.40,left]{Activity.jpg}
-	  		\end{center}
+	\begin{figure}[H]
+    	\includegraphics[scale=0.4]{Activity.jpg}
+	\end{figure}
+	  		
 \end{enumerate}
 \graphicspath{ {../Diagrams/Tienie/Netiquette/} }
 \newpage
@@ -715,20 +717,20 @@ The netiquette checker is built into the system, and is thus not an optional fea
 	  		\end{itemize}
 	  		\newpage
 	  		\item	\textbf{Request and Results Data Structures}
-	  		\begin{center}
-	  			\includegraphics[scale=0.35,left]{NetInputOutput.jpg}
-	  		\end{center}
+	  		\begin{figure}[H]
+	  			\includegraphics[scale=0.35]{NetInputOutput.jpg}
+	  		\end{figure}
 	  	\end{itemize}
 	  	\newpage
 \item	\textbf{Required Functionality}
-	  		\begin{center}
-	  			\includegraphics[scale=0.35,left]{NetUseCase.jpg}
-	  		\end{center}
+	  		\begin{figure}[H]
+	  			\includegraphics[scale=0.35]{NetUseCase.jpg}
+	  		\end{figure}
 	  		\newpage
 \item \textbf{Process Specifications}
-	  		\begin{center}
-	  			\includegraphics[scale=0.40,left]{NetProcessDiagram.jpg}
-	  		\end{center}
+	  		\begin{figure}[H]
+	  			\includegraphics[scale=0.40]{NetProcessDiagram.jpg}
+	  		\end{figure}
 \end{enumerate}
 
 \newpage
