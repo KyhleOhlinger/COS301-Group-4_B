@@ -505,9 +505,9 @@ All users will have this feature by default
 \begin{enumerate}
 \item 
 \textbf{Scope}
- The system must send template messages automatically to individual users or specified groups, like a welcomming message or a notification message.
+ The management staff must be able to send template messages automatically to individual users or specified groups, like a welcomming message or a notification messages. 
 \newline
-\textbf{Limitations/exclusions:}
+\textbf{Limitations/exclusions:} Staff members must be able to add new templates. The Staff member should be able to select the reciever(s) based on certain properties.
 \item
 \textbf{Use case Prioritization:} Nice-to-have
 \textbf{Use case/Service Contracts:} 
@@ -531,9 +531,9 @@ All users will have this feature by default
 \begin{enumerate}
 \item 
 \textbf{Scope}
-The system must automatically change the status of a user based on his participation.
+The system must automatically change the status of a user based on his participation. The system award point to the user based on his actions, these points are then added and influence the users level.The user may lose points for "bad behaviour" and may win points for participation.
 \newline
-\textbf{Limitations/exclusions:}
+\textbf{Limitations/exclusions:} The status may only change after an action is performed.
 \item
 \textbf{Use case Prioritization:} Important
 \textbf{Use case/Service Contracts:} 
@@ -542,13 +542,42 @@ The system must automatically change the status of a user based on his participa
 \begin{itemize}
 \item The user must be registered to the buzz system.
 \item The user must be logged in for his status to be affected by his participation.
-\item The users current status will be updated, so he must have a current status.
+\item The users current status will be updated
 \end{itemize}
  \textbf{Post-Conditions: }
 \begin{itemize}
-\item The users privileges change when his status change.
+\item The users privileges may change when his status change.
+\item The users points change and as a result of this, his level may change.
 \item The user must be able to view his status.
 \item The users stutus is public.
+\end{itemize}
+\end{enumerate}
+
+\subsubsection{Point 3:}
+\begin{enumerate}
+\item 
+\textbf{Scope}
+The system must be able to integrate with a specified host site.
+\newline
+\textbf{Limitations/exclusions:}
+\item
+\textbf{Use case Prioritization:} Critical
+\textbf{Use case/Service Contracts:} 
+\newline
+\textbf{Pre-Conditions: }
+\begin{itemize}
+\item The host site must support the technologies of the BuzzSpace system.
+\item TheBuzzSpace sytem must support the technologies of the host site.
+\item 
+\end{itemize}
+ \textbf{Post-Conditions: }
+\begin{itemize}
+\item The System creates the BuzzSpace.
+\item All the data that is on the host site are integrated into the new BuzzSpace.
+\item The users are registered.
+\item The BuzzSpace is stored.
+\item User levels are added.
+
 \end{itemize}
 \end{enumerate}
 
