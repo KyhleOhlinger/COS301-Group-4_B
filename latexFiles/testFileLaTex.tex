@@ -1,6 +1,8 @@
 \documentclass[11pt]{article}
 
 \usepackage{graphicx} %Required for diagrams
+\usepackage[export]{adjustbox} %Required to Adjust Image alignment
+\usepackage{float}
 \usepackage[bookmarks=true]{hyperref}
 \usepackage{bookmark}%Required to do pdf bookmarking
 \usepackage{hyperref}%Required for referencing website pages
@@ -11,6 +13,10 @@
 \input{./titlePage.tex}
 
 \tableofcontents	%Creates Table of contents from sections and 							 subsections, etc...
+\newpage
+
+\listoffigures		%Creates a table of figures from all images in the 					document
+
 \newpage
 
 
@@ -63,6 +69,8 @@ assistants, and students for the core purpose of engaging in activities related 
 \subsection{Required Functionality}
 The following system processes describe the functional requirements of the system.
 \begin{enumerate}
+\graphicspath{ {../Diagrams/Kyhle/Use_Case_Diagrams/} }
+
 \item CRUD Operations:
 	\begin{itemize}
 	\item \textbf{Purpose:}
@@ -126,6 +134,11 @@ The following system processes describe the functional requirements of the syste
 	
 	\end{itemize}
 	
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{CRUD.jpg}
+    	\caption{CRUD Use case diagram}
+	\end{figure}
+	
 \item Tracking read and unread messages:
 \begin{itemize}
 \item 
@@ -149,7 +162,11 @@ The system must keep track of who has read what, and highlight unread messages f
 
 \end{itemize}
 
-
+\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{messageTracking.jpg}
+    	\caption{Message Tracking Use case diagram}
+	\end{figure}
+	
 \item Message Restrictions: 
 \begin{itemize}
 \item \textbf{Purpose:}
@@ -173,7 +190,134 @@ Message length should be restricted. Content type should also be restricted base
 	\item Post may not have been created due to some error.
 	\end{itemize}
 \end{itemize}
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{messageRestrictions.jpg}
+    	\caption{Message Restrictions Use case diagram}
+	\end{figure}
+
+\item Social Tagging 
+\begin{itemize}
+\item \textbf{Purpose:}
+This deals with social tagging, broad folksnomy type is used
+in this social tagging
+\newline
+\textbf{Limitations:} 
+Not all users will be able to tag a buzz
+space, Users with higher privileges and lectures will be able to social
+tag buzz space
+
+\item \textbf{Importance:} Critical\newline
+\textbf{Pre-Conditions: }
+	\begin{itemize}
+	\item Buzz space must exist.
+	\item User must be registered to the buzz system.
+	\item Buzz space must have a rating from users to be tagged .
+	\end{itemize}
+
+\textbf{Post-Conditions: }
+	\begin{itemize}
+	\item Buzz space tagged with a keyword.
+	\item Buzz space available at tag box for fast access.
+	\end{itemize}
+\end{itemize}
+
+\item Self organise
+\begin{itemize}
+\item \textbf{Purpose:}
+TThis deals with self-organisation based on social tagging and
+allow the user to view according to the base structure, owns structure
+or public structure.
+\newline
+\textbf{Limitations:} 
+Users with higher privileges will be able to
+organise view to their own structure.
+
+\item \textbf{Importance:} Critical\newline
+\textbf{Pre-Conditions: }
+	\begin{itemize}
+	\item Buzz space must exist.
+	\item User must be registered to the buzz system.
+	\item Buzz space must have a rating from users to be tagged .
+	\item Social tagging must be applied to other buzz space
+	\end{itemize}
+
+\textbf{Post-Conditions: }
+	\begin{itemize}
+	\item Tagged buzz space with higher rating from users will be organised
+to be in base structure
+	\item Most accessed tagged buzz space will be included in public struc-
+ture.
+	\item Users with buzz space can organise their own structure.
+	\end{itemize}
+\end{itemize}
+
+\item Buzz Tag
+\begin{itemize}
+\item \textbf{Purpose:}
+This deals with an addition of a read later section, which saves
+buzz space with long comments for a user to read later when logged
+in and remind the user every time when logged.
+\newline
+\textbf{Limitations:} 
+All users will have this feature by default
+
+\item \textbf{Importance:} Critical\newline
+\textbf{Pre-Conditions: }
+	\begin{itemize}
+	\item Buzz space must exist.
+	\item User must be registered to the buzz system.
+
+	\end{itemize}
+
+\textbf{Post-Conditions: }
+	\begin{itemize}
+	\item Read later section will be created and added on the side of the
+users portal
+	\item Buzz space reference must be saved in a read later section on the
+user’s portal is the user clicked a buzz space to read later section
+	
+	\end{itemize}
+\end{itemize}
+
+\item Read Later Section
+\begin{itemize}
+\item \textbf{Purpose:}
+This deals with buzz space tagging for least privilege users
+,this will help social tagging by providing trending buzz space and
+notification system for users who opened buzz space or waiting for a
+reply on a comment.
+\newline
+\textbf{Limitations:} 
+All users will have this feature by default
+
+\item \textbf{Importance:} Critical\newline
+\textbf{Pre-Conditions: }
+	\begin{itemize}
+	\item Buzz space must exist.
+	\item User must be registered to the buzz system.
+	\item User optioned for notifications when registering on the buzz sys-
+tem
+
+	\end{itemize}
+
+\textbf{Post-Conditions: }
+	\begin{itemize}
+	\item Menu will be provided to the user with icons similar to Glyphicons
+to describe the buzz space thread for the user to click on.
+	\item After user click a certain icon , thread will be rated according to
+the icon and each icon have description of the buzz space thread
+ranging from lame buzz thread space to must read buzz thread
+space and also apply to comments on the buzz space thread .
+\item Notification will be send atomically to users read later section to
+inform about a new comment on the buzz space user commented
+	
+	\end{itemize}
+\end{itemize}
+
+
 \end{enumerate}
+
+
 
 
 \subsection{Use case Prioritization}
@@ -192,13 +336,33 @@ Message length should be restricted. Content type should also be restricted base
 
 \item \textbf{Nice-to-Have: }
 	\begin{itemize}
-		\item ...
+		\item Social Tagging
+		\item Self organise
+		\item Buzz Tag
+		\item Read Later Section
 	\end{itemize}
 \end{itemize}
-\subsection{Use case/Services Contracts}
-Temporary words
+
+
 \subsection{Process Specifications}
-Temporary words
+Requirements around the processes which needs to be followed regarding the use cases: \newline
+\graphicspath{ {../Diagrams/Kyhle/Activity_Diagrams/} }
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{CRUD.jpg}
+    	\caption{CRUD Activity diagram}
+	\end{figure}
+    	
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{messageTracking.jpg}
+    	\caption{Message Tracking Activity diagram}
+	\end{figure}
+	
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{messageRestrictions.jpg}
+    	\caption{Message Restrictions Activity diagram}
+	\end{figure}
+
+
 \subsection{Domain Model}
 Temporary words
 
@@ -207,157 +371,7 @@ Temporary words
 
 \subsection{Andrew}
 
-\subsubsection{Point 1:}
-\begin{enumerate}
-	
-		\item
-		\textbf{Scope:}
-		\newline
-		Restrict users to post on specified levels based on their status of the user posting the message.
-		\item\textbf{Limitation/Exclusions: }
-		\newline
-		 There is a limit to number of posts per user on each level.
-		 There is a rage of levels from lowest to highest.
-		 Staff and the creator have no limitations.
-		\item\textbf{Use case Prioritization:} 
-		\newline Important
-		\item \textbf{Use case/Service Contracts:} 
-		\newline\newline
-		\textbf{Pre-Conditions: }
-		\newline
-		 User must be registered to the buzz system.
-	
-		\textbf{Post-Conditions: }
-		\begin{itemize}
-			\item Non-registered user:
-			User will not be able to post comment create new threads without acquiring an account.
-			\item Low level user:
-			When a user is on level x users may only post y number of topic or comments on other users posts per day. New posts can only be posted in pre-		existing threads made by higher level users and no new threads may be made by low level users. 
-			\item Medium level user:
-			User may add and create any number of posts per day but are limited to the z number of threads that they can create per day.
-			\item High level user:
-			High level users have no posting restrictions. They made add any number of threads and are not limited to any number of posts per day.
-		 	All values are configurable by the Creator.
-		 \end{itemize}
-		 \newpage
-		 \item	\textbf{Request and Results Data Structures}
-		 	  		\begin{center}
-		 	  			\includegraphics[scale=0.5]{Diagrams/B1 ClassDiagram.png}
-		 	  		\end{center}
 
-		 \item	\textbf{Required Functionality}
-		 	  		\begin{center}
-		 	  			\includegraphics[scale=0.5]{Diagrams/B1 UseCase.png}
-		 	  		\end{center}
-		\newpage
-		 \item \textbf{Process Specifications}
-		 	  		\begin{center}
-		 	  			\includegraphics[scale=0.5]{Diagrams/B1 Activity.png}
-		 	  		\end{center}
-		 
-			
-	\end{enumerate}
- \newpage
-\subsubsection{Point 2:}
-\begin{enumerate}
-	\item 
-	\textbf{Scope:}
-	\newline
-	Allow staff to manage content i.e. summaries, close or hide threads and move things around.
-	\item\textbf{Limitation/Exclusions: }
-	\newline
-	 Only certain level users can edit other users posts.
-	 Cannot edit other peoples posts that are on higher levels.
-	\item\textbf{Use case Prioritization:} 
-	\newline
-	Important
-		
-	\item
-	\textbf{Use case/Service Contracts:} 
-	\newline\newline
-	\textbf{Pre-Conditions: }
-	\begin{itemize}
-		\item User must be registered to the buzz system.
-		\item User must have necessary privileges.
-		\item Users may not edit, move or change another user’s \item posts threads or comments that are on the same or on a higher level that they are.
-	\end{itemize}
-	
-	\textbf{Post-Conditions: }
-	\begin{itemize}
-		\item Staff or high level users:
-		User may move threads to their relevant categories. Remove unused or unimportant threads. Lock or close threads so users cannot post within them if the to	pic has been already been answered. Post may be edited to fix error or to remove irrelevant data.
-		\item Medium level user:
-		User may move posts to the relevant threads but may not edit change or update user’s posts.
-		\item Low level and non-registered users:
-		User may not edit, move or change another user’s posts threads or comments.
-	 	\item All values are configurable by the Creator.
-	\end{itemize}
-	\newpage
-			 \item	\textbf{Request and Results Data Structures}
-			 	  		\begin{center}
-			 	  			\includegraphics[scale=0.5]{Diagrams/B2 ClassDiagram.png}
-			 	  		\end{center}
-	
-			 \item	\textbf{Required Functionality}
-			 	  		\begin{center}
-			 	  			\includegraphics[scale=0.5]{Diagrams/B2 UseCase.png}
-			 	  		\end{center}
-	\newpage
-			 \item \textbf{Process Specifications}
-			 	  		\begin{center}
-			 	  			\includegraphics[scale=0.5]{Diagrams/B2 Activity.png}
-			 	  		\end{center}
-			 
-				
-		\end{enumerate}
- \newpage
-\subsubsection{Point 3:}
-\begin{enumerate}
-	\item 
-	\textbf{Scope:}
-	\newline
-	Provide functionality to support semi-automatic creation of thread summaries.
-	\item\textbf{Limitation/Exclusions: }
-	\newline
-	 Threads have to be created.
-	Threads have to have a rating.
-	Summaries are the reorganization of the thread responses.
-	\item\textbf{Use case Prioritization:} 
-	\newline
-	Nice-To-Have
-	\item \textbf{Use case/Service Contracts:} 
-	\newline\newline
-	\textbf{Pre-Conditions: }
-	Medium, High and Creator may state whether a certain thread may or may not be summarized.
-	\newline\textbf{Post-Conditions: }
-	\begin{itemize}
-		\item When a Thread has been marked for summary then all posts which have been highly rated and important would be moved closer to the top and 	unrelated or unnecessary posts would be move further away from the top to the bottom with all linked comments. 
-		\item High level users may override whether the summarized posts are relevant and can manually move the posts to where they best fit.
-		\item All levels of users are able to rate posts and comments on how important they see the post.
-		\item High level users would get the highest x points per rating.
-		\item Medium level users would get the highest y points per rating.
-		\item Low level users would get the highest z points per rating.
-		\item Non registered users cannot rate posts.
-		All values are configurable by the Creator.
-	\end{itemize}
-	\newpage
-			 \item	\textbf{Request and Results Data Structures}
-			 	  		\begin{center}
-			 	  			\includegraphics[scale=0.5]{Diagrams/B3 ClassDiagram.png}
-			 	  		\end{center}
-	
-			 \item	\textbf{Required Functionality}
-			 	  		\begin{center}
-			 	  			\includegraphics[scale=0.5]{Diagrams/B3 UseCase.png}
-			 	  		\end{center}
-	\newpage
-			 \item \textbf{Process Specifications}
-			 	  		\begin{center}
-			 	  			\includegraphics[scale=0.5]{Diagrams/B3 Activity.png}
-			 	  		\end{center}
-			 
-				
-\end{enumerate}
 
 \newpage
 
@@ -657,7 +671,8 @@ Users will be limited to 4 filter categories, namely: topic, date posted/last up
 
 \newpage
 
-\graphicspath{ {../Diagrams/Tienie/} }
+\graphicspath{ {../Diagrams/Tienie/Plagiarism/} }
+
 \subsection{Tienie}
 \subsubsection{Point 1: }
 \begin{enumerate}
@@ -686,19 +701,71 @@ The plagiarism checker is built into the system, and is thus not an optional fea
 	  		\end{itemize}
 	  		\newpage
 	  		\item	\textbf{Request and Results Data Structures}
-	  		\begin{center}
-	  			\includegraphics[scale=0.5]{InputOutput.jpg}
-	  		\end{center}
+	  		\begin{figure}[H]
+    			\includegraphics[scale=0.5]{InputOutput.jpg}
+			\end{figure}
 	  	\end{itemize}
 \item	\textbf{Required Functionality}
-	  		\begin{center}
-	  			\includegraphics[scale=0.40]{UseCase.jpg}
-	  		\end{center}
+	\begin{figure}[H]
+    	\includegraphics[scale=0.4]{UseCase.jpg}
+	\end{figure}
+\newpage
+\item \textbf{Process Specifications}
+	\begin{figure}[H]
+    	\includegraphics[scale=0.4]{Activity.jpg}
+	\end{figure}
+	  		
+\end{enumerate}
+\graphicspath{ {../Diagrams/Tienie/Netiquette/} }
+\newpage
+\subsubsection{Point 2: }
+\begin{enumerate}
+\item \textbf{Scope: }
+This deals with the built in Netiquette checker. It describes the functionality of the Netiquette checker as well as its aims and goals.
+\newline
+\textbf{Limitations/exclusions:} 
+The netiquette checker is built into the system, and is thus not an optional feature for users posting. However, the checker may be configurable (i.e. turned on and off) by board administrators.
+\item 	\textbf{Use case Prioritization: } Nice-To-Have
+\item 	\textbf{Use case/Service Contracts: }
+		\begin{itemize}
+			\item	\textbf{Pre-Conditions}
+			\begin{itemize}
+	  			\item All posts from within the website will need to be available for traversal in text format
+	  			\item The netiquette checker will only check the following netiquette rules:
+	  			\begin{itemize}
+	  				\item Proper Spelling
+	  				\item Repetition of Asked Questions
+	  				\item Checking all caps
+	  				\item Curse word checking
+	  				\item Checking for general insults
+	  			\end{itemize}
+	  			\item We will need a text file containing a large list of commonly used words for the spell checker.
+	  			\item We will need a text file containing a large list of commonly used curse words.
+	  			\item We will need a text file containing a large list of words commonly used with the intention of insulting someone.
+	  		\end{itemize}
+	  		\item	\textbf{Post-Conditions}
+	  		\begin{itemize}
+	  			\item A moderator must be alerted if a post is detected as violating netiquette.
+	  			\item The post must be highlighted to show that it violates netiquette rules.
+	  			\item A moderator should be able to hide a post which violates netiquette.
+	  			\item The system itself must alert the user of what netiquette rules they have violated as well as give them the opportunity to edit the post and fix them.
+	  		\end{itemize}
+	  		\newpage
+	  		\item	\textbf{Request and Results Data Structures}
+	  		\begin{figure}[H]
+	  			\includegraphics[scale=0.35]{NetInputOutput.jpg}
+	  		\end{figure}
+	  	\end{itemize}
+	  	\newpage
+\item	\textbf{Required Functionality}
+	  		\begin{figure}[H]
+	  			\includegraphics[scale=0.35]{NetUseCase.jpg}
+	  		\end{figure}
 	  		\newpage
 \item \textbf{Process Specifications}
-	  		\begin{center}
-	  			\includegraphics[scale=0.40]{Activity.jpg}
-	  		\end{center}
+	  		\begin{figure}[H]
+	  			\includegraphics[scale=0.40]{NetProcessDiagram.jpg}
+	  		\end{figure}
 \end{enumerate}
 
 \newpage
