@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.15)  24 FEB 2015 12:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.15)  24 FEB 2015 12:59
 entering extended mode
 **testFileLaTex.tex
 (testFileLaTex.tex
@@ -294,19 +294,18 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 4.
-)
-\tf@toc=\write3
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.16 \newpage
-              [1] [2] (testFileLaTex.lof)
+l.36 ...\numberline {6.7}name}{31}{subsection.6.7}
+                                                   [1])
+\tf@toc=\write3
+ [2] (testFileLaTex.lof)
 \tf@lof=\write4
- [3]
+[3]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
@@ -317,7 +316,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--68
  []
 
 [6]
-<../Diagrams/Kyhle/Use_Case_Diagrams/CRUD.jpg, id=127, 815.045pt x 508.90125pt>
+<../Diagrams/Kyhle/Use_Case_Diagrams/CRUD.jpg, id=129, 815.045pt x 508.90125pt>
 File: ../Diagrams/Kyhle/Use_Case_Diagrams/CRUD.jpg Graphic file (type jpg)
 <use ../Diagrams/Kyhle/Use_Case_Diagrams/CRUD.jpg>
 Package pdftex.def Info: ../Diagrams/Kyhle/Use_Case_Diagrams/CRUD.jpg used on i
@@ -334,7 +333,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--148
  []
 
 
-<../Diagrams/Kyhle/Use_Case_Diagrams/messageTracking.jpg, id=132, 766.865pt x 3
+<../Diagrams/Kyhle/Use_Case_Diagrams/messageTracking.jpg, id=134, 766.865pt x 3
 73.395pt>
 File: ../Diagrams/Kyhle/Use_Case_Diagrams/messageTracking.jpg Graphic file (typ
 e jpg)
@@ -348,7 +347,7 @@ Overfull \hbox (23.43156pt too wide) in paragraph at lines 166--167
  []
 
 [8 <../Diagrams/Kyhle/Use_Case_Diagrams/CRUD.jpg>]
-<../Diagrams/Kyhle/Use_Case_Diagrams/messageRestrictions.jpg, id=138, 737.75626
+<../Diagrams/Kyhle/Use_Case_Diagrams/messageRestrictions.jpg, id=140, 737.75626
 pt x 428.60126pt>
 File: ../Diagrams/Kyhle/Use_Case_Diagrams/messageRestrictions.jpg Graphic file 
 (type jpg)
@@ -368,7 +367,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
  [11]
-<../Diagrams/Kyhle/Activity_Diagrams/CRUD.jpg, id=156, 807.015pt x 579.16376pt>
+<../Diagrams/Kyhle/Activity_Diagrams/CRUD.jpg, id=158, 807.015pt x 579.16376pt>
 File: ../Diagrams/Kyhle/Activity_Diagrams/CRUD.jpg Graphic file (type jpg)
 <use ../Diagrams/Kyhle/Activity_Diagrams/CRUD.jpg>
 Package pdftex.def Info: ../Diagrams/Kyhle/Activity_Diagrams/CRUD.jpg used on i
@@ -385,7 +384,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 348--353
  []
 
 [12]
-<../Diagrams/Kyhle/Activity_Diagrams/messageTracking.jpg, id=162, 872.25874pt x
+<../Diagrams/Kyhle/Activity_Diagrams/messageTracking.jpg, id=164, 872.25874pt x
  338.26375pt>
 File: ../Diagrams/Kyhle/Activity_Diagrams/messageTracking.jpg Graphic file (typ
 e jpg)
@@ -399,7 +398,7 @@ Overfull \hbox (76.1283pt too wide) in paragraph at lines 356--357
  []
 
 [13 <../Diagrams/Kyhle/Activity_Diagrams/CRUD.jpg>]
-<../Diagrams/Kyhle/Activity_Diagrams/messageRestrictions.jpg, id=167, 861.2175p
+<../Diagrams/Kyhle/Activity_Diagrams/messageRestrictions.jpg, id=169, 861.2175p
 t x 382.42876pt>
 File: ../Diagrams/Kyhle/Activity_Diagrams/messageRestrictions.jpg Graphic file 
 (type jpg)
@@ -465,7 +464,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
  [24]
-<../Diagrams/Tienie/Plagiarism/InputOutput.jpg, id=254, 824.07875pt x 231.86626
+<../Diagrams/Tienie/Plagiarism/InputOutput.jpg, id=255, 824.07875pt x 231.86626
 pt>
 File: ../Diagrams/Tienie/Plagiarism/InputOutput.jpg Graphic file (type jpg)
  <use ../Diagrams/Tienie/Plagiarism/InputOutput.jpg>
@@ -477,7 +476,7 @@ Overfull \hbox (52.03836pt too wide) in paragraph at lines 734--735
 [][] 
  []
 
-<../Diagrams/Tienie/Plagiarism/UseCase.jpg, id=255, 1035.87pt x 546.04pt>
+<../Diagrams/Tienie/Plagiarism/UseCase.jpg, id=256, 1035.87pt x 546.04pt>
 File: ../Diagrams/Tienie/Plagiarism/UseCase.jpg Graphic file (type jpg)
 
 <use ../Diagrams/Tienie/Plagiarism/UseCase.jpg>
@@ -491,7 +490,7 @@ Overfull \hbox (54.34065pt too wide) in paragraph at lines 739--740
 
 [25 <../Diagrams/Tienie/Plagiarism/InputOutput.jpg> <../Diagrams/Tienie/Plagiar
 ism/UseCase.jpg>]
-<../Diagrams/Tienie/Plagiarism/Activity.jpg, id=261, 1021.8175pt x 626.34pt>
+<../Diagrams/Tienie/Plagiarism/Activity.jpg, id=262, 1021.8175pt x 626.34pt>
 File: ../Diagrams/Tienie/Plagiarism/Activity.jpg Graphic file (type jpg)
 
 <use ../Diagrams/Tienie/Plagiarism/Activity.jpg>
@@ -504,7 +503,7 @@ Overfull \hbox (48.71976pt too wide) in paragraph at lines 744--745
  []
 
 [26 <../Diagrams/Tienie/Plagiarism/Activity.jpg>] [27]
-<../Diagrams/Tienie/Netiquette/NetInputOutput.jpg, id=274, 1192.455pt x 728.722
+<../Diagrams/Tienie/Netiquette/NetInputOutput.jpg, id=275, 1192.455pt x 728.722
 5pt>
 File: ../Diagrams/Tienie/Netiquette/NetInputOutput.jpg Graphic file (type jpg)
  <use ../Diagrams/Tienie/Netiquette/NetInputOutput.jpg>
@@ -517,7 +516,7 @@ Overfull \hbox (57.36551pt too wide) in paragraph at lines 785--786
  []
 
 [28 <../Diagrams/Tienie/Netiquette/NetInputOutput.jpg>]
-<../Diagrams/Tienie/Netiquette/NetUseCase.jpg, id=279, 1218.5525pt x 881.2925pt
+<../Diagrams/Tienie/Netiquette/NetUseCase.jpg, id=280, 1218.5525pt x 881.2925pt
 >
 File: ../Diagrams/Tienie/Netiquette/NetUseCase.jpg Graphic file (type jpg)
  <use ../Diagrams/Tienie/Netiquette/NetUseCase.jpg>
@@ -530,7 +529,7 @@ Overfull \hbox (66.49977pt too wide) in paragraph at lines 791--792
  []
 
 [29 <../Diagrams/Tienie/Netiquette/NetUseCase.jpg>]
-<../Diagrams/Tienie/Netiquette/NetProcessDiagram.jpg, id=285, 1048.91875pt x 66
+<../Diagrams/Tienie/Netiquette/NetProcessDiagram.jpg, id=286, 1048.91875pt x 66
 4.4825pt>
 File: ../Diagrams/Tienie/Netiquette/NetProcessDiagram.jpg Graphic file (type jp
 g)
@@ -568,9 +567,9 @@ onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmti12.pfb>
-Output written on testFileLaTex.pdf (32 pages, 1921908 bytes).
+Output written on testFileLaTex.pdf (32 pages, 1922140 bytes).
 PDF statistics:
- 466 PDF objects out of 1000 (max. 8388607)
+ 467 PDF objects out of 1000 (max. 8388607)
  135 named destinations out of 1000 (max. 500000)
  354 words of extra memory for PDF output out of 10000 (max. 10000000)
 
