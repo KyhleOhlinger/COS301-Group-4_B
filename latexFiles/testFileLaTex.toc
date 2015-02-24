@@ -23,13 +23,14 @@
 \contentsline {subsection}{\numberline {6.3}Maret}{19}{subsection.6.3}
 \contentsline {subsubsection}{\numberline {6.3.1}Point 1:}{19}{subsubsection.6.3.1}
 \contentsline {subsubsection}{\numberline {6.3.2}Point 2:}{19}{subsubsection.6.3.2}
-\contentsline {subsection}{\numberline {6.4}Matthew}{20}{subsection.6.4}
-\contentsline {subsubsection}{\numberline {6.4.1}Point 1:}{20}{subsubsection.6.4.1}
-\contentsline {subsubsection}{\numberline {6.4.2}Point 2:}{20}{subsubsection.6.4.2}
-\contentsline {subsection}{\numberline {6.5}Sphelele}{21}{subsection.6.5}
-\contentsline {subsubsection}{\numberline {6.5.1}Point 1: }{21}{subsubsection.6.5.1}
-\contentsline {subsubsection}{\numberline {6.5.2}Point 2:}{22}{subsubsection.6.5.2}
-\contentsline {subsection}{\numberline {6.6}Tienie}{23}{subsection.6.6}
-\contentsline {subsubsection}{\numberline {6.6.1}Point 1: }{23}{subsubsection.6.6.1}
-\contentsline {subsubsection}{\numberline {6.6.2}Point 2: }{26}{subsubsection.6.6.2}
-\contentsline {subsection}{\numberline {6.7}name}{30}{subsection.6.7}
+\contentsline {subsubsection}{\numberline {6.3.3}Point 3:}{20}{subsubsection.6.3.3}
+\contentsline {subsection}{\numberline {6.4}Matthew}{21}{subsection.6.4}
+\contentsline {subsubsection}{\numberline {6.4.1}Point 1:}{21}{subsubsection.6.4.1}
+\contentsline {subsubsection}{\numberline {6.4.2}Point 2:}{21}{subsubsection.6.4.2}
+\contentsline {subsection}{\numberline {6.5}Sphelele}{22}{subsection.6.5}
+\contentsline {subsubsection}{\numberline {6.5.1}Point 1: }{22}{subsubsection.6.5.1}
+\contentsline {subsubsection}{\numberline {6.5.2}Point 2:}{23}{subsubsection.6.5.2}
+\contentsline {subsection}{\numberline {6.6}Tienie}{24}{subsection.6.6}
+\contentsline {subsubsection}{\numberline {6.6.1}Point 1: }{24}{subsubsection.6.6.1}
+\contentsline {subsubsection}{\numberline {6.6.2}Point 2: }{27}{subsubsection.6.6.2}
+\contentsline {subsection}{\numberline {6.7}name}{31}{subsection.6.7}
