@@ -1,6 +1,8 @@
 \documentclass[11pt]{article}
 
 \usepackage{graphicx} %Required for diagrams
+\usepackage[export]{adjustbox} %Required to Adjust Image alignment
+\usepackage{float}
 \usepackage[bookmarks=true]{hyperref}
 \usepackage{bookmark}%Required to do pdf bookmarking
 \usepackage{hyperref}%Required for referencing website pages
@@ -11,6 +13,10 @@
 \input{./titlePage.tex}
 
 \tableofcontents	%Creates Table of contents from sections and 							 subsections, etc...
+\newpage
+
+\listoffigures		%Creates a table of figures from all images in the 					document
+
 \newpage
 
 
@@ -63,6 +69,8 @@ assistants, and students for the core purpose of engaging in activities related 
 \subsection{Required Functionality}
 The following system processes describe the functional requirements of the system.
 \begin{enumerate}
+\graphicspath{ {../Diagrams/Kyhle/Use_Case_Diagrams/} }
+
 \item CRUD Operations:
 	\begin{itemize}
 	\item \textbf{Purpose:}
@@ -126,6 +134,11 @@ The following system processes describe the functional requirements of the syste
 	
 	\end{itemize}
 	
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{CRUD.jpg}
+    	\caption{CRUD Use case diagram}
+	\end{figure}
+	
 \item Tracking read and unread messages:
 \begin{itemize}
 \item 
@@ -149,7 +162,11 @@ The system must keep track of who has read what, and highlight unread messages f
 
 \end{itemize}
 
-
+\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{messageTracking.jpg}
+    	\caption{Message Tracking Use case diagram}
+	\end{figure}
+	
 \item Message Restrictions: 
 \begin{itemize}
 \item \textbf{Purpose:}
@@ -173,7 +190,285 @@ Message length should be restricted. Content type should also be restricted base
 	\item Post may not have been created due to some error.
 	\end{itemize}
 \end{itemize}
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{messageRestrictions.jpg}
+    	\caption{Message Restrictions Use case diagram}
+	\end{figure}
+
+\item Social Tagging 
+\begin{itemize}
+\item \textbf{Purpose:}
+This deals with social tagging, broad folksnomy type is used
+in this social tagging
+\newline
+\textbf{Limitations:} 
+Not all users will be able to tag a buzz
+space, Users with higher privileges and lectures will be able to social
+tag buzz space
+
+\item \textbf{Importance:} Nice to have\newline
+\textbf{Pre-Conditions: }
+	\begin{itemize}
+	\item Buzz space must exist.
+	\item User must be registered to the buzz system.
+	\item Buzz space must have a rating from users to be tagged .
+	\end{itemize}
+
+\textbf{Post-Conditions: }
+	\begin{itemize}
+	\item Buzz space tagged with a keyword.
+	\item Buzz space available at tag box for fast access.
+	\end{itemize}
+\end{itemize}
+
+\begin{figure}[H]	
+\graphicspath{ {../Diagrams/sfiso/} }
+    	\includegraphics[scale=0.5]{socialtag.jpg}
+    	\caption{Social Tag User case diagram}
+	\end{figure}
+
+\item Self organise
+\begin{itemize}
+\item \textbf{Purpose:}
+TThis deals with self-organisation based on social tagging and
+allow the user to view according to the base structure, owns structure
+or public structure.
+\newline
+\textbf{Limitations:} 
+Users with higher privileges will be able to
+organise view to their own structure.
+
+\item \textbf{Importance:}  Nice to have\newline
+\textbf{Pre-Conditions: }
+	\begin{itemize}
+	\item Buzz space must exist.
+	\item User must be registered to the buzz system.
+	\item Buzz space must have a rating from users to be tagged .
+	\item Social tagging must be applied to other buzz space
+	\end{itemize}
+
+\textbf{Post-Conditions: }
+	\begin{itemize}
+	\item Tagged buzz space with higher rating from users will be organised
+to be in base structure
+	\item Most accessed tagged buzz space will be included in public struc-
+ture.
+	\item Users with buzz space can organise their own structure.
+	\end{itemize}
+\end{itemize}
+\begin{figure}[H]	
+\graphicspath{ {../Diagrams/sfiso/} }
+    	\includegraphics[scale=0.5]{self.jpg}
+    	\caption{Self organise User case diagram}
+	\end{figure}
+
+\item Buzz Tag
+\begin{itemize}
+\item \textbf{Purpose:}
+This deals with an addition of a read later section, which saves
+buzz space with long comments for a user to read later when logged
+in and remind the user every time when logged.
+\newline
+\textbf{Limitations:} 
+All users will have this feature by default
+
+\item \textbf{Importance:}  Nice to have\newline
+\textbf{Pre-Conditions: }
+	\begin{itemize}
+	\item Buzz space must exist.
+	\item User must be registered to the buzz system.
+
+	\end{itemize}
+
+\textbf{Post-Conditions: }
+	\begin{itemize}
+	\item Read later section will be created and added on the side of the
+users portal
+	\item Buzz space reference must be saved in a read later section on the
+user’s portal is the user clicked a buzz space to read later section
+	
+	\end{itemize}
+\end{itemize}
+
+\begin{figure}[H]	
+\graphicspath{ {../Diagrams/sfiso/} }
+    	\includegraphics[scale=0.5]{tag.jpg}
+    	\caption{Buzz Tag Use case diagram}
+	\end{figure}
+
+\item Read Later Section
+\begin{itemize}
+\item \textbf{Purpose:}
+This deals with buzz space tagging for least privilege users
+,this will help social tagging by providing trending buzz space and
+notification system for users who opened buzz space or waiting for a
+reply on a comment.
+\newline
+\textbf{Limitations:} 
+All users will have this feature by default
+
+\item \textbf{Importance:} Nice to have\newline
+\textbf{Pre-Conditions: }
+	\begin{itemize}
+	\item Buzz space must exist.
+	\item User must be registered to the buzz system.
+	\item User optioned for notifications when registering on the buzz sys-
+tem
+
+	\end{itemize}
+
+\textbf{Post-Conditions: }
+	\begin{itemize}
+	\item Menu will be provided to the user with icons similar to Glyphicons
+to describe the buzz space thread for the user to click on.
+	\item After user click a certain icon , thread will be rated according to
+the icon and each icon have description of the buzz space thread
+ranging from lame buzz thread space to must read buzz thread
+space and also apply to comments on the buzz space thread .
+\item Notification will be send atomically to users read later section to
+inform about a new comment on the buzz space user commented
+	
+	\end{itemize}
+\end{itemize}
+
+\begin{figure}[H]	
+\graphicspath{ {../Diagrams/sfiso/} }
+    	\includegraphics[scale=0.5]{read.jpg}
+    	\caption{Read later section Use case diagram}
+	\end{figure}
+
+\item \textbf{Template messages }
+\begin{itemize}
+\item \textbf{Purpose: }The management staff must be able to send template messages automatically to individual users or specified groups. These messages would typically be welcoming messages or notification messages. 
+
+	\item  \textbf{Limitation/Exclusions: }
+Staff members must be able to add new templates. The staff member should be able to select the reciever(s) based on certain properties.
+
+\item \textbf{Importance:} Nice to have\newline
+\textbf{Pre-Conditions: }
+	\begin{itemize}
+		\item The reciever must be registered to the buzz system.
+		\item The sender must be registered as a staff member.
+		\item The system must be able to select a cetain group based on specific information, to send the group message to.
+
+	\end{itemize}
+
+\textbf{Post-Conditions: }
+	\begin{itemize}
+		\item The user must be alerted of the message.
+		\item The user must not be able to reply to the message.
+		\item The user must be able to delete the messages.
+		\item The user must not be able to see what other users have received the same message via group messaging.
+	\end{itemize}
+\end{itemize}
+
+	
+
+\item \textbf{Status Updating}
+\begin{itemize}
+\item \textbf{Purpose: }The system must automatically change the status of a user based on his participation. The system award point to the user based on his actions, these points are then added and influence the users level. The user may lose points for "bad behaviour" and may win points for participation.
+ 
+
+	\item  \textbf{Limitation/Exclusions: } The status may only change after an action is performed.
+
+\item \textbf{Importance:} Important \newline
+\textbf{Pre-Conditions: }
+	\begin{itemize}
+		\item The user must be registered to the buzz system.
+		\item The user must be logged in for his status to be affected by his participation.
+
+	\end{itemize}
+
+\textbf{Post-Conditions: }
+	\begin{itemize}
+		\item The users points change and as a result of this, his level may change.
+		\item The users level, and therefore his privileges, may change when his status change.
+		\item The user must be able to view his status.
+		\item The users stutus is public.
+	\end{itemize}
+\end{itemize}
+
+\item \textbf{Integrate with host site}
+\begin{itemize}
+\item \textbf{Purpose: }The system must be able to integrate with a specified host site.
+ 
+%	\item  \textbf{Limitation/Exclusions: }
+
+\item \textbf{Importance:} Critical \newline
+\textbf{Pre-Conditions: }
+	\begin{itemize}
+		\item The host site must support the technologies of the BuzzSpace system.
+		\item TheBuzzSpace sytem must support the technologies of the host site.
+
+	\end{itemize}
+
+\textbf{Post-Conditions: }
+	\begin{itemize}
+		\item The system creates the BuzzSpace.
+		\item All the data that is on the host site are integrated into the new BuzzSpace.
+		\item The users are registered.
+		\item The BuzzSpace is stored.
+		\item User levels are added.
+	\end{itemize}
+\end{itemize}
+
+
+\item \textbf{Search and Filter }
+\begin{itemize}
+\item \textbf{Purpose: }The website will allow users to search the website for topics and buzz spaces, and then filter those search results by various categories. \newline \newline
+	\item  \textbf{Limitation/Exclusions: }
+Users will be limited to 4 filter categories, namely: topic, date posted/last updated, buzz space name and rating.
+
+\item \textbf{Importance: } Important
+
+\item \textbf{Use case/Service Contracts: } \newline \newline
+\end{itemize}
+	  \textbf{Post-Conditions: }
+	   
+	  \begin{itemize}
+	  \item Search results are returned
+	  \item	Search filters are successfully executed
+	  \end{itemize}
+	  \graphicspath{ {../Diagrams/Sphe/Search&Filter/} }
+	  \begin{figure}[H]	
+    	\includegraphics[scale=0.65]{UseCase.jpg}
+    	\caption{Search and Filter Use case diagram}
+	\end{figure}
+	 
+\item \textbf{Post Rating}
+\begin{itemize}
+\item \textbf{Purpose: }The website will allow users to evaluate/vote for posts on the website. \newline \newline
+	  \textbf{Limitations/Exclusions:} Only users that are logged in to the system and have the privilege rights to evaluate/vote on posts will be allowed to evaluate/vote on posts. Higher Privileged users' votes will push posts higher (or lower) than lower privileged users. \newline \newline
+	  
+	  \item \textbf{Use case Prioritization: } Important \newline \newline
+	  \item \textbf{Use Case/Service Contract: } \newline \newline
+	  \textbf{Pre-Conditions}
+	  \begin{itemize}
+	  
+	  \item User privilege level allows user to vote for post
+	  \item post must exist and not be removed
+	  \end{itemize}
+	  \textbf{Post Conditions}
+	  \begin{itemize}
+	  \item Post rating is updated
+	  
+	  \graphicspath{ {../Diagrams/Sphe/PostRatings/} }
+	  \begin{figure}[H]	
+    	\includegraphics[scale=0.65]{UseCase.jpg}
+    	\caption{Post Rating Use case diagram}
+	\end{figure}
+	  \end{itemize}
+	  \end{itemize}
+\item
+\item
+\item
+\item
+\item
+\item
+
 \end{enumerate}
+
+
 
 
 \subsection{Use case Prioritization}
@@ -187,18 +482,76 @@ Message length should be restricted. Content type should also be restricted base
 
 \item \textbf{Important: }
 	\begin{itemize}
-		\item ...
+		\item Search and Filter
+		\item Post Rating
 	\end{itemize}
 
 \item \textbf{Nice-to-Have: }
 	\begin{itemize}
-		\item ...
+		\item Social Tagging
+		\item Self organise
+		\item Buzz Tag
+		\item Read Later Section
 	\end{itemize}
 \end{itemize}
-\subsection{Use case/Services Contracts}
-Temporary words
+
+
 \subsection{Process Specifications}
-Temporary words
+Requirements around the processes which needs to be followed regarding the use cases: \newline
+\graphicspath{ {../Diagrams/Kyhle/Activity_Diagrams/} }
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{CRUD.jpg}
+    	\caption{CRUD Activity diagram}
+	\end{figure}
+    	
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{messageTracking.jpg}
+    	\caption{Message Tracking Activity diagram}
+	\end{figure}
+	
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{messageRestrictions.jpg}
+    	\caption{Message Restrictions Activity diagram}
+	\end{figure}
+	
+	\graphicspath{ {../Diagrams/Sphe/Search&Filter/} }
+	  \begin{figure}[H]	
+    	\includegraphics[scale=0.65]{ActivityDiagram.jpg}
+    	\caption{Search and Filter Activity Diagram}
+	\end{figure}
+	
+	\graphicspath{ {../Diagrams/Sphe/PostRatings/} }
+	  \begin{figure}[H]	
+    	\includegraphics[scale=0.65]{ActivityDiagram.jpg}
+    	\caption{Post Rating Use Activity Diagram}
+	\end{figure}
+	
+	\begin{figure}[H]	
+\graphicspath{ {../Diagrams/sfiso/} }
+    	\includegraphics[scale=0.5]{socialA.jpg}
+    	\caption{Social Tag  Activity Diagram}
+	\end{figure}
+	\begin{figure}[H]	
+\graphicspath{ {../Diagrams/sfiso/} }
+    	\includegraphics[scale=0.5]{buzzA.jpg}
+    	\caption{Buzz Tag  Activity Diagram}
+	\end{figure}
+
+	\begin{figure}[H]	
+\graphicspath{ {../Diagrams/sfiso/} }
+    	\includegraphics[scale=0.5]{selfA.jpg}
+    	\caption{Self organise Activity Diagram}
+	\end{figure}
+
+	\begin{figure}[H]	
+\graphicspath{ {../Diagrams/sfiso/} }
+    	\includegraphics[scale=0.5]{readA.jpg}
+    	\caption{Read later section Activity Diagram}
+	\end{figure}
+
+
+
+
 \subsection{Domain Model}
 Temporary words
 
@@ -206,6 +559,7 @@ Temporary words
 \section{Temporary Space}
 
 \subsection{Andrew}
+
 
 \subsubsection{Point 1:}
 \begin{enumerate}
@@ -241,18 +595,20 @@ Temporary words
 		 \end{itemize}
 		 \newpage
 		 \item	\textbf{Request and Results Data Structures}
+\graphicspath{ {../Diagrams/Andrew/} }
 		 	  		\begin{center}
-		 	  			\includegraphics[scale=0.5]{Diagrams/B1 ClassDiagram.png}
+		 	  			\includegraphics[scale=0.5]{B1ClassDiagram.png}
 		 	  		\end{center}
+
 
 		 \item	\textbf{Required Functionality}
 		 	  		\begin{center}
-		 	  			\includegraphics[scale=0.5]{Diagrams/B1 UseCase.png}
+		 	  			\includegraphics[scale=0.5]{B1UseCase.png}
 		 	  		\end{center}
 		\newpage
 		 \item \textbf{Process Specifications}
 		 	  		\begin{center}
-		 	  			\includegraphics[scale=0.5]{Diagrams/B1 Activity.png}
+		 	  			\includegraphics[scale=0.5]{B1Activity.png}
 		 	  		\end{center}
 		 
 			
@@ -294,18 +650,20 @@ Temporary words
 	\end{itemize}
 	\newpage
 			 \item	\textbf{Request and Results Data Structures}
+			 
+			 \graphicspath{ {../Diagrams/Andrew/} }
 			 	  		\begin{center}
-			 	  			\includegraphics[scale=0.5]{Diagrams/B2 ClassDiagram.png}
+			 	  			\includegraphics[scale=0.5]{B2ClassDiagram.png}
 			 	  		\end{center}
 	
 			 \item	\textbf{Required Functionality}
 			 	  		\begin{center}
-			 	  			\includegraphics[scale=0.5]{Diagrams/B2 UseCase.png}
+			 	  			\includegraphics[scale=0.5]{B2UseCase.png}
 			 	  		\end{center}
 	\newpage
 			 \item \textbf{Process Specifications}
 			 	  		\begin{center}
-			 	  			\includegraphics[scale=0.5]{Diagrams/B2 Activity.png}
+			 	  			\includegraphics[scale=0.5]{B2Activity.png}
 			 	  		\end{center}
 			 
 				
@@ -342,18 +700,20 @@ Temporary words
 	\end{itemize}
 	\newpage
 			 \item	\textbf{Request and Results Data Structures}
+			 
+			 \graphicspath{ {../Diagrams/Andrew/} }
 			 	  		\begin{center}
-			 	  			\includegraphics[scale=0.5]{Diagrams/B3 ClassDiagram.png}
+			 	  			\includegraphics[scale=0.5]{B3ClassDiagram.png}
 			 	  		\end{center}
 	
 			 \item	\textbf{Required Functionality}
 			 	  		\begin{center}
-			 	  			\includegraphics[scale=0.5]{Diagrams/B3 UseCase.png}
+			 	  			\includegraphics[scale=0.5]{B3UseCase.png}
 			 	  		\end{center}
 	\newpage
 			 \item \textbf{Process Specifications}
 			 	  		\begin{center}
-			 	  			\includegraphics[scale=0.5]{Diagrams/B3 Activity.png}
+			 	  			\includegraphics[scale=0.5]{B3Activity.png}
 			 	  		\end{center}
 			 
 				
@@ -485,87 +845,7 @@ All users will have this feature by default
 
 \newpage
 
-\subsection{Maret}
 
-\subsubsection{Point 1:}
-\begin{enumerate}
-\item 
-\textbf{Scope}
- The management staff must be able to send template messages automatically to individual users or specified groups, like a welcomming message or a notification messages. 
-\newline
-\textbf{Limitations/exclusions:} Staff members must be able to add new templates. The Staff member should be able to select the reciever(s) based on certain properties.
-\item
-\textbf{Use case Prioritization:} Nice-to-have
-\textbf{Use case/Service Contracts:} 
-\newline
-\textbf{Pre-Conditions: }
-\begin{itemize}
-\item The user must be registered to the buzz system.
-\item The message template should exist.
-\item The system must be able to select a cetain group based on specific information, to send the group message to.
-\end{itemize}
- \textbf{Post-Conditions: }
-\begin{itemize}
-\item The user must be alerted of the message.
-\item The user must not be albe to reply to the message.
-\item The user must be able to delete the messages.
-\item The user must not be able to see what other users have received the same message via group messaging.
-\end{itemize}
-\end{enumerate}
-
-\subsubsection{Point 2:}
-\begin{enumerate}
-\item 
-\textbf{Scope}
-The system must automatically change the status of a user based on his participation. The system award point to the user based on his actions, these points are then added and influence the users level.The user may lose points for "bad behaviour" and may win points for participation.
-\newline
-\textbf{Limitations/exclusions:} The status may only change after an action is performed.
-\item
-\textbf{Use case Prioritization:} Important
-\textbf{Use case/Service Contracts:} 
-\newline
-\textbf{Pre-Conditions: }
-\begin{itemize}
-\item The user must be registered to the buzz system.
-\item The user must be logged in for his status to be affected by his participation.
-\item The users current status will be updated
-\end{itemize}
- \textbf{Post-Conditions: }
-\begin{itemize}
-\item The users privileges may change when his status change.
-\item The users points change and as a result of this, his level may change.
-\item The user must be able to view his status.
-\item The users stutus is public.
-\end{itemize}
-\end{enumerate}
-
-\subsubsection{Point 3:}
-\begin{enumerate}
-\item 
-\textbf{Scope}
-The system must be able to integrate with a specified host site.
-\newline
-\textbf{Limitations/exclusions:}
-\item
-\textbf{Use case Prioritization:} Critical
-\textbf{Use case/Service Contracts:} 
-\newline
-\textbf{Pre-Conditions: }
-\begin{itemize}
-\item The host site must support the technologies of the BuzzSpace system.
-\item TheBuzzSpace sytem must support the technologies of the host site.
-\item 
-\end{itemize}
- \textbf{Post-Conditions: }
-\begin{itemize}
-\item The System creates the BuzzSpace.
-\item All the data that is on the host site are integrated into the new BuzzSpace.
-\item The users are registered.
-\item The BuzzSpace is stored.
-\item User levels are added.
-
-\end{itemize}
-\end{enumerate}
 
 
 \subsection{Matthew}
@@ -640,53 +920,10 @@ Not all users will be able to use these options. Has to be earned. Certain optio
 \end{itemize}
 \end{enumerate}
 
-\subsection{Sphelele}
-\subsubsection{Point 1: }
-\begin{enumerate}
-\item \textbf{Scope: }
-The website will allow users to search the website for topics and buzz spaces, and then filter those search results by various categories. \newline \newline
-	  \textbf{Limitation/Exclusions: }
-Users will be limited to 4 filter categories, namely: topic, date posted/last updated, buzz space name and rating.
-\item \textbf{Use case Prioritization: } Important
-\item \textbf{Use case/Service Contracts: } \newline \newline
-	  \textbf{Post-Conditions: }
-	  \begin{itemize}
-	  \item Search results are returned
-	  \item	Search filters are successfully executed
-	  \end{itemize}
-	  \item
-	  \item
-	  \item
-	  \end{enumerate}
-	  
-	  \subsubsection{Point 2:}
-	  \begin{enumerate}
-	  
-	  
-	  \item \textbf{Scope:} The website will allow users to evaluate/vote for posts on the website. \newline \newline
-	  \textbf{Limitations/Exclusions:} Only users that are logged in to the system and have the privilege rights to evaluate/vote on posts will be allowed to evaluate/vote on posts. Higher Privileged users' votes will push posts higher (or lower) than lower privileged users. \newline \newline
-	  
-	  \item \textbf{Use case Prioritization: } Important \newline \newline
-	  \item \textbf{Use Case/Service Contract: } \newline \newline
-	  \textbf{Pre-Conditions}
-	  \begin{itemize}
-	  
-	  \item User privilege level allows user to vote for post
-	  \item post must exist and not be removed
-	  \end{itemize}
-	  \textbf{Post Conditions}
-	  \begin{itemize}
-	  \item Post rating is updated.
-	  \item post moves up/down accordingly
-	  \end{itemize}
-	  \item
-	  \item
-	  \item
-	  \end{enumerate}
-
 \newpage
 
-\graphicspath{ {../Diagrams/Tienie/} }
+\graphicspath{ {../Diagrams/Tienie/Plagiarism/} }
+
 \subsection{Tienie}
 \subsubsection{Point 1: }
 \begin{enumerate}
@@ -715,19 +952,71 @@ The plagiarism checker is built into the system, and is thus not an optional fea
 	  		\end{itemize}
 	  		\newpage
 	  		\item	\textbf{Request and Results Data Structures}
-	  		\begin{center}
-	  			\includegraphics[scale=0.5]{InputOutput.jpg}
-	  		\end{center}
+	  		\begin{figure}[H]
+    			\includegraphics[scale=0.5]{InputOutput.jpg}
+			\end{figure}
 	  	\end{itemize}
 \item	\textbf{Required Functionality}
-	  		\begin{center}
-	  			\includegraphics[scale=0.40]{UseCase.jpg}
-	  		\end{center}
+	\begin{figure}[H]
+    	\includegraphics[scale=0.4]{UseCase.jpg}
+	\end{figure}
+\newpage
+\item \textbf{Process Specifications}
+	\begin{figure}[H]
+    	\includegraphics[scale=0.4]{Activity.jpg}
+	\end{figure}
+	  		
+\end{enumerate}
+\graphicspath{ {../Diagrams/Tienie/Netiquette/} }
+\newpage
+\subsubsection{Point 2: }
+\begin{enumerate}
+\item \textbf{Scope: }
+This deals with the built in Netiquette checker. It describes the functionality of the Netiquette checker as well as its aims and goals.
+\newline
+\textbf{Limitations/exclusions:} 
+The netiquette checker is built into the system, and is thus not an optional feature for users posting. However, the checker may be configurable (i.e. turned on and off) by board administrators.
+\item 	\textbf{Use case Prioritization: } Nice-To-Have
+\item 	\textbf{Use case/Service Contracts: }
+		\begin{itemize}
+			\item	\textbf{Pre-Conditions}
+			\begin{itemize}
+	  			\item All posts from within the website will need to be available for traversal in text format
+	  			\item The netiquette checker will only check the following netiquette rules:
+	  			\begin{itemize}
+	  				\item Proper Spelling
+	  				\item Repetition of Asked Questions
+	  				\item Checking all caps
+	  				\item Curse word checking
+	  				\item Checking for general insults
+	  			\end{itemize}
+	  			\item We will need a text file containing a large list of commonly used words for the spell checker.
+	  			\item We will need a text file containing a large list of commonly used curse words.
+	  			\item We will need a text file containing a large list of words commonly used with the intention of insulting someone.
+	  		\end{itemize}
+	  		\item	\textbf{Post-Conditions}
+	  		\begin{itemize}
+	  			\item A moderator must be alerted if a post is detected as violating netiquette.
+	  			\item The post must be highlighted to show that it violates netiquette rules.
+	  			\item A moderator should be able to hide a post which violates netiquette.
+	  			\item The system itself must alert the user of what netiquette rules they have violated as well as give them the opportunity to edit the post and fix them.
+	  		\end{itemize}
+	  		\newpage
+	  		\item	\textbf{Request and Results Data Structures}
+	  		\begin{figure}[H]
+	  			\includegraphics[scale=0.35]{NetInputOutput.jpg}
+	  		\end{figure}
+	  	\end{itemize}
+	  	\newpage
+\item	\textbf{Required Functionality}
+	  		\begin{figure}[H]
+	  			\includegraphics[scale=0.35]{NetUseCase.jpg}
+	  		\end{figure}
 	  		\newpage
 \item \textbf{Process Specifications}
-	  		\begin{center}
-	  			\includegraphics[scale=0.40]{Activity.jpg}
-	  		\end{center}
+	  		\begin{figure}[H]
+	  			\includegraphics[scale=0.40]{NetProcessDiagram.jpg}
+	  		\end{figure}
 \end{enumerate}
 
 \newpage

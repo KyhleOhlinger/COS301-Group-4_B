@@ -1,585 +1,7 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.15)  24 FEB 2015 08:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.23)  25 FEB 2015 11:20
 entering extended mode
-**testFileLaTex.tex
-(testFileLaTex.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 68 languages loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
-)
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
-)
-Package graphics Info: Driver file: pdftex.def on input line 91.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count87
-))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjustbox.sty"
-Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
-\XKV@toks=\toks15
-\XKV@tempa@toks=\toks16
-)
-\XKV@depth=\count88
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.sty"
-Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
--ends (calc, etex, pgfmath)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\trimclip.sty"
-Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\collectbox\collectbox.sty"
-Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box26
-)
-\tc@llx=\dimen105
-\tc@lly=\dimen106
-\tc@urx=\dimen107
-\tc@ury=\dimen108
-Package trimclip Info: Using driver 'tc-pdftex.def'.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\tc-pdftex.def"
-File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
-))
-\adjbox@Width=\dimen109
-\adjbox@Height=\dimen110
-\adjbox@Depth=\dimen111
-\adjbox@Totalheight=\dimen112
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty"
-Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
-\c@checkoddpage=\count89
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
-Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box27
-\sift@deathcycles=\count90
-\@vwid@loff=\dimen113
-\@vwid@roff=\dimen114
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count91
-\float@exts=\toks17
-\float@box=\box28
-\@float@everytoks=\toks18
-\@floatcapt=\box29
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
-Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
-
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
-Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
-)
-Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
-Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
-)
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
-Package: xcolor-patch 2011/01/30 xcolor patch
-Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
-Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
-Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-)
-\@linkdim=\dimen115
-\Hy@linkcounter=\count92
-\Hy@pagecounter=\count93
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
-)
-\Hy@SavedSpaceFactor=\count94
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-Package hyperref Info: Option `bookmarks' set `true' on input line 4319.
-Package hyperref Info: Hyper figures OFF on input line 4443.
-Package hyperref Info: Link nesting OFF on input line 4448.
-Package hyperref Info: Hyper index ON on input line 4451.
-Package hyperref Info: Plain pages OFF on input line 4458.
-Package hyperref Info: Backreferencing OFF on input line 4463.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count95
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
-\Urlmuskip=\muskip10
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen116
-\Fld@menulength=\count96
-\Field@Width=\dimen117
-\Fld@charsize=\dimen118
-Package hyperref Info: Hyper figures OFF on input line 6295.
-Package hyperref Info: Link nesting OFF on input line 6300.
-Package hyperref Info: Hyper index ON on input line 6303.
-Package hyperref Info: backreferencing OFF on input line 6310.
-Package hyperref Info: Link coloring OFF on input line 6315.
-Package hyperref Info: Link coloring with OCG OFF on input line 6320.
-Package hyperref Info: PDF/A mode OFF on input line 6325.
-LaTeX Info: Redefining \ref on input line 6365.
-LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count97
-\c@Item=\count98
-\c@Hfootnote=\count99
-)
-
-Package hyperref Message: Driver (autodetected): hpdftex.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count100
-\c@bookmark@seq@number=\count101
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
-Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
-)
-\Hy@SectionHShift=\skip43
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\bookmark.sty"
-Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\bkm-pdftex.def"
-File: bkm-pdftex.def 2011/12/02 v1.24 bookmark driver for pdfTeX (HO)
-\BKM@id=\count102
-))
-(testFileLaTex.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count103
-\scratchdimen=\dimen119
-\scratchbox=\box30
-\nofMPsegments=\count104
-\nofMParguments=\count105
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count106
-\MPscratchDim=\dimen120
-\MPnumerator=\count107
-\makeMPintoPDFobject=\count108
-\everyMPtoPDFconversion=\toks20
-)
-\AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 12.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
-Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
-)
-\c@section@level=\count109
-)
-LaTeX Info: Redefining \ref on input line 12.
-LaTeX Info: Redefining \pageref on input line 12.
-LaTeX Info: Redefining \nameref on input line 12.
-
-(titlePage.tex
-<University_of_Pretoria_Logo.PNG, id=3, 900.36375pt x 269.50688pt>
-File: University_of_Pretoria_Logo.PNG Graphic file (type png)
-
-<use University_of_Pretoria_Logo.PNG>
-Package pdftex.def Info: University_of_Pretoria_Logo.PNG used on input line 3.
-(pdftex.def)             Requested size: 351.31378pt x 105.1607pt.
- [1
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./University_of_Pretoria_
-Logo.PNG>]) (testFileLaTex.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 4.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 4.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 4.
-)
-\tf@toc=\write3
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.16 \newpage
-              [1] [2] (testFileLaTex.lof)
-\tf@lof=\write4
- [3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
- [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 65--68
-
- []
-
-[6]
-<../Diagrams/Kyhle/Use_Case_Diagrams/CRUD.jpg, id=127, 815.045pt x 508.90125pt>
-File: ../Diagrams/Kyhle/Use_Case_Diagrams/CRUD.jpg Graphic file (type jpg)
-<use ../Diagrams/Kyhle/Use_Case_Diagrams/CRUD.jpg>
-Package pdftex.def Info: ../Diagrams/Kyhle/Use_Case_Diagrams/CRUD.jpg used on i
-nput line 138.
-(pdftex.def)             Requested size: 407.5215pt x 254.45pt.
-
-Overfull \hbox (47.5215pt too wide) in paragraph at lines 138--139
-[][] 
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 145--148
-
- []
-
-
-<../Diagrams/Kyhle/Use_Case_Diagrams/messageTracking.jpg, id=132, 766.865pt x 3
-73.395pt>
-File: ../Diagrams/Kyhle/Use_Case_Diagrams/messageTracking.jpg Graphic file (typ
-e jpg)
- <use ../Diagrams/Kyhle/Use_Case_Diagrams/messageTracking.jpg>
-Package pdftex.def Info: ../Diagrams/Kyhle/Use_Case_Diagrams/messageTracking.jp
-g used on input line 166.
-(pdftex.def)             Requested size: 383.43156pt x 186.69704pt.
-
-Overfull \hbox (23.43156pt too wide) in paragraph at lines 166--167
-[][] 
- []
-
-[8 <../Diagrams/Kyhle/Use_Case_Diagrams/CRUD.jpg>]
-<../Diagrams/Kyhle/Use_Case_Diagrams/messageRestrictions.jpg, id=138, 737.75626
-pt x 428.60126pt>
-File: ../Diagrams/Kyhle/Use_Case_Diagrams/messageRestrictions.jpg Graphic file 
-(type jpg)
-
-<use ../Diagrams/Kyhle/Use_Case_Diagrams/messageRestrictions.jpg>
-Package pdftex.def Info: ../Diagrams/Kyhle/Use_Case_Diagrams/messageRestriction
-s.jpg used on input line 194.
-(pdftex.def)             Requested size: 368.87723pt x 214.3001pt.
-
-Overfull \hbox (8.87723pt too wide) in paragraph at lines 194--195
-[][] 
- []
-
-[9 <../Diagrams/Kyhle/Use_Case_Diagrams/messageTracking.jpg>] [10 <../Diagrams/
-Kyhle/Use_Case_Diagrams/messageRestrictions.jpg>]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
- [11]
-<../Diagrams/Kyhle/Activity_Diagrams/CRUD.jpg, id=156, 807.015pt x 579.16376pt>
-File: ../Diagrams/Kyhle/Activity_Diagrams/CRUD.jpg Graphic file (type jpg)
-<use ../Diagrams/Kyhle/Activity_Diagrams/CRUD.jpg>
-Package pdftex.def Info: ../Diagrams/Kyhle/Activity_Diagrams/CRUD.jpg used on i
-nput line 351.
-(pdftex.def)             Requested size: 403.50652pt x 289.58116pt.
-
-Overfull \hbox (43.50652pt too wide) in paragraph at lines 351--352
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 348--353
-
- []
-
-[12]
-<../Diagrams/Kyhle/Activity_Diagrams/messageTracking.jpg, id=162, 872.25874pt x
- 338.26375pt>
-File: ../Diagrams/Kyhle/Activity_Diagrams/messageTracking.jpg Graphic file (typ
-e jpg)
- <use ../Diagrams/Kyhle/Activity_Diagrams/messageTracking.jpg>
-Package pdftex.def Info: ../Diagrams/Kyhle/Activity_Diagrams/messageTracking.jp
-g used on input line 356.
-(pdftex.def)             Requested size: 436.1283pt x 169.13145pt.
-
-Overfull \hbox (76.1283pt too wide) in paragraph at lines 356--357
-[][] 
- []
-
-[13 <../Diagrams/Kyhle/Activity_Diagrams/CRUD.jpg>]
-<../Diagrams/Kyhle/Activity_Diagrams/messageRestrictions.jpg, id=167, 861.2175p
-t x 382.42876pt>
-File: ../Diagrams/Kyhle/Activity_Diagrams/messageRestrictions.jpg Graphic file 
-(type jpg)
-
-<use ../Diagrams/Kyhle/Activity_Diagrams/messageRestrictions.jpg>
-Package pdftex.def Info: ../Diagrams/Kyhle/Activity_Diagrams/messageRestriction
-s.jpg used on input line 361.
-(pdftex.def)             Requested size: 430.6077pt x 191.2139pt.
-
-Overfull \hbox (70.6077pt too wide) in paragraph at lines 361--362
-[][] 
- []
-
-[14 <../Diagrams/Kyhle/Activity_Diagrams/messageTracking.jpg> <../Diagrams/Kyhl
-e/Activity_Diagrams/messageRestrictions.jpg>] [15] [16] [17] [18]
-Overfull \hbox (0.55753pt too wide) in paragraph at lines 538--542
-[]\OT1/cmr/bx/n/10.95 Use case Pri-or-i-ti-za-tion: \OT1/cmr/m/n/10.95 Im-por-t
-ant \OT1/cmr/bx/n/10.95 Use case/Service Con-tracts: 
- []
-
-[19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 631--635
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 636--638
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 651--653
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 651--653
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 651--653
-
- []
-
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 654--655
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 654--655
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 655--657
-
- []
-
-[22]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
- [23]
-<../Diagrams/Tienie/Plagiarism/InputOutput.jpg, id=246, 824.07875pt x 231.86626
-pt>
-File: ../Diagrams/Tienie/Plagiarism/InputOutput.jpg Graphic file (type jpg)
- <use ../Diagrams/Tienie/Plagiarism/InputOutput.jpg>
-Package pdftex.def Info: ../Diagrams/Tienie/Plagiarism/InputOutput.jpg used on 
-input line 705.
-(pdftex.def)             Requested size: 412.03836pt x 115.93283pt.
-
-Overfull \hbox (52.03836pt too wide) in paragraph at lines 705--706
-[][] 
- []
-
-<../Diagrams/Tienie/Plagiarism/UseCase.jpg, id=247, 1035.87pt x 546.04pt>
-File: ../Diagrams/Tienie/Plagiarism/UseCase.jpg Graphic file (type jpg)
-
-<use ../Diagrams/Tienie/Plagiarism/UseCase.jpg>
-Package pdftex.def Info: ../Diagrams/Tienie/Plagiarism/UseCase.jpg used on inpu
-t line 710.
-(pdftex.def)             Requested size: 414.34065pt x 218.41212pt.
-
-Overfull \hbox (54.34065pt too wide) in paragraph at lines 710--711
-[][] 
- []
-
-[24 <../Diagrams/Tienie/Plagiarism/InputOutput.jpg> <../Diagrams/Tienie/Plagiar
-ism/UseCase.jpg>]
-<../Diagrams/Tienie/Plagiarism/Activity.jpg, id=254, 1021.8175pt x 626.34pt>
-File: ../Diagrams/Tienie/Plagiarism/Activity.jpg Graphic file (type jpg)
-
-<use ../Diagrams/Tienie/Plagiarism/Activity.jpg>
-Package pdftex.def Info: ../Diagrams/Tienie/Plagiarism/Activity.jpg used on inp
-ut line 715.
-(pdftex.def)             Requested size: 408.71976pt x 250.53156pt.
-
-Overfull \hbox (48.71976pt too wide) in paragraph at lines 715--716
-[][] 
- []
-
-[25 <../Diagrams/Tienie/Plagiarism/Activity.jpg>] [26]
-<../Diagrams/Tienie/Netiquette/NetInputOutput.jpg, id=267, 1192.455pt x 728.722
-5pt>
-File: ../Diagrams/Tienie/Netiquette/NetInputOutput.jpg Graphic file (type jpg)
- <use ../Diagrams/Tienie/Netiquette/NetInputOutput.jpg>
-Package pdftex.def Info: ../Diagrams/Tienie/Netiquette/NetInputOutput.jpg used 
-on input line 756.
-(pdftex.def)             Requested size: 417.36551pt x 255.05669pt.
-
-Overfull \hbox (57.36551pt too wide) in paragraph at lines 756--757
-[][] 
- []
-
-[27 <../Diagrams/Tienie/Netiquette/NetInputOutput.jpg>]
-<../Diagrams/Tienie/Netiquette/NetUseCase.jpg, id=272, 1218.5525pt x 881.2925pt
->
-File: ../Diagrams/Tienie/Netiquette/NetUseCase.jpg Graphic file (type jpg)
- <use ../Diagrams/Tienie/Netiquette/NetUseCase.jpg>
-Package pdftex.def Info: ../Diagrams/Tienie/Netiquette/NetUseCase.jpg used on i
-nput line 762.
-(pdftex.def)             Requested size: 426.49977pt x 308.45699pt.
-
-Overfull \hbox (66.49977pt too wide) in paragraph at lines 762--763
-[][] 
- []
-
-[28 <../Diagrams/Tienie/Netiquette/NetUseCase.jpg>]
-<../Diagrams/Tienie/Netiquette/NetProcessDiagram.jpg, id=278, 1048.91875pt x 66
-4.4825pt>
-File: ../Diagrams/Tienie/Netiquette/NetProcessDiagram.jpg Graphic file (type jp
-g)
- <use ../Diagrams/Tienie/Netiquette/NetProcessDiagram.jpg>
-Package pdftex.def Info: ../Diagrams/Tienie/Netiquette/NetProcessDiagram.jpg us
-ed on input line 767.
-(pdftex.def)             Requested size: 419.56006pt x 265.78828pt.
-
-Overfull \hbox (59.56006pt too wide) in paragraph at lines 767--768
-[][] 
- []
-
-[29 <../Diagrams/Tienie/Netiquette/NetProcessDiagram.jpg>] [30]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 785.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 785.
-
-(testFileLaTex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 785.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 785.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 785.
- ) 
-Here is how much of TeX's memory you used:
- 6237 strings out of 493698
- 94036 string characters out of 3144415
- 179337 words of memory out of 3000000
- 9360 multiletter control sequences out of 15000+200000
- 9192 words of font info for 32 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
- 30i,7n,34p,486b,574s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmti12.pfb>
-Output written on testFileLaTex.pdf (31 pages, 1919531 bytes).
-PDF statistics:
- 455 PDF objects out of 1000 (max. 8388607)
- 131 named destinations out of 1000 (max. 500000)
- 346 words of extra memory for PDF output out of 10000 (max. 10000000)
-
-=======
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.23)  24 FEB 2015 08:05
-entering extended mode
-**testFileLaTex.tex
-(G:\uni\COS301\prog\SourceTree\latexFiles\testFileLaTex.tex
+**C:/Users/Andrew/Desktop/New_Repo/latexFiles/testFileLaTex.tex
+(C:/Users/Andrew/Desktop/New_Repo/latexFiles/testFileLaTex.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -640,6 +62,62 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
+("G:\uni\COS301\MikTex Full install\tex\latex\adjustbox\adjustbox.sty"
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+("G:\uni\COS301\MikTex Full install\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+("G:\uni\COS301\MikTex Full install\tex\generic\xkeyval\xkeyval.tex"
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+\XKV@depth=\count88
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+))
+("G:\uni\COS301\MikTex Full install\tex\latex\adjustbox\adjcalc.sty"
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+("G:\uni\COS301\MikTex Full install\tex\latex\adjustbox\trimclip.sty"
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+("G:\uni\COS301\MikTex Full install\tex\latex\collectbox\collectbox.sty"
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box26
+)
+\tc@llx=\dimen105
+\tc@lly=\dimen106
+\tc@urx=\dimen107
+\tc@ury=\dimen108
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+("G:\uni\COS301\MikTex Full install\tex\latex\adjustbox\tc-pdftex.def"
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen109
+\adjbox@Height=\dimen110
+\adjbox@Depth=\dimen111
+\adjbox@Totalheight=\dimen112
+
+("G:\uni\COS301\MikTex Full install\tex\latex\ifoddpage\ifoddpage.sty"
+Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
+\c@checkoddpage=\count89
+)
+("G:\uni\COS301\MikTex Full install\tex\latex\ltxmisc\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box27
+\sift@deathcycles=\count90
+\@vwid@loff=\dimen113
+\@vwid@roff=\dimen114
+))
+("G:\uni\COS301\MikTex Full install\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count91
+\float@exts=\toks17
+\float@box=\box28
+\@float@everytoks=\toks18
+\@floatcapt=\box29
+)
 ("G:\uni\COS301\MikTex Full install\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
@@ -697,14 +175,14 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 ("G:\uni\COS301\MikTex Full install\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen105
-\Hy@linkcounter=\count88
-\Hy@pagecounter=\count89
+\@linkdim=\dimen115
+\Hy@linkcounter=\count92
+\Hy@pagecounter=\count93
 
 ("G:\uni\COS301\MikTex Full install\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count90
+\Hy@SavedSpaceFactor=\count94
 
 ("G:\uni\COS301\MikTex Full install\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -717,17 +195,17 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count91
+\c@Hy@tempcnt=\count95
 
 ("G:\uni\COS301\MikTex Full install\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen106
-\Fld@menulength=\count92
-\Field@Width=\dimen107
-\Fld@charsize=\dimen108
+\XeTeXLinkMargin=\dimen116
+\Fld@menulength=\count96
+\Field@Width=\dimen117
+\Fld@charsize=\dimen118
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -737,17 +215,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count93
-\c@Item=\count94
-\c@Hfootnote=\count95
+\Hy@abspage=\count97
+\c@Item=\count98
+\c@Hfootnote=\count99
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("G:\uni\COS301\MikTex Full install\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count96
-\c@bookmark@seq@number=\count97
+\Fld@listcount=\count100
+\c@bookmark@seq@number=\count101
 
 ("G:\uni\COS301\MikTex Full install\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -761,143 +239,428 @@ Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
 
 ("G:\uni\COS301\MikTex Full install\tex\latex\oberdiek\bkm-pdftex.def"
 File: bkm-pdftex.def 2011/12/02 v1.24 bookmark driver for pdfTeX (HO)
-\BKM@id=\count98
+\BKM@id=\count102
 ))
-(G:\uni\COS301\prog\SourceTree\latexFiles\testFileLaTex.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+(C:\Users\Andrew\Desktop\New_Repo\latexFiles\testFileLaTex.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 ("G:\uni\COS301\MikTex Full install\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count99
-\scratchdimen=\dimen109
-\scratchbox=\box26
-\nofMPsegments=\count100
-\nofMParguments=\count101
-\everyMPshowfont=\toks15
-\MPscratchCnt=\count102
-\MPscratchDim=\dimen110
-\MPnumerator=\count103
-\makeMPintoPDFobject=\count104
-\everyMPtoPDFconversion=\toks16
+\scratchcounter=\count103
+\scratchdimen=\dimen119
+\scratchbox=\box30
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen120
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks20
 )
-\AtBeginShipoutBox=\box27
-Package hyperref Info: Link coloring OFF on input line 10.
+\AtBeginShipoutBox=\box31
+Package hyperref Info: Link coloring OFF on input line 12.
  ("G:\uni\COS301\MikTex Full install\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("G:\uni\COS301\MikTex Full install\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count105
+\c@section@level=\count109
 )
-LaTeX Info: Redefining \ref on input line 10.
-LaTeX Info: Redefining \pageref on input line 10.
-LaTeX Info: Redefining \nameref on input line 10.
+LaTeX Info: Redefining \ref on input line 12.
+LaTeX Info: Redefining \pageref on input line 12.
+LaTeX Info: Redefining \nameref on input line 12.
 
-(G:\uni\COS301\prog\SourceTree\latexFiles\titlePage.tex
-<University_of_Pretoria_Logo.png, id=3, 900.36375pt x 269.50688pt>
-File: University_of_Pretoria_Logo.png Graphic file (type png)
+(C:\Users\Andrew\Desktop\New_Repo\latexFiles\titlePage.tex
+<University_of_Pretoria_Logo.PNG, id=3, 900.36375pt x 269.50688pt>
+File: University_of_Pretoria_Logo.PNG Graphic file (type png)
 
-<use University_of_Pretoria_Logo.png>
-Package pdftex.def Info: University_of_Pretoria_Logo.png used on input line 3.
+<use University_of_Pretoria_Logo.PNG>
+Package pdftex.def Info: University_of_Pretoria_Logo.PNG used on input line 3.
 (pdftex.def)             Requested size: 351.31378pt x 105.1607pt.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <G:/uni/COS301/prog/Source
-Tree/latexFiles/University_of_Pretoria_Logo.png>]) (G:\uni\COS301\prog\SourceTr
-ee\latexFiles\testFileLaTex.toc
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Andrew/Desktop/N
+ew_Repo/latexFiles/University_of_Pretoria_Logo.PNG>]) (C:\Users\Andrew\Desktop\
+New_Repo\latexFiles\testFileLaTex.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 4.
+)
+\tf@toc=\write3
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 ...umberline {6.6}Tienie}{25}{subsection.6.6}
-                                                   [1])
-\tf@toc=\write3
+l.16 \newpage
+              [1]
+(C:\Users\Andrew\Desktop\New_Repo\latexFiles\testFileLaTex.lof)
+\tf@lof=\write4
  [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 29.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
 
 ("G:\uni\COS301\MikTex Full install\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
  [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 59--62
+Underfull \hbox (badness 10000) in paragraph at lines 65--68
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 132--135
+<../Diagrams/Kyhle/Use_Case_Diagrams/CRUD.jpg, id=140, 815.045pt x 508.90125pt>
+File: ../Diagrams/Kyhle/Use_Case_Diagrams/CRUD.jpg Graphic file (type jpg)
+<use ../Diagrams/Kyhle/Use_Case_Diagrams/CRUD.jpg>
+Package pdftex.def Info: ../Diagrams/Kyhle/Use_Case_Diagrams/CRUD.jpg used on i
+nput line 138.
+(pdftex.def)             Requested size: 407.5215pt x 254.45pt.
+
+Overfull \hbox (47.5215pt too wide) in paragraph at lines 138--139
+[][] 
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 145--148
 
  []
 
-[6] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 224--229
+
+<../Diagrams/Kyhle/Use_Case_Diagrams/messageTracking.jpg, id=146, 766.865pt x 3
+73.395pt>
+File: ../Diagrams/Kyhle/Use_Case_Diagrams/messageTracking.jpg Graphic file (typ
+e jpg)
+ <use ../Diagrams/Kyhle/Use_Case_Diagrams/messageTracking.jpg>
+Package pdftex.def Info: ../Diagrams/Kyhle/Use_Case_Diagrams/messageTracking.jp
+g used on input line 166.
+(pdftex.def)             Requested size: 383.43156pt x 186.69704pt.
+
+Overfull \hbox (23.43156pt too wide) in paragraph at lines 166--167
+[][] 
+ []
+
+[7 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Kyhle/Use_Case_Diagrams/CRUD.jpg>
+]
+<../Diagrams/Kyhle/Use_Case_Diagrams/messageRestrictions.jpg, id=152, 737.75626
+pt x 428.60126pt>
+File: ../Diagrams/Kyhle/Use_Case_Diagrams/messageRestrictions.jpg Graphic file 
+(type jpg)
+
+<use ../Diagrams/Kyhle/Use_Case_Diagrams/messageRestrictions.jpg>
+Package pdftex.def Info: ../Diagrams/Kyhle/Use_Case_Diagrams/messageRestriction
+s.jpg used on input line 194.
+(pdftex.def)             Requested size: 368.87723pt x 214.3001pt.
+
+Overfull \hbox (8.87723pt too wide) in paragraph at lines 194--195
+[][] 
+ []
+
+[8 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Kyhle/Use_Case_Diagrams/messageTr
+acking.jpg>]
+<../Diagrams/sfiso/socialtag.jpg, id=158, 894.34125pt x 604.2575pt>
+File: ../Diagrams/sfiso/socialtag.jpg Graphic file (type jpg)
+
+<use ../Diagrams/sfiso/socialtag.jpg>
+Package pdftex.def Info: ../Diagrams/sfiso/socialtag.jpg used on input line 226
+.
+(pdftex.def)             Requested size: 447.16953pt x 302.128pt.
+
+Overfull \hbox (87.16953pt too wide) in paragraph at lines 226--227
+[][] 
+ []
+
+[9 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Kyhle/Use_Case_Diagrams/messageRe
+strictions.jpg>] [10 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/sfiso/socialtag
+.jpg>] <../Diagrams/sfiso/self.jpg, id=169, 886.31125pt x 562.1pt>
+File: ../Diagrams/sfiso/self.jpg Graphic file (type jpg)
+
+<use ../Diagrams/sfiso/self.jpg>
+Package pdftex.def Info: ../Diagrams/sfiso/self.jpg used on input line 261.
+(pdftex.def)             Requested size: 443.15454pt x 281.04932pt.
+
+Overfull \hbox (83.15454pt too wide) in paragraph at lines 261--262
+[][] 
+ []
+
+[11 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/sfiso/self.jpg>]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+<../Diagrams/sfiso/tag.jpg, id=175, 893.3375pt x 562.1pt>
+File: ../Diagrams/sfiso/tag.jpg Graphic file (type jpg)
+
+<use ../Diagrams/sfiso/tag.jpg>
+Package pdftex.def Info: ../Diagrams/sfiso/tag.jpg used on input line 295.
+(pdftex.def)             Requested size: 446.66765pt x 281.04932pt.
+
+Overfull \hbox (86.66765pt too wide) in paragraph at lines 295--296
+[][] 
+ []
+
+[12 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/sfiso/tag.jpg>]
+<../Diagrams/sfiso/read.jpg, id=182, 886.31125pt x 574.145pt>
+File: ../Diagrams/sfiso/read.jpg Graphic file (type jpg)
+
+<use ../Diagrams/sfiso/read.jpg>
+Package pdftex.def Info: ../Diagrams/sfiso/read.jpg used on input line 336.
+(pdftex.def)             Requested size: 443.15454pt x 287.0718pt.
+
+Overfull \hbox (83.15454pt too wide) in paragraph at lines 336--337
+[][] 
+ []
+
+[13] [14 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/sfiso/read.jpg>] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 418--419
 
  []
 
-[9]
 
-LaTeX Warning: File `Diagrams/B1 ClassDiagram.png' not found on input line 245.
+Underfull \hbox (badness 10000) in paragraph at lines 418--419
+
+ []
 
 
-<Diagrams/B1 ClassDiagram.png, id=138, 519.44063pt x 366.61969pt>
-File: Diagrams/B1 ClassDiagram.png Graphic file (type png)
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
 
-<use Diagrams/B1 ClassDiagram.png>
-Package pdftex.def Info: Diagrams/B1 ClassDiagram.png used on input line 245.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
+
+ []
+
+<../Diagrams/Sphe/Search&Filter/UseCase.jpg, id=198, 616.55344pt x 397.485pt>
+File: ../Diagrams/Sphe/Search&Filter/UseCase.jpg Graphic file (type jpg)
+
+<use ../Diagrams/Sphe/Search&Filter/UseCase.jpg>
+Package pdftex.def Info: ../Diagrams/Sphe/Search&Filter/UseCase.jpg used on inp
+ut line 434.
+(pdftex.def)             Requested size: 400.75497pt x 258.36218pt.
+
+Overfull \hbox (40.75497pt too wide) in paragraph at lines 434--435
+[][] 
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 440--442
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--442
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--442
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--444
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--444
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--446
+
+ []
+
+[17 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Sphe/Search&Filter/UseCase.jpg>]
+<../Diagrams/Sphe/PostRatings/UseCase.jpg, id=209, 616.55344pt x 398.99063pt>
+File: ../Diagrams/Sphe/PostRatings/UseCase.jpg Graphic file (type jpg)
+
+<use ../Diagrams/Sphe/PostRatings/UseCase.jpg>
+Package pdftex.def Info: ../Diagrams/Sphe/PostRatings/UseCase.jpg used on input
+ line 457.
+(pdftex.def)             Requested size: 400.75497pt x 259.34084pt.
+
+Overfull \hbox (40.75497pt too wide) in paragraph at lines 457--458
+[][] 
+ []
+
+[18 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Sphe/PostRatings/UseCase.jpg>]
+<../Diagrams/Kyhle/Activity_Diagrams/CRUD.jpg, id=221, 807.015pt x 579.16376pt>
+File: ../Diagrams/Kyhle/Activity_Diagrams/CRUD.jpg Graphic file (type jpg)
+<use ../Diagrams/Kyhle/Activity_Diagrams/CRUD.jpg>
+Package pdftex.def Info: ../Diagrams/Kyhle/Activity_Diagrams/CRUD.jpg used on i
+nput line 503.
+(pdftex.def)             Requested size: 403.50652pt x 289.58116pt.
+
+Overfull \hbox (43.50652pt too wide) in paragraph at lines 503--504
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--505
+
+ []
+
+[19]
+<../Diagrams/Kyhle/Activity_Diagrams/messageTracking.jpg, id=226, 872.25874pt x
+ 338.26375pt>
+File: ../Diagrams/Kyhle/Activity_Diagrams/messageTracking.jpg Graphic file (typ
+e jpg)
+ <use ../Diagrams/Kyhle/Activity_Diagrams/messageTracking.jpg>
+Package pdftex.def Info: ../Diagrams/Kyhle/Activity_Diagrams/messageTracking.jp
+g used on input line 508.
+(pdftex.def)             Requested size: 436.1283pt x 169.13145pt.
+
+Overfull \hbox (76.1283pt too wide) in paragraph at lines 508--509
+[][] 
+ []
+
+
+<../Diagrams/Kyhle/Activity_Diagrams/messageRestrictions.jpg, id=227, 861.2175p
+t x 382.42876pt>
+File: ../Diagrams/Kyhle/Activity_Diagrams/messageRestrictions.jpg Graphic file 
+(type jpg)
+
+<use ../Diagrams/Kyhle/Activity_Diagrams/messageRestrictions.jpg>
+Package pdftex.def Info: ../Diagrams/Kyhle/Activity_Diagrams/messageRestriction
+s.jpg used on input line 513.
+(pdftex.def)             Requested size: 430.6077pt x 191.2139pt.
+
+Overfull \hbox (70.6077pt too wide) in paragraph at lines 513--514
+[][] 
+ []
+
+[20 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Kyhle/Activity_Diagrams/CRUD.jpg
+> <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Kyhle/Activity_Diagrams/messageTra
+cking.jpg>]
+<../Diagrams/Sphe/Search&Filter/ActivityDiagram.jpg, id=232, 616.55344pt x 398.
+99063pt>
+File: ../Diagrams/Sphe/Search&Filter/ActivityDiagram.jpg Graphic file (type jpg
+)
+ <use ../Diagrams/Sphe/Search&Filter/ActivityDiagram.jpg>
+Package pdftex.def Info: ../Diagrams/Sphe/Search&Filter/ActivityDiagram.jpg use
+d on input line 519.
+(pdftex.def)             Requested size: 400.75497pt x 259.34084pt.
+
+Overfull \hbox (40.75497pt too wide) in paragraph at lines 519--520
+[][] 
+ []
+
+
+<../Diagrams/Sphe/PostRatings/ActivityDiagram.jpg, id=233, 616.55344pt x 398.99
+063pt>
+File: ../Diagrams/Sphe/PostRatings/ActivityDiagram.jpg Graphic file (type jpg)
+ <use ../Diagrams/Sphe/PostRatings/ActivityDiagram.jpg>
+Package pdftex.def Info: ../Diagrams/Sphe/PostRatings/ActivityDiagram.jpg used 
+on input line 525.
+(pdftex.def)             Requested size: 400.75497pt x 259.34084pt.
+
+Overfull \hbox (40.75497pt too wide) in paragraph at lines 525--526
+[][] 
+ []
+
+[21 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Kyhle/Activity_Diagrams/messageR
+estrictions.jpg> <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Sphe/Search&Filter/
+ActivityDiagram.jpg>]
+<../Diagrams/sfiso/socialA.jpg, id=238, 943.525pt x 562.1pt>
+File: ../Diagrams/sfiso/socialA.jpg Graphic file (type jpg)
+
+<use ../Diagrams/sfiso/socialA.jpg>
+Package pdftex.def Info: ../Diagrams/sfiso/socialA.jpg used on input line 531.
+(pdftex.def)             Requested size: 471.76134pt x 281.04932pt.
+
+Overfull \hbox (111.76134pt too wide) in paragraph at lines 531--532
+[][] 
+ []
+
+<../Diagrams/sfiso/buzzA.jpg, id=239, 1001.7425pt x 562.1pt>
+File: ../Diagrams/sfiso/buzzA.jpg Graphic file (type jpg)
+
+<use ../Diagrams/sfiso/buzzA.jpg>
+Package pdftex.def Info: ../Diagrams/sfiso/buzzA.jpg used on input line 536.
+(pdftex.def)             Requested size: 500.87003pt x 281.04932pt.
+
+Overfull \hbox (140.87003pt too wide) in paragraph at lines 536--537
+[][] 
+ []
+
+[22 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Sphe/PostRatings/ActivityDiagram
+.jpg>] [23 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/sfiso/socialA.jpg>]
+<../Diagrams/sfiso/selfA.jpg, id=248, 886.31125pt x 562.1pt>
+File: ../Diagrams/sfiso/selfA.jpg Graphic file (type jpg)
+
+<use ../Diagrams/sfiso/selfA.jpg>
+Package pdftex.def Info: ../Diagrams/sfiso/selfA.jpg used on input line 542.
+(pdftex.def)             Requested size: 443.15454pt x 281.04932pt.
+
+Overfull \hbox (83.15454pt too wide) in paragraph at lines 542--543
+[][] 
+ []
+
+[24 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/sfiso/buzzA.jpg>]
+<../Diagrams/sfiso/readA.jpg, id=254, 886.31125pt x 562.1pt>
+File: ../Diagrams/sfiso/readA.jpg Graphic file (type jpg)
+
+<use ../Diagrams/sfiso/readA.jpg>
+Package pdftex.def Info: ../Diagrams/sfiso/readA.jpg used on input line 548.
+(pdftex.def)             Requested size: 443.15454pt x 281.04932pt.
+
+Overfull \hbox (83.15454pt too wide) in paragraph at lines 548--549
+[][] 
+ []
+
+[25 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/sfiso/selfA.jpg>] [26 <C:/Users/
+Andrew/Desktop/New_Repo/Diagrams/sfiso/readA.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 578--583
+
+ []
+
+[27]
+<../Diagrams/Andrew/B1ClassDiagram.png, id=271, 519.44063pt x 366.61969pt>
+File: ../Diagrams/Andrew/B1ClassDiagram.png Graphic file (type png)
+
+<use ../Diagrams/Andrew/B1ClassDiagram.png>
+Package pdftex.def Info: ../Diagrams/Andrew/B1ClassDiagram.png used on input li
+ne 600.
 (pdftex.def)             Requested size: 259.71968pt x 183.30939pt.
 
-Overfull \hbox (17.73651pt too wide) in paragraph at lines 245--246
- [] 
- []
+<../Diagrams/Andrew/B1UseCase.png, id=272, 610.53094pt x 446.41782pt>
+File: ../Diagrams/Andrew/B1UseCase.png Graphic file (type png)
 
-
-LaTeX Warning: File `Diagrams/B1 UseCase.png' not found on input line 250.
-
-<Diagrams/B1 UseCase.png, id=139, 610.53094pt x 446.41782pt>
-File: Diagrams/B1 UseCase.png Graphic file (type png)
-
-<use Diagrams/B1 UseCase.png>
-Package pdftex.def Info: Diagrams/B1 UseCase.png used on input line 250.
+<use ../Diagrams/Andrew/B1UseCase.png>
+Package pdftex.def Info: ../Diagrams/Andrew/B1UseCase.png used on input line 60
+6.
 (pdftex.def)             Requested size: 305.26472pt x 223.20836pt.
+ [28 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Andrew/B1ClassDiagram.png> <C:/
+Users/Andrew/Desktop/New_Repo/Diagrams/Andrew/B1UseCase.png>]
+<../Diagrams/Andrew/B1Activity.png, id=281, 456.95718pt x 457.71pt>
+File: ../Diagrams/Andrew/B1Activity.png Graphic file (type png)
 
-Overfull \hbox (36.94067pt too wide) in paragraph at lines 250--251
- [] 
- []
-
-[10 <G:/uni/COS301/prog/SourceTree/latexFiles/Diagrams/B1 ClassDiagram.png> <G:
-/uni/COS301/prog/SourceTree/latexFiles/Diagrams/B1 UseCase.png>]
-
-LaTeX Warning: File `Diagrams/B1 Activity.png' not found on input line 255.
-
-<Diagrams/B1 Activity.png, id=148, 456.95718pt x 457.71pt>
-File: Diagrams/B1 Activity.png Graphic file (type png)
-
-<use Diagrams/B1 Activity.png>
-Package pdftex.def Info: Diagrams/B1 Activity.png used on input line 255.
+<use ../Diagrams/Andrew/B1Activity.png>
+Package pdftex.def Info: ../Diagrams/Andrew/B1Activity.png used on input line 6
+11.
 (pdftex.def)             Requested size: 228.47803pt x 228.85445pt.
- [11 <G:/uni/COS301/prog/SourceTree/latexFiles/Diagrams/B1 Activity.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 276--279
+ [29 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Andrew/B1Activity.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 632--635
 
  []
 
@@ -910,200 +673,173 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-[12]
+[30] <../Diagrams/Andrew/B2ClassDiagram.png, id=297, 510.40688pt x 397.485pt>
+File: ../Diagrams/Andrew/B2ClassDiagram.png Graphic file (type png)
 
-LaTeX Warning: File `Diagrams/B2 ClassDiagram.png' not found on input line 298.
-
-
-<Diagrams/B2 ClassDiagram.png, id=164, 510.40688pt x 397.485pt>
-File: Diagrams/B2 ClassDiagram.png Graphic file (type png)
-
-<use Diagrams/B2 ClassDiagram.png>
-Package pdftex.def Info: Diagrams/B2 ClassDiagram.png used on input line 298.
+<use ../Diagrams/Andrew/B2ClassDiagram.png>
+Package pdftex.def Info: ../Diagrams/Andrew/B2ClassDiagram.png used on input li
+ne 656.
 (pdftex.def)             Requested size: 255.2028pt x 198.742pt.
 
-Overfull \hbox (13.21964pt too wide) in paragraph at lines 298--299
- [] 
- []
+<../Diagrams/Andrew/B2UseCase.png, id=298, 669.2503pt x 462.97969pt>
+File: ../Diagrams/Andrew/B2UseCase.png Graphic file (type png)
 
-
-LaTeX Warning: File `Diagrams/B2 UseCase.png' not found on input line 303.
-
-<Diagrams/B2 UseCase.png, id=165, 669.2503pt x 462.97969pt>
-File: Diagrams/B2 UseCase.png Graphic file (type png)
-
-<use Diagrams/B2 UseCase.png>
-Package pdftex.def Info: Diagrams/B2 UseCase.png used on input line 303.
+<use ../Diagrams/Andrew/B2UseCase.png>
+Package pdftex.def Info: ../Diagrams/Andrew/B2UseCase.png used on input line 66
+1.
 (pdftex.def)             Requested size: 334.62433pt x 231.48927pt.
 
-Overfull \hbox (66.30028pt too wide) in paragraph at lines 303--304
+Overfull \hbox (1.99939pt too wide) in paragraph at lines 661--662
  [] 
  []
 
-[13 <G:/uni/COS301/prog/SourceTree/latexFiles/Diagrams/B2 ClassDiagram.png> <G:
-/uni/COS301/prog/SourceTree/latexFiles/Diagrams/B2 UseCase.png>]
+[31 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Andrew/B2ClassDiagram.png> <C:/U
+sers/Andrew/Desktop/New_Repo/Diagrams/Andrew/B2UseCase.png>]
+<../Diagrams/Andrew/B2Activity.png, id=307, 478.78876pt x 523.9575pt>
+File: ../Diagrams/Andrew/B2Activity.png Graphic file (type png)
 
-LaTeX Warning: File `Diagrams/B2 Activity.png' not found on input line 308.
-
-<Diagrams/B2 Activity.png, id=174, 478.78876pt x 523.9575pt>
-File: Diagrams/B2 Activity.png Graphic file (type png)
-
-<use Diagrams/B2 Activity.png>
-Package pdftex.def Info: Diagrams/B2 Activity.png used on input line 308.
+<use ../Diagrams/Andrew/B2Activity.png>
+Package pdftex.def Info: ../Diagrams/Andrew/B2Activity.png used on input line 6
+66.
 (pdftex.def)             Requested size: 239.39378pt x 261.9781pt.
- [14 <G:/uni/COS301/prog/SourceTree/latexFiles/Diagrams/B2 Activity.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 328--333
+ [32 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Andrew/B2Activity.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 686--691
 
  []
 
-[15]
+[33] <../Diagrams/Andrew/B3ClassDiagram.png, id=322, 518.6878pt x 367.3725pt>
+File: ../Diagrams/Andrew/B3ClassDiagram.png Graphic file (type png)
 
-LaTeX Warning: File `Diagrams/B3 ClassDiagram.png' not found on input line 346.
-
-
-<Diagrams/B3 ClassDiagram.png, id=189, 518.6878pt x 367.3725pt>
-File: Diagrams/B3 ClassDiagram.png Graphic file (type png)
-
-<use Diagrams/B3 ClassDiagram.png>
-Package pdftex.def Info: Diagrams/B3 ClassDiagram.png used on input line 346.
+<use ../Diagrams/Andrew/B3ClassDiagram.png>
+Package pdftex.def Info: ../Diagrams/Andrew/B3ClassDiagram.png used on input li
+ne 706.
 (pdftex.def)             Requested size: 259.34326pt x 183.68579pt.
 
-Overfull \hbox (17.36009pt too wide) in paragraph at lines 346--347
- [] 
- []
+<../Diagrams/Andrew/B3UseCase.png, id=323, 679.78969pt x 528.47438pt>
+File: ../Diagrams/Andrew/B3UseCase.png Graphic file (type png)
 
-
-LaTeX Warning: File `Diagrams/B3 UseCase.png' not found on input line 351.
-
-<Diagrams/B3 UseCase.png, id=190, 679.78969pt x 528.47438pt>
-File: Diagrams/B3 UseCase.png Graphic file (type png)
-
-<use Diagrams/B3 UseCase.png>
-Package pdftex.def Info: Diagrams/B3 UseCase.png used on input line 351.
+<use ../Diagrams/Andrew/B3UseCase.png>
+Package pdftex.def Info: ../Diagrams/Andrew/B3UseCase.png used on input line 71
+1.
 (pdftex.def)             Requested size: 339.89401pt x 264.23654pt.
 
-Overfull \hbox (71.56996pt too wide) in paragraph at lines 351--352
+Overfull \hbox (7.26907pt too wide) in paragraph at lines 711--712
  [] 
  []
 
-[16 <G:/uni/COS301/prog/SourceTree/latexFiles/Diagrams/B3 ClassDiagram.png> <G:
-/uni/COS301/prog/SourceTree/latexFiles/Diagrams/B3 UseCase.png>]
+[34 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Andrew/B3ClassDiagram.png> <C:/U
+sers/Andrew/Desktop/New_Repo/Diagrams/Andrew/B3UseCase.png>]
+<../Diagrams/Andrew/B3Activity.png, id=331, 460.72125pt x 274.77657pt>
+File: ../Diagrams/Andrew/B3Activity.png Graphic file (type png)
 
-LaTeX Warning: File `Diagrams/B3 Activity.png' not found on input line 356.
-
-<Diagrams/B3 Activity.png, id=198, 460.72125pt x 274.77657pt>
-File: Diagrams/B3 Activity.png Graphic file (type png)
-
-<use Diagrams/B3 Activity.png>
-Package pdftex.def Info: Diagrams/B3 Activity.png used on input line 356.
+<use ../Diagrams/Andrew/B3Activity.png>
+Package pdftex.def Info: ../Diagrams/Andrew/B3Activity.png used on input line 7
+16.
 (pdftex.def)             Requested size: 230.36006pt x 137.38794pt.
- [17 <G:/uni/COS301/prog/SourceTree/latexFiles/Diagrams/B3 Activity.png>] [18] 
-[19] [20]
-Overfull \hbox (0.55753pt too wide) in paragraph at lines 524--528
-[]\OT1/cmr/bx/n/10.95 Use case Pri-or-i-ti-za-tion: \OT1/cmr/m/n/10.95 Im-por-t
-ant \OT1/cmr/bx/n/10.95 Use case/Service Con-tracts: 
- []
-
-[21] [22]
-Underfull \hbox (badness 10000) in paragraph at lines 617--621
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 622--624
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 637--639
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 637--639
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 637--639
-
- []
-
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 640--641
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 640--641
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 641--643
-
- []
-
-[24]
+ [35 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Andrew/B3Activity.png>] [36] [3
+7] [38] [39] [40]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [25]
-<../Diagrams/Tienie/InputOutput.jpg, id=276, 824.07875pt x 231.86626pt>
-File: ../Diagrams/Tienie/InputOutput.jpg Graphic file (type jpg)
-
-<use ../Diagrams/Tienie/InputOutput.jpg>
-Package pdftex.def Info: ../Diagrams/Tienie/InputOutput.jpg used on input line 
-690.
+ [41]
+<../Diagrams/Tienie/Plagiarism/InputOutput.jpg, id=384, 824.07875pt x 231.86626
+pt>
+File: ../Diagrams/Tienie/Plagiarism/InputOutput.jpg Graphic file (type jpg)
+ <use ../Diagrams/Tienie/Plagiarism/InputOutput.jpg>
+Package pdftex.def Info: ../Diagrams/Tienie/Plagiarism/InputOutput.jpg used on 
+input line 956.
 (pdftex.def)             Requested size: 412.03836pt x 115.93283pt.
 
-Overfull \hbox (103.50345pt too wide) in paragraph at lines 690--691
- [] 
+Overfull \hbox (52.03836pt too wide) in paragraph at lines 956--957
+[][] 
  []
 
-<../Diagrams/Tienie/UseCase.jpg, id=277, 1035.87pt x 546.04pt>
-File: ../Diagrams/Tienie/UseCase.jpg Graphic file (type jpg)
+<../Diagrams/Tienie/Plagiarism/UseCase.jpg, id=385, 1035.87pt x 546.04pt>
+File: ../Diagrams/Tienie/Plagiarism/UseCase.jpg Graphic file (type jpg)
 
-<use ../Diagrams/Tienie/UseCase.jpg>
-Package pdftex.def Info: ../Diagrams/Tienie/UseCase.jpg used on input line 695.
-
+<use ../Diagrams/Tienie/Plagiarism/UseCase.jpg>
+Package pdftex.def Info: ../Diagrams/Tienie/Plagiarism/UseCase.jpg used on inpu
+t line 961.
 (pdftex.def)             Requested size: 414.34065pt x 218.41212pt.
 
-Overfull \hbox (81.71571pt too wide) in paragraph at lines 695--696
- [] 
+Overfull \hbox (54.34065pt too wide) in paragraph at lines 961--962
+[][] 
  []
 
-[26 <G:/uni/COS301/prog/SourceTree/Diagrams/Tienie/InputOutput.jpg> <G:/uni/COS
-301/prog/SourceTree/Diagrams/Tienie/UseCase.jpg>]
-<../Diagrams/Tienie/Activity.jpg, id=283, 1021.8175pt x 626.34pt>
-File: ../Diagrams/Tienie/Activity.jpg Graphic file (type jpg)
+[42 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Tienie/Plagiarism/InputOutput.jp
+g> <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Tienie/Plagiarism/UseCase.jpg>]
+<../Diagrams/Tienie/Plagiarism/Activity.jpg, id=392, 1021.8175pt x 626.34pt>
+File: ../Diagrams/Tienie/Plagiarism/Activity.jpg Graphic file (type jpg)
 
-<use ../Diagrams/Tienie/Activity.jpg>
-Package pdftex.def Info: ../Diagrams/Tienie/Activity.jpg used on input line 700
-.
+<use ../Diagrams/Tienie/Plagiarism/Activity.jpg>
+Package pdftex.def Info: ../Diagrams/Tienie/Plagiarism/Activity.jpg used on inp
+ut line 966.
 (pdftex.def)             Requested size: 408.71976pt x 250.53156pt.
 
-Overfull \hbox (76.09482pt too wide) in paragraph at lines 700--701
- [] 
+Overfull \hbox (48.71976pt too wide) in paragraph at lines 966--967
+[][] 
  []
 
-[27 <G:/uni/COS301/prog/SourceTree/Diagrams/Tienie/Activity.jpg>] [28]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 718.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 718.
+[43 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Tienie/Plagiarism/Activity.jpg>]
+[44]
+<../Diagrams/Tienie/Netiquette/NetInputOutput.jpg, id=405, 1192.455pt x 728.722
+5pt>
+File: ../Diagrams/Tienie/Netiquette/NetInputOutput.jpg Graphic file (type jpg)
+ <use ../Diagrams/Tienie/Netiquette/NetInputOutput.jpg>
+Package pdftex.def Info: ../Diagrams/Tienie/Netiquette/NetInputOutput.jpg used 
+on input line 1007.
+(pdftex.def)             Requested size: 417.36551pt x 255.05669pt.
 
-(G:\uni\COS301\prog\SourceTree\latexFiles\testFileLaTex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 718.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 718.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 718.
+Overfull \hbox (57.36551pt too wide) in paragraph at lines 1007--1008
+[][] 
+ []
+
+[45 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Tienie/Netiquette/NetInputOutput
+.jpg>]
+<../Diagrams/Tienie/Netiquette/NetUseCase.jpg, id=410, 1218.5525pt x 881.2925pt
+>
+File: ../Diagrams/Tienie/Netiquette/NetUseCase.jpg Graphic file (type jpg)
+ <use ../Diagrams/Tienie/Netiquette/NetUseCase.jpg>
+Package pdftex.def Info: ../Diagrams/Tienie/Netiquette/NetUseCase.jpg used on i
+nput line 1013.
+(pdftex.def)             Requested size: 426.49977pt x 308.45699pt.
+
+Overfull \hbox (66.49977pt too wide) in paragraph at lines 1013--1014
+[][] 
+ []
+
+[46 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Tienie/Netiquette/NetUseCase.jpg
+>]
+<../Diagrams/Tienie/Netiquette/NetProcessDiagram.jpg, id=416, 1048.91875pt x 66
+4.4825pt>
+File: ../Diagrams/Tienie/Netiquette/NetProcessDiagram.jpg Graphic file (type jp
+g)
+ <use ../Diagrams/Tienie/Netiquette/NetProcessDiagram.jpg>
+Package pdftex.def Info: ../Diagrams/Tienie/Netiquette/NetProcessDiagram.jpg us
+ed on input line 1018.
+(pdftex.def)             Requested size: 419.56006pt x 265.78828pt.
+
+Overfull \hbox (59.56006pt too wide) in paragraph at lines 1018--1019
+[][] 
+ []
+
+[47 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Tienie/Netiquette/NetProcessDiag
+ram.jpg>] [48]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1036.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1036.
+ (C:\Users\Andrew\Desktop\New_Repo\latexFiles\testFileLaTex.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1036.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1036.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1036.
  ) 
 Here is how much of TeX's memory you used:
- 5454 strings out of 493921
- 81391 string characters out of 3144873
- 160239 words of memory out of 3000000
- 8585 multiletter control sequences out of 15000+200000
+ 6381 strings out of 493921
+ 98793 string characters out of 3144873
+ 174338 words of memory out of 3000000
+ 9409 multiletter control sequences out of 15000+200000
  9192 words of font info for 32 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 29i,5n,30p,486b,569s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,7n,34p,530b,574s stack positions out of 5000i,500n,10000p,200000b,50000s
 <G:/uni/COS301/MikTex Full install/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <G:/uni/COS301/MikTex Full install/fonts/type1/public/amsfonts/cm/cmbx12.pfb><G
 :/uni/COS301/MikTex Full install/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><G:
@@ -1112,10 +848,9 @@ i/COS301/MikTex Full install/fonts/type1/public/amsfonts/cm/cmr12.pfb><G:/uni/C
 OS301/MikTex Full install/fonts/type1/public/amsfonts/cm/cmsy10.pfb><G:/uni/COS
 301/MikTex Full install/fonts/type1/public/amsfonts/cm/cmti10.pfb><G:/uni/COS30
 1/MikTex Full install/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on testFileLaTex.pdf (29 pages, 1874424 bytes).
+Output written on testFileLaTex.pdf (49 pages, 4028651 bytes).
 PDF statistics:
- 469 PDF objects out of 1000 (max. 8388607)
- 137 named destinations out of 1000 (max. 500000)
- 370 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 594 PDF objects out of 1000 (max. 8388607)
+ 174 named destinations out of 1000 (max. 500000)
+ 427 words of extra memory for PDF output out of 10000 (max. 10000000)
 
->>>>>>> 877f2ca9b1be5fa0decf7388aa7340fdd8e0e843
