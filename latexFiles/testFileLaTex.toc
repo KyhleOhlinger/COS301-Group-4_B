@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \contentsline {section}{\numberline {1}Introduction}{3}{section.1}
 \contentsline {section}{\numberline {2}Vision}{3}{section.2}
 \contentsline {section}{\numberline {3}Background and System Description}{3}{section.3}
@@ -30,3 +31,34 @@
 \contentsline {subsubsection}{\numberline {6.4.1}Point 1: }{41}{subsubsection.6.4.1}
 \contentsline {subsubsection}{\numberline {6.4.2}Point 2: }{44}{subsubsection.6.4.2}
 \contentsline {subsection}{\numberline {6.5}name}{48}{subsection.6.5}
+=======
+\contentsline {section}{\numberline {1}Introduction}{5}{section.1}
+\contentsline {section}{\numberline {2}Vision}{5}{section.2}
+\contentsline {section}{\numberline {3}Background and System Description}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Related Project}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}System Environment}{6}{subsection.3.2}
+\contentsline {section}{\numberline {4}The Stakeholders}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}The Client}{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}The customers}{6}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Maintenance Users}{6}{subsection.4.3}
+\contentsline {section}{\numberline {5}Functional Requirements}{7}{section.5}
+\contentsline {subsection}{\numberline {5.1}Scope and Limitations/Exclusions}{7}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Required Functionality}{7}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Use case Prioritization}{20}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Process Specifications}{21}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Domain Model}{28}{subsection.5.5}
+\contentsline {section}{\numberline {6}Temporary Space}{29}{section.6}
+\contentsline {subsection}{\numberline {6.1}Andrew}{29}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Sifiso}{30}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Point 1:}{30}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Point 2:}{30}{subsubsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.3}Point 3:}{31}{subsubsection.6.2.3}
+\contentsline {subsubsection}{\numberline {6.2.4}Point 4:}{31}{subsubsection.6.2.4}
+\contentsline {subsection}{\numberline {6.3}Matthew}{33}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}Point 1:}{33}{subsubsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.2}Point 2:}{33}{subsubsection.6.3.2}
+\contentsline {subsection}{\numberline {6.4}Tienie}{35}{subsection.6.4}
+\contentsline {subsubsection}{\numberline {6.4.1}Point 1: }{35}{subsubsection.6.4.1}
+\contentsline {subsubsection}{\numberline {6.4.2}Point 2: }{38}{subsubsection.6.4.2}
+\contentsline {subsection}{\numberline {6.5}name}{42}{subsection.6.5}
+>>>>>>> f1a1ef1bdf25584c000fe97847e06447ac75cf34
