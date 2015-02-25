@@ -64,12 +64,10 @@ The scope of the Buzz System project can be encapsulated as a solution that allo
 \end{itemize}
 The system shall be designed primarily for use by lecturers, teaching
 assistants, and students for the core purpose of engaging in activities related to learning the content of specific modules, and increasing the participation, and consequently deeper understanding of the modules at hand. \newline
-\textbf{Limitations/Exclusions: } \newline
 
 \subsection{Required Functionality}
 The following system processes describe the functional requirements of the system.
 \begin{enumerate}
-\graphicspath{ {../Diagrams/Kyhle/Use_Case_Diagrams/} }
 
 \item CRUD Operations:
 	\begin{itemize}
@@ -133,11 +131,18 @@ The following system processes describe the functional requirements of the syste
 		\end{itemize}
 	
 	\end{itemize}
-	
+\graphicspath{ {../Diagrams/Kyhle/Use_Case_Diagrams/} }	
 	\begin{figure}[H]	
     	\includegraphics[scale=0.5]{CRUD.jpg}
     	\caption{CRUD Use case diagram}
 	\end{figure}
+	
+\graphicspath{ {../Diagrams/Kyhle/Activity_Diagrams/} }
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{CRUD.jpg}
+    	\caption{CRUD Activity diagram}
+	\end{figure}
+
 	
 \item Tracking read and unread messages:
 \begin{itemize}
@@ -162,9 +167,16 @@ The system must keep track of who has read what, and highlight unread messages f
 
 \end{itemize}
 
+\graphicspath{ {../Diagrams/Kyhle/Use_Case_Diagrams/} }	  	
 \begin{figure}[H]	
     	\includegraphics[scale=0.5]{messageTracking.jpg}
     	\caption{Message Tracking Use case diagram}
+	\end{figure}
+	
+\graphicspath{ {../Diagrams/Kyhle/Activity_Diagrams/} }	    	
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{messageTracking.jpg}
+    	\caption{Message Tracking Activity diagram}
 	\end{figure}
 	
 \item Message Restrictions: 
@@ -190,6 +202,13 @@ Message length should be restricted. Content type should also be restricted base
 	\item Post may not have been created due to some error.
 	\end{itemize}
 \end{itemize}
+
+\graphicspath{ {../Diagrams/Kyhle/Use_Case_Diagrams/} }	    	
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{messageRestrictions.jpg}
+    	\caption{Message Restrictions Activity diagram}
+	\end{figure}
+\graphicspath{ {../Diagrams/Kyhle/Activity_Diagrams/} }
 	\begin{figure}[H]	
     	\includegraphics[scale=0.5]{messageRestrictions.jpg}
     	\caption{Message Restrictions Use case diagram}
@@ -498,22 +517,7 @@ Users will be limited to 4 filter categories, namely: topic, date posted/last up
 
 \subsection{Process Specifications}
 Requirements around the processes which needs to be followed regarding the use cases: \newline
-\graphicspath{ {../Diagrams/Kyhle/Activity_Diagrams/} }
-	\begin{figure}[H]	
-    	\includegraphics[scale=0.5]{CRUD.jpg}
-    	\caption{CRUD Activity diagram}
-	\end{figure}
-    	
-	\begin{figure}[H]	
-    	\includegraphics[scale=0.5]{messageTracking.jpg}
-    	\caption{Message Tracking Activity diagram}
-	\end{figure}
-	
-	\begin{figure}[H]	
-    	\includegraphics[scale=0.5]{messageRestrictions.jpg}
-    	\caption{Message Restrictions Activity diagram}
-	\end{figure}
-	
+
 	\graphicspath{ {../Diagrams/Sphe/Search&Filter/} }
 	  \begin{figure}[H]	
     	\includegraphics[scale=0.65]{ActivityDiagram.jpg}
