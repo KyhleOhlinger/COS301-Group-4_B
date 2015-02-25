@@ -337,8 +337,82 @@ inform about a new comment on the buzz space user commented
     	\caption{Read later section Use case diagram}
 	\end{figure}
 
-\item 
-\item
+\item \textbf{Template messages }
+\begin{itemize}
+\item \textbf{Purpose: }The management staff must be able to send template messages automatically to individual users or specified groups. These messages would typically be welcoming messages or notification messages. 
+
+	\item  \textbf{Limitation/Exclusions: }
+Staff members must be able to add new templates. The staff member should be able to select the reciever(s) based on certain properties.
+
+\item \textbf{Importance:} Nice to have\newline
+\textbf{Pre-Conditions: }
+	\begin{itemize}
+		\item The reciever must be registered to the buzz system.
+		\item The sender must be registered as a staff member.
+		\item The system must be able to select a cetain group based on specific information, to send the group message to.
+
+	\end{itemize}
+
+\textbf{Post-Conditions: }
+	\begin{itemize}
+		\item The user must be alerted of the message.
+		\item The user must not be able to reply to the message.
+		\item The user must be able to delete the messages.
+		\item The user must not be able to see what other users have received the same message via group messaging.
+	\end{itemize}
+\end{itemize}
+
+	
+
+\item \textbf{Status Updating}
+\begin{itemize}
+\item \textbf{Purpose: }The system must automatically change the status of a user based on his participation. The system award point to the user based on his actions, these points are then added and influence the users level. The user may lose points for "bad behaviour" and may win points for participation.
+ 
+
+	\item  \textbf{Limitation/Exclusions: } The status may only change after an action is performed.
+
+\item \textbf{Importance:} Important \newline
+\textbf{Pre-Conditions: }
+	\begin{itemize}
+		\item The user must be registered to the buzz system.
+		\item The user must be logged in for his status to be affected by his participation.
+
+	\end{itemize}
+
+\textbf{Post-Conditions: }
+	\begin{itemize}
+		\item The users points change and as a result of this, his level may change.
+		\item The users level, and therefore his privileges, may change when his status change.
+		\item The user must be able to view his status.
+		\item The users stutus is public.
+	\end{itemize}
+\end{itemize}
+
+\item \textbf{Integrate with host site}
+\begin{itemize}
+\item \textbf{Purpose: }The system must be able to integrate with a specified host site.
+ 
+%	\item  \textbf{Limitation/Exclusions: }
+
+\item \textbf{Importance:} Critical \newline
+\textbf{Pre-Conditions: }
+	\begin{itemize}
+		\item The host site must support the technologies of the BuzzSpace system.
+		\item TheBuzzSpace sytem must support the technologies of the host site.
+
+	\end{itemize}
+
+\textbf{Post-Conditions: }
+	\begin{itemize}
+		\item The system creates the BuzzSpace.
+		\item All the data that is on the host site are integrated into the new BuzzSpace.
+		\item The users are registered.
+		\item The BuzzSpace is stored.
+		\item User levels are added.
+	\end{itemize}
+\end{itemize}
+
+
 \item \textbf{Search and Filter }
 \begin{itemize}
 \item \textbf{Purpose: }The website will allow users to search the website for topics and buzz spaces, and then filter those search results by various categories. \newline \newline
@@ -614,87 +688,7 @@ All users will have this feature by default
 
 \newpage
 
-\subsection{Maret}
 
-\subsubsection{Point 1:}
-\begin{enumerate}
-\item 
-\textbf{Scope}
- The management staff must be able to send template messages automatically to individual users or specified groups, like a welcomming message or a notification messages. 
-\newline
-\textbf{Limitations/exclusions:} Staff members must be able to add new templates. The Staff member should be able to select the reciever(s) based on certain properties.
-\item
-\textbf{Use case Prioritization:} Nice-to-have
-\textbf{Use case/Service Contracts:} 
-\newline
-\textbf{Pre-Conditions: }
-\begin{itemize}
-\item The user must be registered to the buzz system.
-\item The message template should exist.
-\item The system must be able to select a cetain group based on specific information, to send the group message to.
-\end{itemize}
- \textbf{Post-Conditions: }
-\begin{itemize}
-\item The user must be alerted of the message.
-\item The user must not be albe to reply to the message.
-\item The user must be able to delete the messages.
-\item The user must not be able to see what other users have received the same message via group messaging.
-\end{itemize}
-\end{enumerate}
-
-\subsubsection{Point 2:}
-\begin{enumerate}
-\item 
-\textbf{Scope}
-The system must automatically change the status of a user based on his participation. The system award point to the user based on his actions, these points are then added and influence the users level.The user may lose points for "bad behaviour" and may win points for participation.
-\newline
-\textbf{Limitations/exclusions:} The status may only change after an action is performed.
-\item
-\textbf{Use case Prioritization:} Important
-\textbf{Use case/Service Contracts:} 
-\newline
-\textbf{Pre-Conditions: }
-\begin{itemize}
-\item The user must be registered to the buzz system.
-\item The user must be logged in for his status to be affected by his participation.
-\item The users current status will be updated
-\end{itemize}
- \textbf{Post-Conditions: }
-\begin{itemize}
-\item The users privileges may change when his status change.
-\item The users points change and as a result of this, his level may change.
-\item The user must be able to view his status.
-\item The users stutus is public.
-\end{itemize}
-\end{enumerate}
-
-\subsubsection{Point 3:}
-\begin{enumerate}
-\item 
-\textbf{Scope}
-The system must be able to integrate with a specified host site.
-\newline
-\textbf{Limitations/exclusions:}
-\item
-\textbf{Use case Prioritization:} Critical
-\textbf{Use case/Service Contracts:} 
-\newline
-\textbf{Pre-Conditions: }
-\begin{itemize}
-\item The host site must support the technologies of the BuzzSpace system.
-\item TheBuzzSpace sytem must support the technologies of the host site.
-\item 
-\end{itemize}
- \textbf{Post-Conditions: }
-\begin{itemize}
-\item The System creates the BuzzSpace.
-\item All the data that is on the host site are integrated into the new BuzzSpace.
-\item The users are registered.
-\item The BuzzSpace is stored.
-\item User levels are added.
-
-\end{itemize}
-\end{enumerate}
 
 
 \subsection{Matthew}
