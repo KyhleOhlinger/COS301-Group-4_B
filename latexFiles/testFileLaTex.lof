@@ -1,108 +1,59 @@
-<<<<<<< HEAD
-\contentsline {figure}{\numberline {1}{\ignorespaces CRUD Use case diagram}}{7}{figure.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces CRUD Activity diagram}}{8}{figure.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Message Tracking Use case diagram}}{9}{figure.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Message Tracking Activity diagram}}{9}{figure.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Message Restrictions Activity diagram}}{10}{figure.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Message Restrictions Use case diagram}}{11}{figure.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Social Tag User case diagram}}{12}{figure.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Self organise User case diagram}}{13}{figure.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Buzz Tag Use case diagram}}{14}{figure.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Read later section Use case diagram}}{16}{figure.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Template Message Use Case Diagram}}{17}{figure.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Template Message Activity Diagram}}{17}{figure.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Template Message Class Diagram}}{17}{figure.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Update Status Use Case Diagram}}{18}{figure.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces Update Status Activity Diagram}}{19}{figure.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces Update Status Class Diagram}}{19}{figure.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces Integrate with host site use case diagram}}{20}{figure.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces Integrate with host site activity diagram}}{20}{figure.18}
-\contentsline {figure}{\numberline {19}{\ignorespaces Integrate with host site class diagram}}{21}{figure.19}
-\contentsline {figure}{\numberline {20}{\ignorespaces Search and Filter Use case diagram}}{22}{figure.20}
-\contentsline {figure}{\numberline {21}{\ignorespaces Search and Filter Activity Diagram}}{23}{figure.21}
-\contentsline {figure}{\numberline {22}{\ignorespaces Search and Filter Class Diagram}}{23}{figure.22}
-\contentsline {figure}{\numberline {23}{\ignorespaces Post Rating Use case diagram}}{25}{figure.23}
-\contentsline {figure}{\numberline {24}{\ignorespaces Post Rating Activity Diagram}}{26}{figure.24}
-\contentsline {figure}{\numberline {25}{\ignorespaces Post Rating Class Diagram}}{26}{figure.25}
-\contentsline {figure}{\numberline {26}{\ignorespaces Statistical information Class Diagram}}{27}{figure.26}
-\contentsline {figure}{\numberline {27}{\ignorespaces Statistical information Activity Diagram}}{28}{figure.27}
-\contentsline {figure}{\numberline {28}{\ignorespaces Statistical information Use case Diagram}}{29}{figure.28}
-\contentsline {figure}{\numberline {29}{\ignorespaces Post Markup class Diagram}}{30}{figure.29}
-\contentsline {figure}{\numberline {30}{\ignorespaces Post Markup Activity Diagram}}{31}{figure.30}
-\contentsline {figure}{\numberline {31}{\ignorespaces Statistical information Use case Diagram}}{32}{figure.31}
-\contentsline {figure}{\numberline {32}{\ignorespaces Social Tag Activity Diagram}}{33}{figure.32}
-\contentsline {figure}{\numberline {33}{\ignorespaces Buzz Tag Activity Diagram}}{34}{figure.33}
-\contentsline {figure}{\numberline {34}{\ignorespaces Self organise Activity Diagram}}{35}{figure.34}
-\contentsline {figure}{\numberline {35}{\ignorespaces Read later section Activity Diagram}}{36}{figure.35}
-\contentsline {figure}{\numberline {36}{\ignorespaces Complete System Domain Model}}{37}{figure.36}
-=======
 \contentsline {figure}{\numberline {1}{\ignorespaces CRUD Use case diagram}}{8}{figure.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces CRUD Activity diagram}}{9}{figure.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Message Tracking Use case diagram}}{10}{figure.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Message Tracking Activity diagram}}{10}{figure.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Message Restrictions Activity diagram}}{11}{figure.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Message Restrictions Use case diagram}}{12}{figure.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Restricting users posts Use case diagram}}{13}{figure.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Post restriction Activity diagram}}{14}{figure.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Post restriction Class diagram}}{14}{figure.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Staff updaing posts Use case diagram}}{16}{figure.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Staff Message updating Activity diagram}}{17}{figure.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Staff Message updating Class diagram}}{17}{figure.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Semi-automatic summaries Use case diagram}}{19}{figure.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Semi-automatic summaries Activity diagram}}{19}{figure.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces Semi-automatic summaries Class diagram}}{20}{figure.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces Social Tag User case diagram}}{22}{figure.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces Self organise User case diagram}}{23}{figure.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces Buzz Tag Use case diagram}}{24}{figure.18}
-\contentsline {figure}{\numberline {19}{\ignorespaces Read later section Use case diagram}}{26}{figure.19}
-\contentsline {figure}{\numberline {20}{\ignorespaces Template Message Use Case Diagram}}{27}{figure.20}
-\contentsline {figure}{\numberline {21}{\ignorespaces Template Message Activity Diagram}}{27}{figure.21}
-\contentsline {figure}{\numberline {22}{\ignorespaces Template Message Class Diagram}}{28}{figure.22}
-\contentsline {figure}{\numberline {23}{\ignorespaces Update Status Use Case Diagram}}{29}{figure.23}
-\contentsline {figure}{\numberline {24}{\ignorespaces Update Status Activity Diagram}}{29}{figure.24}
-\contentsline {figure}{\numberline {25}{\ignorespaces Update Status Class Diagram}}{29}{figure.25}
-\contentsline {figure}{\numberline {26}{\ignorespaces Integrate with host site use case diagram}}{30}{figure.26}
-\contentsline {figure}{\numberline {27}{\ignorespaces Integrate with host site activity diagram}}{31}{figure.27}
-\contentsline {figure}{\numberline {28}{\ignorespaces Integrate with host site class diagram}}{31}{figure.28}
-\contentsline {figure}{\numberline {29}{\ignorespaces Search and Filter Use case diagram}}{32}{figure.29}
-\contentsline {figure}{\numberline {30}{\ignorespaces Search and Filter Activity Diagram}}{33}{figure.30}
-\contentsline {figure}{\numberline {31}{\ignorespaces Search and Filter Class Diagram}}{33}{figure.31}
-\contentsline {figure}{\numberline {32}{\ignorespaces Post Rating Use case diagram}}{35}{figure.32}
-\contentsline {figure}{\numberline {33}{\ignorespaces Post Rating Activity Diagram}}{36}{figure.33}
-\contentsline {figure}{\numberline {34}{\ignorespaces Post Rating Class Diagram}}{36}{figure.34}
-\contentsline {figure}{\numberline {35}{\ignorespaces Statistical information Use case Diagram}}{38}{figure.35}
-\contentsline {figure}{\numberline {36}{\ignorespaces Statistical information Activity Diagram}}{39}{figure.36}
-\contentsline {figure}{\numberline {37}{\ignorespaces Statistical information Class Diagram}}{39}{figure.37}
-\contentsline {figure}{\numberline {38}{\ignorespaces Statistical information Use case Diagram}}{41}{figure.38}
-\contentsline {figure}{\numberline {39}{\ignorespaces Post Markup Activity Diagram}}{42}{figure.39}
-\contentsline {figure}{\numberline {40}{\ignorespaces Post Markup class Diagram}}{43}{figure.40}
-<<<<<<< HEAD
-\contentsline {figure}{\numberline {41}{\ignorespaces Plagiarism Checker Class Diagrams}}{45}{figure.41}
-\contentsline {figure}{\numberline {42}{\ignorespaces Plagiarism Checker Use Case Diagram}}{45}{figure.42}
-\contentsline {figure}{\numberline {43}{\ignorespaces Plagiarism Checker Activity Diagram}}{46}{figure.43}
-\contentsline {figure}{\numberline {44}{\ignorespaces Netiquette Checker Class Diagram}}{48}{figure.44}
-\contentsline {figure}{\numberline {45}{\ignorespaces Netiquette Checker Use Case}}{49}{figure.45}
-\contentsline {figure}{\numberline {46}{\ignorespaces Netiquette Checker Activity Diagram}}{50}{figure.46}
-\contentsline {figure}{\numberline {47}{\ignorespaces CRUD Activity diagram}}{51}{figure.47}
-\contentsline {figure}{\numberline {48}{\ignorespaces Message Tracking Activity diagram}}{52}{figure.48}
-\contentsline {figure}{\numberline {49}{\ignorespaces Message Restrictions Activity diagram}}{52}{figure.49}
-\contentsline {figure}{\numberline {50}{\ignorespaces Search and Filter Activity Diagram}}{53}{figure.50}
-\contentsline {figure}{\numberline {51}{\ignorespaces Post Rating Use Activity Diagram}}{54}{figure.51}
-\contentsline {figure}{\numberline {52}{\ignorespaces Social Tag Activity Diagram}}{55}{figure.52}
-\contentsline {figure}{\numberline {53}{\ignorespaces Buzz Tag Activity Diagram}}{56}{figure.53}
-\contentsline {figure}{\numberline {54}{\ignorespaces Self organise Activity Diagram}}{57}{figure.54}
-\contentsline {figure}{\numberline {55}{\ignorespaces Read later section Activity Diagram}}{58}{figure.55}
-\contentsline {figure}{\numberline {56}{\ignorespaces Complete System Domain Model}}{59}{figure.56}
-=======
-\contentsline {figure}{\numberline {41}{\ignorespaces CRUD Activity diagram}}{44}{figure.41}
-\contentsline {figure}{\numberline {42}{\ignorespaces Message Tracking Activity diagram}}{45}{figure.42}
-\contentsline {figure}{\numberline {43}{\ignorespaces Message Restrictions Activity diagram}}{45}{figure.43}
-\contentsline {figure}{\numberline {44}{\ignorespaces Search and Filter Activity Diagram}}{46}{figure.44}
-\contentsline {figure}{\numberline {45}{\ignorespaces Post Rating Use Activity Diagram}}{47}{figure.45}
-\contentsline {figure}{\numberline {46}{\ignorespaces Social Tag Activity Diagram}}{48}{figure.46}
-\contentsline {figure}{\numberline {47}{\ignorespaces Buzz Tag Activity Diagram}}{49}{figure.47}
-\contentsline {figure}{\numberline {48}{\ignorespaces Self organise Activity Diagram}}{50}{figure.48}
-\contentsline {figure}{\numberline {49}{\ignorespaces Read later section Activity Diagram}}{51}{figure.49}
-\contentsline {figure}{\numberline {50}{\ignorespaces Complete System Domain Model}}{52}{figure.50}
->>>>>>> a408a99323636ace0bea08e151886342de77f948
->>>>>>> 2d3b2924503beac1082f62828aeb347b3e7a1152
+\contentsline {figure}{\numberline {2}{\ignorespaces CRUD Use case diagram}}{8}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces CRUD Activity diagram}}{9}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Message Tracking Use case diagram}}{10}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Message Tracking Use case diagram}}{10}{figure.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Message Tracking Activity diagram}}{11}{figure.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Message Restrictions Activity diagram}}{12}{figure.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Message Restrictions Activity diagram}}{12}{figure.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Message Restrictions Use case diagram}}{13}{figure.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Restricting users posts Use case diagram}}{14}{figure.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Post restriction Activity diagram}}{15}{figure.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Post restriction Class diagram}}{15}{figure.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Staff updaing posts Use case diagram}}{17}{figure.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Staff Message updating Activity diagram}}{18}{figure.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Staff Message updating Class diagram}}{18}{figure.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Semi-automatic summaries Use case diagram}}{20}{figure.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Semi-automatic summaries Activity diagram}}{20}{figure.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Semi-automatic summaries Class diagram}}{21}{figure.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Social Tag User case diagram}}{23}{figure.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Self organise User case diagram}}{24}{figure.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Buzz Tag Use case diagram}}{25}{figure.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Read later section Use case diagram}}{27}{figure.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Template Message Use Case Diagram}}{28}{figure.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Template Message Activity Diagram}}{28}{figure.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Template Message Class Diagram}}{29}{figure.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces Update Status Use Case Diagram}}{30}{figure.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces Update Status Activity Diagram}}{30}{figure.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces Update Status Class Diagram}}{30}{figure.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces Integrate with host site use case diagram}}{31}{figure.29}
+\contentsline {figure}{\numberline {30}{\ignorespaces Integrate with host site activity diagram}}{32}{figure.30}
+\contentsline {figure}{\numberline {31}{\ignorespaces Integrate with host site class diagram}}{32}{figure.31}
+\contentsline {figure}{\numberline {32}{\ignorespaces Search and Filter Use case diagram}}{33}{figure.32}
+\contentsline {figure}{\numberline {33}{\ignorespaces Search and Filter Activity Diagram}}{34}{figure.33}
+\contentsline {figure}{\numberline {34}{\ignorespaces Search and Filter Class Diagram}}{34}{figure.34}
+\contentsline {figure}{\numberline {35}{\ignorespaces Post Rating Use case diagram}}{36}{figure.35}
+\contentsline {figure}{\numberline {36}{\ignorespaces Post Rating Activity Diagram}}{37}{figure.36}
+\contentsline {figure}{\numberline {37}{\ignorespaces Post Rating Class Diagram}}{37}{figure.37}
+\contentsline {figure}{\numberline {38}{\ignorespaces Statistical information Class Diagram}}{38}{figure.38}
+\contentsline {figure}{\numberline {39}{\ignorespaces Statistical information Activity Diagram}}{39}{figure.39}
+\contentsline {figure}{\numberline {40}{\ignorespaces Statistical information Use case Diagram}}{40}{figure.40}
+\contentsline {figure}{\numberline {41}{\ignorespaces Post Markup class Diagram}}{41}{figure.41}
+\contentsline {figure}{\numberline {42}{\ignorespaces Post Markup Activity Diagram}}{42}{figure.42}
+\contentsline {figure}{\numberline {43}{\ignorespaces Statistical information Use case Diagram}}{43}{figure.43}
+\contentsline {figure}{\numberline {44}{\ignorespaces Plagiarism Checker Class Diagrams}}{45}{figure.44}
+\contentsline {figure}{\numberline {45}{\ignorespaces Plagiarism Checker Use Case Diagram}}{45}{figure.45}
+\contentsline {figure}{\numberline {46}{\ignorespaces Plagiarism Checker Activity Diagram}}{46}{figure.46}
+\contentsline {figure}{\numberline {47}{\ignorespaces Netiquette Checker Class Diagram}}{48}{figure.47}
+\contentsline {figure}{\numberline {48}{\ignorespaces Netiquette Checker Use Case}}{49}{figure.48}
+\contentsline {figure}{\numberline {49}{\ignorespaces Netiquette Checker Activity Diagram}}{50}{figure.49}
+\contentsline {figure}{\numberline {50}{\ignorespaces CRUD Activity diagram}}{51}{figure.50}
+\contentsline {figure}{\numberline {51}{\ignorespaces Message Tracking Activity diagram}}{52}{figure.51}
+\contentsline {figure}{\numberline {52}{\ignorespaces Message Restrictions Activity diagram}}{52}{figure.52}
+\contentsline {figure}{\numberline {53}{\ignorespaces Search and Filter Activity Diagram}}{53}{figure.53}
+\contentsline {figure}{\numberline {54}{\ignorespaces Post Rating Use Activity Diagram}}{54}{figure.54}
+\contentsline {figure}{\numberline {55}{\ignorespaces Social Tag Activity Diagram}}{55}{figure.55}
+\contentsline {figure}{\numberline {56}{\ignorespaces Buzz Tag Activity Diagram}}{56}{figure.56}
+\contentsline {figure}{\numberline {57}{\ignorespaces Self organise Activity Diagram}}{57}{figure.57}
+\contentsline {figure}{\numberline {58}{\ignorespaces Read later section Activity Diagram}}{58}{figure.58}
+\contentsline {figure}{\numberline {59}{\ignorespaces Complete System Domain Model}}{59}{figure.59}
