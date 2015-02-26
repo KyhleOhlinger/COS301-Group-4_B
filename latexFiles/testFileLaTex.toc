@@ -12,13 +12,8 @@
 \contentsline {subsection}{\numberline {5.2}Required Functionality}{6}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Use case Prioritization}{50}{subsection.5.3}
 \contentsline {subsection}{\numberline {5.4}Process Specifications}{51}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Domain Model}{59}{subsection.5.5}
-\contentsline {section}{\numberline {6}Temporary Space}{60}{section.6}
-\contentsline {subsection}{\numberline {6.1}Sifiso}{60}{subsection.6.1}
-\contentsline {subsubsection}{\numberline {6.1.1}Point 1:}{60}{subsubsection.6.1.1}
-\contentsline {subsubsection}{\numberline {6.1.2}Point 2:}{60}{subsubsection.6.1.2}
-\contentsline {subsubsection}{\numberline {6.1.3}Point 3:}{61}{subsubsection.6.1.3}
-\contentsline {subsubsection}{\numberline {6.1.4}Point 4:}{61}{subsubsection.6.1.4}
-\contentsline {subsection}{\numberline {6.2}Matthew}{63}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Point 1:}{63}{subsubsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2}Point 2:}{63}{subsubsection.6.2.2}
+\contentsline {subsection}{\numberline {5.5}Domain Model}{58}{subsection.5.5}
+\contentsline {section}{\numberline {6}Temporary Space}{59}{section.6}
+\contentsline {subsection}{\numberline {6.1}Matthew}{59}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Point 1:}{59}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}Point 2:}{59}{subsubsection.6.1.2}
