@@ -867,44 +867,44 @@ Not all users will be able to use these options. Has to be earned. Certain optio
 	\end{figure}
 
 \item \textbf{Plagiarism Checker}
-\graphicspath{ {../Diagrams/Tienie/Plagiarism/})
-\begin{enumerate}
-\item \textbf{Purpose: }
-This deals with the built in plagiarism checker. It describes the functionality of the plagiarism checker as well as its aims and goals.
-\newline
-\textbf{Limitations:} 
-The plagiarism checker is built into the system, and is thus not an optional feature for users posting. However, the checker may be configurable (i.e. turned on and off) by board administrators.
-\item 	\textbf{Importance: } Nice-To-Have
-\item 	\textbf{Pre-Conditions: }
-		\begin{itemize}
-	  		\item All posts from within the website will need to be available for traversal in text format.
-	  		\item A reference collection of documents assumed to be valid will need to be obtained for traversal in text format.
-	  		\item A similarity threshold will need to be agreed upon.
-	 		\item Access to the Internet (not just Intranet) is a must.
-	  		\item A google Search Engine ID and API Key for getting RESTful results to get web search results for comparison in JSON format (Google Custom Search Engine – 100 Free Search Queries Per Day)
-	  	\end{itemize}
-\item	\textbf{Post-Conditions}
-	  	\begin{itemize}
-	  		\item A moderator must be alerted if the plagiarism percentage surpasses the allowed threshold.
-	  		\item The percentage of plagiarism detected must be alerted to a moderator if it surpasses the threshold.
-	 		\item If plagiarism is detected above the allowed threshold, the post must be highlighted as suspicious.
-	  		\item Unique documents scanned must be added to the repository of reference documents.
-	  	\end{itemize}
-	  	\newpage
-	  		\begin{figure}[H]
-	  			\caption{Plagiarism Checker Class Diagrams}
+\graphicspath{ {../Diagrams/Tienie/Plagiarism/}}
+	\begin{itemize}
+		\item \textbf{Purpose: }
+			This deals with the built in plagiarism checker. It describes the functionality of the plagiarism checker as well as its aims and goals.
+		\newline
+		\item \textbf{Limitations:} 
+		The plagiarism checker is built into the system, and is thus not an optional feature for users posting. However, the checker may be configurable (i.e. turned on and off) by board administrators.
+		\item 	\textbf{Importance: } Nice-To-Have
+		\item 	\textbf{Pre-Conditions: }
+			\begin{itemize}
+	  			\item All posts from within the website will need to be available for traversal in text format.
+	  			\item A reference collection of documents assumed to be valid will need to be obtained for traversal in text format.
+	  			\item A similarity threshold will need to be agreed upon.
+		 		\item Access to the Internet (not just Intranet) is a must.
+		  		\item A google Search Engine ID and API Key for getting RESTful results to get web search results for comparison in JSON format (Google Custom Search Engine – 100 Free Search Queries Per Day)
+		  	\end{itemize}
+		\item	\textbf{Post-Conditions}
+		  	\begin{itemize}
+	  			\item A moderator must be alerted if the plagiarism percentage surpasses the allowed threshold.
+		  		\item The percentage of plagiarism detected must be alerted to a moderator if it surpasses the threshold.
+	 			\item If plagiarism is detected above the allowed threshold, the post must be highlighted as suspicious.
+		  		\item Unique documents scanned must be added to the repository of reference documents.
+		  	\end{itemize}
+		  	\newpage
+	  			\begin{figure}[H]
+	  				\caption{Plagiarism Checker Class Diagrams}
     				\includegraphics[scale=0.5]{InputOutput.jpg}
-			\end{figure}
-			\begin{figure}[H]
-				\caption{Plagiarism Checker Use Case Diagram}
+				\end{figure}
+				\begin{figure}[H]
+					\caption{Plagiarism Checker Use Case Diagram}
 		    		\includegraphics[scale=0.4]{UseCase.jpg}
-			\end{figure}
-			\begin{figure}[H]
-				\caption{Plagiarism Checker Activity Diagram}
+				\end{figure}
+				\begin{figure}[H]
+					\caption{Plagiarism Checker Activity Diagram}
     				\includegraphics[scale=0.4]{Activity.jpg}
-			\end{figure}
+				\end{figure}
 	  	\end{itemize}
-\end{enumerate}
+
 \graphicspath{ {../Diagrams/Tienie/Netiquette/} }
 \newpage
 \item Netiquette Checker 
@@ -950,10 +950,6 @@ The netiquette checker is built into the system, and is thus not an optional fea
 	  			\includegraphics[scale=0.35]{NetProcessDiagram.jpg}
 	  		\end{figure}
 	  	\end{itemize}
-\end{itemize}
-
-
-\item
 
 \end{enumerate}
 
