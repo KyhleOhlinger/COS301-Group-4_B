@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 \contentsline {section}{\numberline {1}Introduction}{3}{section.1}
 \contentsline {section}{\numberline {2}Vision}{3}{section.2}
 \contentsline {section}{\numberline {3}Background and System Description}{3}{section.3}
@@ -11,54 +10,19 @@
 \contentsline {section}{\numberline {5}Functional Requirements}{5}{section.5}
 \contentsline {subsection}{\numberline {5.1}Scope and Limitations/Exclusions}{5}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Required Functionality}{5}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Use case Prioritization}{18}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Process Specifications}{19}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Domain Model}{26}{subsection.5.5}
-\contentsline {section}{\numberline {6}Temporary Space}{27}{section.6}
-\contentsline {subsection}{\numberline {6.1}Andrew}{27}{subsection.6.1}
-\contentsline {subsubsection}{\numberline {6.1.1}Point 1:}{27}{subsubsection.6.1.1}
-\contentsline {subsubsection}{\numberline {6.1.2}Point 2:}{30}{subsubsection.6.1.2}
-\contentsline {subsubsection}{\numberline {6.1.3}Point 3:}{33}{subsubsection.6.1.3}
-\contentsline {subsection}{\numberline {6.2}Sifiso}{36}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Point 1:}{36}{subsubsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2}Point 2:}{36}{subsubsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.3}Point 3:}{37}{subsubsection.6.2.3}
-\contentsline {subsubsection}{\numberline {6.2.4}Point 4:}{37}{subsubsection.6.2.4}
-\contentsline {subsection}{\numberline {6.3}Matthew}{39}{subsection.6.3}
-\contentsline {subsubsection}{\numberline {6.3.1}Point 1:}{39}{subsubsection.6.3.1}
-\contentsline {subsubsection}{\numberline {6.3.2}Point 2:}{39}{subsubsection.6.3.2}
-\contentsline {subsection}{\numberline {6.4}Tienie}{41}{subsection.6.4}
-\contentsline {subsubsection}{\numberline {6.4.1}Point 1: }{41}{subsubsection.6.4.1}
-\contentsline {subsubsection}{\numberline {6.4.2}Point 2: }{44}{subsubsection.6.4.2}
-\contentsline {subsection}{\numberline {6.5}name}{48}{subsection.6.5}
-=======
-\contentsline {section}{\numberline {1}Introduction}{5}{section.1}
-\contentsline {section}{\numberline {2}Vision}{5}{section.2}
-\contentsline {section}{\numberline {3}Background and System Description}{5}{section.3}
-\contentsline {subsection}{\numberline {3.1}Related Project}{6}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}System Environment}{6}{subsection.3.2}
-\contentsline {section}{\numberline {4}The Stakeholders}{6}{section.4}
-\contentsline {subsection}{\numberline {4.1}The Client}{6}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}The customers}{6}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Maintenance Users}{6}{subsection.4.3}
-\contentsline {section}{\numberline {5}Functional Requirements}{7}{section.5}
-\contentsline {subsection}{\numberline {5.1}Scope and Limitations/Exclusions}{7}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Required Functionality}{7}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Use case Prioritization}{20}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Process Specifications}{21}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Domain Model}{28}{subsection.5.5}
-\contentsline {section}{\numberline {6}Temporary Space}{29}{section.6}
-\contentsline {subsection}{\numberline {6.1}Andrew}{29}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Sifiso}{30}{subsection.6.2}
-\contentsline {subsubsection}{\numberline {6.2.1}Point 1:}{30}{subsubsection.6.2.1}
-\contentsline {subsubsection}{\numberline {6.2.2}Point 2:}{30}{subsubsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.3}Point 3:}{31}{subsubsection.6.2.3}
-\contentsline {subsubsection}{\numberline {6.2.4}Point 4:}{31}{subsubsection.6.2.4}
-\contentsline {subsection}{\numberline {6.3}Matthew}{33}{subsection.6.3}
-\contentsline {subsubsection}{\numberline {6.3.1}Point 1:}{33}{subsubsection.6.3.1}
-\contentsline {subsubsection}{\numberline {6.3.2}Point 2:}{33}{subsubsection.6.3.2}
-\contentsline {subsection}{\numberline {6.4}Tienie}{35}{subsection.6.4}
-\contentsline {subsubsection}{\numberline {6.4.1}Point 1: }{35}{subsubsection.6.4.1}
-\contentsline {subsubsection}{\numberline {6.4.2}Point 2: }{38}{subsubsection.6.4.2}
-\contentsline {subsection}{\numberline {6.5}name}{42}{subsection.6.5}
->>>>>>> f1a1ef1bdf25584c000fe97847e06447ac75cf34
+\contentsline {subsection}{\numberline {5.3}Use case Prioritization}{24}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Process Specifications}{25}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Domain Model}{34}{subsection.5.5}
+\contentsline {section}{\numberline {6}Temporary Space}{35}{section.6}
+\contentsline {subsection}{\numberline {6.1}Sifiso}{35}{subsection.6.1}
+\contentsline {subsubsection}{\numberline {6.1.1}Point 1:}{35}{subsubsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.2}Point 2:}{35}{subsubsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.3}Point 3:}{36}{subsubsection.6.1.3}
+\contentsline {subsubsection}{\numberline {6.1.4}Point 4:}{36}{subsubsection.6.1.4}
+\contentsline {subsection}{\numberline {6.2}Matthew}{38}{subsection.6.2}
+\contentsline {subsubsection}{\numberline {6.2.1}Point 1:}{38}{subsubsection.6.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2}Point 2:}{38}{subsubsection.6.2.2}
+\contentsline {subsection}{\numberline {6.3}Tienie}{40}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}Point 1: }{40}{subsubsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.2}Point 2: }{43}{subsubsection.6.3.2}
+\contentsline {subsection}{\numberline {6.4}name}{47}{subsection.6.4}
