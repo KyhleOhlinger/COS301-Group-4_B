@@ -205,8 +205,8 @@ Message length should be restricted. Content type should also be restricted base
 	\begin{itemize}
 	\item Buzz space must exist.
 	\item User must be registered to the buzz system.
-	\item User must have necessary permissions to create posts of a 		certain length or content type.
-	\item Content type and message length must be established by the 		creator of that specific buzz (configurable).
+	\item User must have necessary permissions to create posts of a certain length or content type.
+	\item Content type and message length must be established by the creator of that specific buzz (configurable).
 	\end{itemize}
 
 \textbf{Post-Conditions: }
@@ -265,23 +265,18 @@ Message length should be restricted. Content type should also be restricted base
 
 \item  Restricting users posts depending on user level:
 \begin{itemize}	
-		\item
-		\textbf{Purpose:}
-		\newline
-		Restrict users to post on specified levels based on their status of the user posting the message.
-		\item\textbf{Limitation: }
-		\newline
-		 There is a limit to number of posts per user on each level.
-		 There is a rage of levels from lowest to highest.
+		\item \textbf{Purpose:} Restrict users to post on specified levels based on their status of the user posting the message.
+		\item\textbf{Limitation: }There is a limit to number of posts per user on each level.
+		 There is a range of levels from lowest to highest.
 		 Staff and the creator have no limitations.
-		\item\textbf{Importance:} 
-		\newline Important
+		\item\textbf{Importance:} Important
 
-		\textbf{Pre-Conditions: }
-		\newline
-		 User must be registered to the buzz system.
-	
-		\textbf{Post-Conditions: }
+		\item\textbf{Pre-Conditions: }
+		\begin{itemize}
+			 \item User must be registered to the buzz system.
+		 \end{itemize}
+		 
+		\item\textbf{Post-Conditions: }
 		\begin{itemize}
 			\item Non-registered user:
 			User will not be able to post comment create new threads without acquiring an account.
@@ -295,19 +290,21 @@ Message length should be restricted. Content type should also be restricted base
 		 \end{itemize}
 
 	 \graphicspath{ {../Diagrams/Andrew/} }
-			 \begin{figure}[H]	
-			 	  			\includegraphics[scale=0.5]{B1UseCase.png}
-							\caption{Restricting users posts Use case diagram}
-			 	  		\end{figure}
-
-			 	  				 	  			\begin{figure}[H]	
-			 	  				 	  				\includegraphics[scale=0.5]{B1Activity.png}
-			 	  									\caption{Post restriction Activity diagram}
-			 	  				 	  			\end{figure}
 			\begin{figure}[H]	
-			 	  				 	  						 	  				 	  				\includegraphics[scale=0.5]{B1ClassDiagram.png}
-			 	  				 	  						 	  									\caption{Post restriction Class diagram}
-			 	  				 	  						 	  				 	  			\end{figure}
+			  	\includegraphics[scale=0.5]{B1ClassDiagram.png}
+				\caption{Post Restriction Class Diagram}
+			\end{figure}
+			
+			\begin{figure}[H]	
+			 	\includegraphics[scale=0.5]{B1UseCase.png}
+				\caption{Post Restriction Use Case Diagram}
+			\end{figure}
+
+			\begin{figure}[H]	
+				\includegraphics[scale=0.5]{B1Activity.png}
+				\caption{Post Restriction Activity Diagram}
+			\end{figure}
+
 			 	  		
 	\newpage	 
 		 
@@ -318,29 +315,23 @@ Message length should be restricted. Content type should also be restricted base
 \item Staff Being able to edit user posts and a Buzz Space
 \begin{itemize}	
 	\item 
-	\textbf{Purpose:}
-	\newline
-	Allow staff to manage content i.e. summaries, close or hide threads and move things around.
-	\item\textbf{Limitation: }
-	\newline
-	 Only certain level users can edit other users posts.
+	\textbf{Purpose: }Allow staff to manage content i.e. summaries, close or hide threads and move things around.
+	\item\textbf{Limitation: }Only certain level users can edit other users posts.
 	 Cannot edit other peoples posts that are on higher levels.
-	\item\textbf{Importance:} 
-	\newline
-	Important
+	\item\textbf{Importance:} Important
 		
 
-	\textbf{Pre-Conditions: }
+	\item\textbf{Pre-Conditions: }
 	\begin{itemize}
-		\item User must be registered to the buzz system.
-		\item User must have necessary privileges.
-		\item Users may not edit, move or change another user’s \item posts threads or comments that are on the same or on a higher level that they are.
+		\item The user must be registered to the buzz system.
+		\item The user must have necessary privileges.
+		\item The users may not edit, move or change another user’s posts threads or comments that are on the same or on a higher level that they are.
 	\end{itemize}
 	
-	\textbf{Post-Conditions: }
+	\item\textbf{Post-Conditions: }
 	\begin{itemize}
 		\item Staff or high level users:
-		User may move threads to their relevant categories. Remove unused or unimportant threads. Lock or close threads so users cannot post within them if the to	pic has been already been answered. Post may be edited to fix error or to remove irrelevant data.
+		User may move threads to their relevant categories. Remove unused or unimportant threads. Lock or close threads so users cannot post within them if the topic has been already been answered. Post may be edited to fix error or to remove irrelevant data.
 		\item Medium level user:
 		User may move posts to the relevant threads but may not edit change or update user’s posts.
 		\item Low level and non-registered users:
@@ -349,19 +340,20 @@ Message length should be restricted. Content type should also be restricted base
 	\end{itemize}
 
  \graphicspath{ {../Diagrams/Andrew/} }
-			 \begin{figure}[H]	
-			 	  			\includegraphics[scale=0.5]{B2UseCase.png}
-							\caption{Staff updaing posts Use case diagram}
-			 	  		\end{figure}
-			 	  					 	  		\begin{figure}[H]		
-			 	  					 	  			\includegraphics[scale=0.5]{B2Activity.png}
-			 	  									\caption{Staff Message updating Activity diagram}
-			 	  					 	  		\end{figure}
-			 	  					 	  		
-			 	  					 	  					 	  					 	  		\begin{figure}[H]		
-			 	  					 	  					 	  					 	  			\includegraphics[scale=0.5]{B2ClassDiagram.png}
-			 	  					 	  					 	  									\caption{Staff Message updating Class diagram}
-			 	  					 	  					 	  					 	  		\end{figure}
+	\begin{figure}[H]		
+		\includegraphics[scale=0.5]{B2ClassDiagram.png}
+		\caption{Staff Message Updating Class Diagram}
+	\end{figure}
+	\begin{figure}[H]	
+		\includegraphics[scale=0.5]{B2UseCase.png}
+		\caption{Staff Message Updating Use Case Diagram}
+	\end{figure}
+	\begin{figure}[H]		
+		\includegraphics[scale=0.5]{B2Activity.png}
+		\caption{Staff Message Updating Activity Diagram}
+	\end{figure}
+
+
 			 	  		
 	\newpage
 			
@@ -369,53 +361,54 @@ Message length should be restricted. Content type should also be restricted base
 				
 \end{itemize}	
  \newpage
-Staff Being able to edit user posts
-\item Creating semi-automatic creation of thread summaries.
+%Staff Being able to edit user posts
+\item Semi-automatic creation of thread summaries.
 \begin{itemize}	
 	
 	
 	\item \textbf{Purpose:}
-	\newline
 	Provide functionality to support semi-automatic creation of thread summaries.
 	\item\textbf{Limitation: }
-	\newline
-	 Threads have to be created.
+	Threads have to be created.
 	Threads have to have a rating.
 	Summaries are the reorganization of the thread responses.
 	\item\textbf{Importance:} 
-	\newline
 	Nice-To-Have
 
-	\textbf{Pre-Conditions: }
-	\newline Medium, High and Creator may state whether a certain thread may or may not be summarized.
-	\newline\textbf{Post-Conditions: }
+	\item\textbf{Pre-Conditions: }
 	\begin{itemize}
-		\item When a Thread has been marked for summary then all posts which have been highly rated and important would be moved closer to the top and 	unrelated or unnecessary posts would be move further away from the top to the bottom with all linked comments. 
+		\item Medium, High and Creator may state whether a certain thread may or may not be summarized.
+	\end{itemize}	
+	\item\textbf{Post-Conditions: }
+	\begin{itemize}
+		\item When a thread has been marked for summary then all posts which have been highly rated and important would be moved closer to the top and 	unrelated or unnecessary posts would be move further away from the top to the bottom with all linked comments. 
 		\item High level users may override whether the summarized posts are relevant and can manually move the posts to where they best fit.
 		\item All levels of users are able to rate posts and comments on how important they see the post.
 		\item High level users would get the highest x points per rating.
 		\item Medium level users would get the highest y points per rating.
 		\item Low level users would get the highest z points per rating.
 		\item Non registered users cannot rate posts.
-		All values are configurable by the Creator.
+		All values are configurable by the creator.
 	\end{itemize}
 
  \graphicspath{ {../Diagrams/Andrew/} }
-			 \begin{figure}[H]	
-			 	  			\includegraphics[scale=0.5]{B3UseCase.png}
-							\caption{Semi-automatic summaries Use case diagram}
-			 	  		\end{figure}
-			 	  		
-			 	  					 	  		\begin{figure}[H]	
-			 	  					 	  			\includegraphics[scale=0.5]{B3Activity.png}
-			 	  									\caption{Semi-automatic summaries Activity diagram}
-			 	  					 	  		\end{figure}
-			 	  					 	  		
 			 	  					 	  					 	  		
-			 	  					 	  					 	  					 	  		\begin{figure}[H]	
-			 	  					 	  					 	  					 	  			\includegraphics[scale=0.5]{B3ClassDiagram.png}
-			 	  					 	  					 	  									\caption{Semi-automatic summaries Class diagram}
-			 	  					 	  					 	  					 	  		\end{figure}
+		\begin{figure}[H]	
+			\includegraphics[scale=0.5]{B3ClassDiagram.png}
+			\caption{Semi-automatic Summaries Class Diagram}
+		\end{figure}
+		
+		\begin{figure}[H]	
+			\includegraphics[scale=0.5]{B3UseCase.png}
+			\caption{Semi-automatic Summaries Use Case Diagram}
+		\end{figure}
+			 	  		
+		\begin{figure}[H]	
+			\includegraphics[scale=0.5]{B3Activity.png}
+			\caption{Semi-automatic Summaries Activity Diagram}
+		\end{figure}
+			 	  					 	  		
+
 	\newpage
 			
 			 
