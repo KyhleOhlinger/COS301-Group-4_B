@@ -438,23 +438,19 @@ Message length should be restricted. Content type should also be restricted base
 \item Social Tagging 
 \begin{itemize}
 \item \textbf{Purpose:}
-This deals with social tagging, broad folksnomy type is used
-in this social tagging
-\newline
-\textbf{Limitations:} 
-Not all users will be able to tag a buzz
-space, Users with higher privileges and lectures will be able to social
-tag buzz space
+This deals with social tagging, broad folksonomy type is used in this social tagging.
+\item\textbf{Limitations: } 
+Not all users will be able to tag a Buzz space, users with higher levels and lectures will be able to social tag Buzz space.
 
-\item \textbf{Importance:} Nice to have\newline
-\textbf{Pre-Conditions: }
+\item \textbf{Importance:} Nice to have
+\item \textbf{Pre-Conditions: }
 	\begin{itemize}
-	\item Buzz space must exist.
-	\item User must be registered to the buzz system.
-	\item Buzz space must have a rating from users to be tagged .
+		\item Buzz space must exist.
+		\item The user must be registered to the Buzz system.
+		\item Buzz space must have a rating from users to be tagged .
 	\end{itemize}
 
-\textbf{Post-Conditions: }
+\item \textbf{Post-Conditions: }
 	\begin{itemize}
 	\item Buzz space tagged with a keyword.
 	\item Buzz space available at tag box for fast access.
@@ -484,13 +480,12 @@ tag buzz space
 This deals with self-organization based on social tagging and
 allow the user to view according to the base structure, owns structure
 or public structure.
-\newline
-\textbf{Limitations:} 
-Users with higher privileges will be able to
+\item \textbf{Limitations:} 
+Users with higher levels will be able to
 organize view to their own structure.
 
-\item \textbf{Importance:}  Nice to have\newline
-\textbf{Pre-Conditions: }
+\item \textbf{Importance:}  Nice to have
+\item \textbf{Pre-Conditions: }
 	\begin{itemize}
 	\item Buzz space must exist.
 	\item User must be registered to the buzz system.
@@ -498,7 +493,7 @@ organize view to their own structure.
 	\item Social tagging must be applied to other buzz space
 	\end{itemize}
 
-\textbf{Post-Conditions: }
+\item\textbf{Post-Conditions: }
 	\begin{itemize}
 	\item Tagged buzz space with higher rating from users will be organized
 to be in base structure
@@ -525,82 +520,31 @@ to be in base structure
     	\caption{Self organise Activity diagram}
 	\end{figure}
 
-\item Buzz Tag
+
+\item Read Later Section
+
 \begin{itemize}
 \item \textbf{Purpose:}
 This deals with an addition of a read later section, which saves
 buzz space with long comments for a user to read later when logged
 in and remind the user every time when logged.
-\newline
-\textbf{Limitations:} 
-All users will have this feature by default
+\item\textbf{Limitations:} 
+All users will have this feature by default.
 
-\item \textbf{Importance:}  Nice to have\newline
-\textbf{Pre-Conditions: }
+\item \textbf{Importance:}  Nice to have
+\item\textbf{Pre-Conditions: }
 	\begin{itemize}
 	\item Buzz space must exist.
-	\item User must be registered to the buzz system.
+	\item User must be registered to the Buzz system.
 
 	\end{itemize}
 
-\textbf{Post-Conditions: }
+\item\textbf{Post-Conditions: }
 	\begin{itemize}
 	\item Read later section will be created and added on the side of the
-users portal
+users portal.
 	\item Buzz space reference must be saved in a read later section on the
-users portal is the user clicked a buzz space to read later section
-	
-	\end{itemize}
-\end{itemize}
-\begin{figure}[H]	
-\graphicspath{ {../Diagrams/sfiso/} }
-    	\includegraphics[scale=0.5]{buzzC.jpg}
-    	\caption{Buzz Tag class diagram}
-	\end{figure}
-	
-	\begin{figure}[H]	
-\graphicspath{ {../Diagrams/sfiso/} }
-    	\includegraphics[scale=0.5]{tag.jpg}
-    	\caption{Buzz Tag Use case diagram}
-	\end{figure}
-
-
-\begin{figure}[H]	
-\graphicspath{ {../Diagrams/sfiso/} }
-    	\includegraphics[scale=0.5]{buzzA.jpg}
-    	\caption{Buzz Tag Activity diagram}
-	\end{figure}
-
-\item Read Later Section
-\begin{itemize}
-\item \textbf{Purpose:}
-This deals with buzz space tagging for least privilege users
-,this will help social tagging by providing trending buzz space and
-notification system for users who opened buzz space or waiting for a
-reply on a comment.
-\newline
-\textbf{Limitations:} 
-All users will have this feature by default
-
-\item \textbf{Importance:} Nice to have\newline
-\textbf{Pre-Conditions: }
-	\begin{itemize}
-	\item Buzz space must exist.
-	\item User must be registered to the buzz system.
-	\item User optioned for notifications when registering on the buzz system
-
-	\end{itemize}
-
-\textbf{Post-Conditions: }
-	\begin{itemize}
-	\item Menu will be provided to the user with icons similar to Glyphicons
-to describe the buzz space thread for the user to click on.
-	\item After user click a certain icon , thread will be rated according to
-the icon and each icon have description of the buzz space thread
-ranging from lame buzz thread space to must read buzz thread
-space and also apply to comments on the buzz space thread .
-\item Notification will be send atomically to users read later section to
-inform about a new comment on the buzz space user commented
+users portal is the user clicked a Buzz space to read later section.
 	
 	\end{itemize}
 \end{itemize}
@@ -608,46 +552,124 @@ inform about a new comment on the buzz space user commented
 \begin{figure}[H]	
 \graphicspath{ {../Diagrams/sfiso/} }
     	\includegraphics[scale=0.5]{readC.jpg}
-    	\caption{Read later section class diagram}
+    	\caption{Read Later Section Class Diagram}
 	\end{figure}
 
 \begin{figure}[H]	
 \graphicspath{ {../Diagrams/sfiso/} }
     	\includegraphics[scale=0.5]{read.jpg}
-    	\caption{Read later section Use case diagram}
+    	\caption{Read Later Section Use Case Diagram}
 	\end{figure}
 	
 	\begin{figure}[H]	
 \graphicspath{ {../Diagrams/sfiso/} }
     	\includegraphics[scale=0.5]{readA.jpg}
-    	\caption{Read later section acitivity diagram}
+    	\caption{Read Later Section Acitivity Diagram}
 	\end{figure}
+
+
+\item Buzz Tag
+\begin{itemize}
+\item \textbf{Purpose:}
+This deals with buzz space tagging for lowest level users, this will help social tagging by providing trending buzz space and
+notification system for users who opened buzz space or waiting for a
+reply on a comment.
+
+\item\textbf{Limitations:} 
+All users will have this feature by default.
+
+\item \textbf{Importance:} Nice to have
+\item\textbf{Pre-Conditions: }
+	\begin{itemize}
+	\item Buzz space must exist.
+	\item User must be registered to the buzz system.
+	\item User optioned for notifications when registering on the buzz system
+
+	\end{itemize}
+
+\item\textbf{Post-Conditions: }
+	\begin{itemize}
+	\item A menu will be provided to the user with icons similar to Glyphicons
+to describe the buzz space thread for the user to click on.
+	\item After user click a certain icon , thread will be rated according to
+the icon and each icon have description of the buzz space thread
+ranging from lame buzz thread space to must read buzz thread
+space and also apply to comments on the buzz space thread.
+\item Notification will be send atomically to users read later section to
+inform about a new comment on the buzz space user commented.
+	
+	\end{itemize}
+\end{itemize}
+
+\begin{figure}[H]	
+\graphicspath{ {../Diagrams/sfiso/} }
+    	\includegraphics[scale=0.5]{buzzC.jpg}
+    	\caption{Buzz Tag Class Diagram}
+	\end{figure}
+	
+	\begin{figure}[H]	
+\graphicspath{ {../Diagrams/sfiso/} }
+    	\includegraphics[scale=0.5]{tag.jpg}
+    	\caption{Buzz Tag Use Case Diagram}
+	\end{figure}
+
+
+\begin{figure}[H]	
+\graphicspath{ {../Diagrams/sfiso/} }
+    	\includegraphics[scale=0.5]{buzzA.jpg}
+    	\caption{Buzz Tag Activity Diagram}
+	\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \item \textbf{Template messages }
 \begin{itemize}
 \item \textbf{Purpose: }The management staff must be able to send template messages automatically to individual users or specified groups. These messages would typically be welcoming messages or notification messages. 
-
-	\item  \textbf{Limitation/Exclusions: }
 Staff members must be able to add new templates. The staff member should be able to select the receiver(s) based on certain properties.
 
-\item \textbf{Importance:} Nice to have\newline
-\textbf{Pre-Conditions: }
+\item \textbf{Importance:} Nice to have
+\item\textbf{Pre-Conditions: }
 	\begin{itemize}
 		\item The receiver must be registered to the buzz system.
-		\item The sender must be registered as a staff member.
+		\item The sender must be registered as a staff member or on the highest level.
 		\item The system must be able to select a certain group based on specific information, to send the group message to.
 
 	\end{itemize}
 
-\textbf{Post-Conditions: }
+\item\textbf{Post-Conditions: }
 	\begin{itemize}
 		\item The user must be alerted of the message.
 		\item The user must not be able to reply to the message.
 		\item The user must be able to delete the messages.
-		\item The user must not be able to see what other users have received the same message via group messaging.
+		\item The user must not be able to see which other users have received the same message via group messaging.
 	\end{itemize}
 \end{itemize}
-
+\graphicspath{ {../Diagrams/Maret/class/} }
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{TemplateMessages.jpg}
+    	\caption{Template Message Class Diagram}
+	\end{figure}
 \graphicspath{ {../Diagrams/Maret/usecase/} }	
 	\begin{figure}[H]	
     	\includegraphics[scale=0.5]{TemplateMessage.png}
@@ -660,36 +682,36 @@ Staff members must be able to add new templates. The staff member should be able
     	\caption{Template Message Activity Diagram}
 	\end{figure}
 
-\graphicspath{ {../Diagrams/Maret/class/} }
-	\begin{figure}[H]	
-    	\includegraphics[scale=0.5]{TemplateMessages.jpg}
-    	\caption{Template Message Class Diagram}
-	\end{figure}		
+		
 
 \item \textbf{Status Updating}
 \begin{itemize}
-\item \textbf{Purpose: }The system must automatically change the status of a user based on his participation. The system award point to the user based on his actions, these points are then added and influence the users level. The user may lose points for "bad behaviour" and may win points for participation.
+\item \textbf{Purpose: }The system must automatically change the status of a user based on his participation. The system award points to the user based on his actions, these points are then added and influence the users level. The user may lose points for "bad behaviour" and may win points for participation.
  
 
 	\item  \textbf{Limitation/Exclusions: } The status may only change after an action is performed.
 
-\item \textbf{Importance:} Important \newline
-\textbf{Pre-Conditions: }
+\item \textbf{Importance:} Important 
+\item\textbf{Pre-Conditions: }
 	\begin{itemize}
-		\item The user must be registered to the buzz system.
+		\item The user must be registered to the Buzz system.
 		\item The user must be logged in for his status to be affected by his participation.
 
 	\end{itemize}
 
-\textbf{Post-Conditions: }
+\item\textbf{Post-Conditions: }
 	\begin{itemize}
-		\item The users points change and as a result of this, his level may change.
-		\item The users level, and therefore his privileges, may change when his status change.
+		\item The user's points change and as a result of this, his level may change.
+		\item The user's level, and therefore his privileges, may change when his status change.
 		\item The user must be able to view his status.
-		\item The users status is public.
+		\item The user's status is public.
 	\end{itemize}
 \end{itemize}
-
+\graphicspath{ {../Diagrams/Maret/class/} }
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{UpdateStatus.jpg}
+    	\caption{Update Status Class Diagram}
+	\end{figure}
 \graphicspath{ {../Diagrams/Maret/usecase/} }	
 	\begin{figure}[H]	
     	\includegraphics[scale=0.5]{UpdateStatus.png}
@@ -702,11 +724,7 @@ Staff members must be able to add new templates. The staff member should be able
     	\caption{Update Status Activity Diagram}
 	\end{figure}
 	
-\graphicspath{ {../Diagrams/Maret/class/} }
-	\begin{figure}[H]	
-    	\includegraphics[scale=0.5]{UpdateStatus.jpg}
-    	\caption{Update Status Class Diagram}
-	\end{figure}
+
 
 \item \textbf{Integrate with host site}
 \begin{itemize}
@@ -714,40 +732,40 @@ Staff members must be able to add new templates. The staff member should be able
  
 %	\item  \textbf{Limitation/Exclusions: }
 
-\item \textbf{Importance:} Critical \newline
-\textbf{Pre-Conditions: }
+\item \textbf{Importance:} Critical 
+\item\textbf{Pre-Conditions: }
 	\begin{itemize}
-		\item The host site must support the technologies of the BuzzSpace system.
-		\item TheBuzzSpace system must support the technologies of the host site.
+		\item The host site must support the technologies of the Buzz system.
+		\item The Buzz system must support the technologies of the host site.
 
 	\end{itemize}
 
-\textbf{Post-Conditions: }
+\item\textbf{Post-Conditions: }
 	\begin{itemize}
-		\item The system creates the BuzzSpace.
+		\item The system creates the Buzz spaces.
 		\item All the data that is on the host site are integrated into the new BuzzSpace.
 		\item The users are registered.
-		\item The BuzzSpace is stored.
+		\item The Buzz spaces are stored.
 		\item User levels are added.
 	\end{itemize}
 \end{itemize}
-
+\graphicspath{ {../Diagrams/Maret/class/} }
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{Integrate.jpg}
+    	\caption{Integrate With Host Site Class Diagram}
+	\end{figure}
 \graphicspath{ {../Diagrams/Maret/usecase/} }	
 	\begin{figure}[H]	
     	\includegraphics[scale=0.5]{Integrate.png}
-    	\caption{Integrate with host site use case diagram}
+    	\caption{Integrate With Host Site Use Case Diagram}
 	\end{figure}
 	
 \graphicspath{ {../Diagrams/Maret/activity/} }
 	\begin{figure}[H]	
     	\includegraphics[scale=0.5]{Integrate.png}
-    	\caption{Integrate with host site activity diagram}
+    	\caption{Integrate With Host Site Activity Diagram}
 	\end{figure}
-\graphicspath{ {../Diagrams/Maret/class/} }
-	\begin{figure}[H]	
-    	\includegraphics[scale=0.5]{Integrate.jpg}
-    	\caption{Integrate with host site class diagram}
-	\end{figure}
+
 	
 \item \textbf{Search and Filter }
 \begin{itemize}
