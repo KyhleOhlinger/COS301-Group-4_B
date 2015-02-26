@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.23)  26 FEB 2015 11:48
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.21)  26 FEB 2015 11:11
+=======
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.23)  26 FEB 2015 11:01
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+>>>>>>> 2d3b2924503beac1082f62828aeb347b3e7a1152
 entering extended mode
 **testFileLaTex.tex
 (C:\Users\Andrew\Desktop\New_Repo\latexFiles\testFileLaTex.tex
@@ -568,20 +576,72 @@ Overfull \hbox (83.15454pt too wide) in paragraph at lines 563--564
 [][] 
  []
 
+<<<<<<< HEAD
+[15] [16 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/sfiso/read.jpg>]
+<../Diagrams/Maret/usecase/TemplateMessage.png, id=221, 302.63063pt x 219.06844
+=======
 [25] [26 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/sfiso/read.jpg>]
+<<<<<<< HEAD
 <../Diagrams/Maret/usecase/TemplateMessage.png, id=321, 302.63063pt x 219.06844
+=======
+<../Diagrams/Maret/usecase/TemplateMessage.png, id=315, 302.63063pt x 219.06844
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+>>>>>>> 2d3b2924503beac1082f62828aeb347b3e7a1152
 pt>
 File: ../Diagrams/Maret/usecase/TemplateMessage.png Graphic file (type png)
  <use ../Diagrams/Maret/usecase/TemplateMessage.png>
 Package pdftex.def Info: ../Diagrams/Maret/usecase/TemplateMessage.png used on 
+<<<<<<< HEAD
+input line 384.
+(pdftex.def)             Requested size: 151.31494pt x 109.53394pt.
+
+<../Diagrams/Maret/activity/TemplateMessage.png, id=222, 548.80031pt x 349.305p
+=======
 input line 594.
 (pdftex.def)             Requested size: 151.31494pt x 109.53394pt.
 
+<<<<<<< HEAD
 <../Diagrams/Maret/activity/TemplateMessage.png, id=322, 548.80031pt x 349.305p
+=======
+<../Diagrams/Maret/activity/TemplateMessage.png, id=316, 548.80031pt x 349.305p
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+>>>>>>> 2d3b2924503beac1082f62828aeb347b3e7a1152
 t>
 File: ../Diagrams/Maret/activity/TemplateMessage.png Graphic file (type png)
  <use ../Diagrams/Maret/activity/TemplateMessage.png>
 Package pdftex.def Info: ../Diagrams/Maret/activity/TemplateMessage.png used on
+<<<<<<< HEAD
+ input line 390.
+(pdftex.def)             Requested size: 274.39948pt x 174.65207pt.
+
+
+LaTeX Warning: File `TemplateMessage.jpg' not found on input line 396.
+
+
+! Package pdftex.def Error: File `TemplateMessage.jpg' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.396 ...egraphics[scale=0.5]{TemplateMessage.jpg}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[17 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Maret/usecase/TemplateMe
+ssage.png> <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Maret/activity/Te
+mplateMessage.png>]
+<../Diagrams/Maret/usecase/UpdateStatus.png, id=228, 304.88907pt x 166.37157pt>
+File: ../Diagrams/Maret/usecase/UpdateStatus.png Graphic file (type png)
+<use ../Diagrams/Maret/usecase/UpdateStatus.png>
+Package pdftex.def Info: ../Diagrams/Maret/usecase/UpdateStatus.png used on inp
+ut line 426.
+(pdftex.def)             Requested size: 152.44415pt x 83.18556pt.
+
+<../Diagrams/Maret/activity/UpdateStatus.png, id=229, 590.95781pt x 349.305pt>
+=======
  input line 600.
 (pdftex.def)             Requested size: 274.39948pt x 174.65207pt.
 
@@ -603,53 +663,122 @@ ut line 636.
 (pdftex.def)             Requested size: 152.44415pt x 83.18556pt.
  [28 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Maret/class/TemplateMessages.jp
 g>]
+<<<<<<< HEAD
 <../Diagrams/Maret/activity/UpdateStatus.png, id=334, 590.95781pt x 349.305pt>
+=======
+<../Diagrams/Maret/activity/UpdateStatus.png, id=328, 590.95781pt x 349.305pt>
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+>>>>>>> 2d3b2924503beac1082f62828aeb347b3e7a1152
 File: ../Diagrams/Maret/activity/UpdateStatus.png Graphic file (type png)
 
 <use ../Diagrams/Maret/activity/UpdateStatus.png>
 Package pdftex.def Info: ../Diagrams/Maret/activity/UpdateStatus.png used on in
+<<<<<<< HEAD
+put line 432.
+(pdftex.def)             Requested size: 295.47818pt x 174.65207pt.
+ [18 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Maret/usecase/UpdateSta
+tus.png>]
+<../Diagrams/Maret/class/UpdateStatus.jpg, id=236, 571.13374pt x 276.03125pt>
+=======
 put line 642.
 (pdftex.def)             Requested size: 295.47818pt x 174.65207pt.
 
+<<<<<<< HEAD
 <../Diagrams/Maret/class/UpdateStatus.jpg, id=335, 571.13374pt x 276.03125pt>
+=======
+<../Diagrams/Maret/class/UpdateStatus.jpg, id=329, 571.13374pt x 276.03125pt>
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+>>>>>>> 2d3b2924503beac1082f62828aeb347b3e7a1152
 File: ../Diagrams/Maret/class/UpdateStatus.jpg Graphic file (type jpg)
 
 <use ../Diagrams/Maret/class/UpdateStatus.jpg>
 Package pdftex.def Info: ../Diagrams/Maret/class/UpdateStatus.jpg used on input
+<<<<<<< HEAD
+ line 438.
+(pdftex.def)             Requested size: 285.56618pt x 138.01527pt.
+ [19 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Maret/activity/UpdateSt
+atus.png> <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Maret/class/Update
+Status.jpg>]
+<../Diagrams/Maret/usecase/Integrate.png, id=242, 508.14844pt x 308.65312pt>
+=======
  line 648.
 (pdftex.def)             Requested size: 285.56618pt x 138.01527pt.
  [29 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Maret/usecase/UpdateStatus.png>
  <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Maret/activity/UpdateStatus.png> <C
 :/Users/Andrew/Desktop/New_Repo/Diagrams/Maret/class/UpdateStatus.jpg>]
+<<<<<<< HEAD
 <../Diagrams/Maret/usecase/Integrate.png, id=340, 508.14844pt x 308.65312pt>
+=======
+<../Diagrams/Maret/usecase/Integrate.png, id=334, 508.14844pt x 308.65312pt>
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+>>>>>>> 2d3b2924503beac1082f62828aeb347b3e7a1152
 File: ../Diagrams/Maret/usecase/Integrate.png Graphic file (type png)
 
 <use ../Diagrams/Maret/usecase/Integrate.png>
 Package pdftex.def Info: ../Diagrams/Maret/usecase/Integrate.png used on input 
+<<<<<<< HEAD
+line 468.
+(pdftex.def)             Requested size: 254.0736pt x 154.32617pt.
+
+<../Diagrams/Maret/activity/Integrate.png, id=243, 581.17125pt x 371.88937pt>
+=======
 line 678.
 (pdftex.def)             Requested size: 254.0736pt x 154.32617pt.
 
+<<<<<<< HEAD
 <../Diagrams/Maret/activity/Integrate.png, id=341, 581.17125pt x 371.88937pt>
+=======
+<../Diagrams/Maret/activity/Integrate.png, id=335, 581.17125pt x 371.88937pt>
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+>>>>>>> 2d3b2924503beac1082f62828aeb347b3e7a1152
 File: ../Diagrams/Maret/activity/Integrate.png Graphic file (type png)
 
 <use ../Diagrams/Maret/activity/Integrate.png>
 Package pdftex.def Info: ../Diagrams/Maret/activity/Integrate.png used on input
+<<<<<<< HEAD
+ line 474.
+(pdftex.def)             Requested size: 290.58492pt x 185.94423pt.
+
+<../Diagrams/Maret/class/Integrate.jpg, id=244, 438.63875pt x 284.06125pt>
+=======
  line 684.
 (pdftex.def)             Requested size: 290.58492pt x 185.94423pt.
 
+<<<<<<< HEAD
 <../Diagrams/Maret/class/Integrate.jpg, id=342, 438.63875pt x 284.06125pt>
+=======
+<../Diagrams/Maret/class/Integrate.jpg, id=336, 438.63875pt x 284.06125pt>
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+>>>>>>> 2d3b2924503beac1082f62828aeb347b3e7a1152
 File: ../Diagrams/Maret/class/Integrate.jpg Graphic file (type jpg)
 
 <use ../Diagrams/Maret/class/Integrate.jpg>
 Package pdftex.def Info: ../Diagrams/Maret/class/Integrate.jpg used on input li
+<<<<<<< HEAD
+ne 479.
+(pdftex.def)             Requested size: 219.31883pt x 142.03026pt.
+ [20 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Maret/usecase/Integrate
+.png> <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Maret/activity/Integra
+te.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
+=======
 ne 689.
 (pdftex.def)             Requested size: 219.31883pt x 142.03026pt.
  [30 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Maret/usecase/Integrate.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 695--696
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
 
  []
 
 
+<<<<<<< HEAD
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
+=======
 Underfull \hbox (badness 10000) in paragraph at lines 695--696
 
  []
@@ -657,19 +786,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 695--696
 [31 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Maret/activity/Integrate.png> <C
 :/Users/Andrew/Desktop/New_Repo/Diagrams/Maret/class/Integrate.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 701--702
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
 
  []
 
 
+<<<<<<< HEAD
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
+
+ []
+
+<../Diagrams/Sphe/Search&Filter/UseCase.jpg, id=249, 892.33376pt x 606.265pt>
+=======
 Underfull \hbox (badness 10000) in paragraph at lines 701--702
 
  []
 
+<<<<<<< HEAD
 <../Diagrams/Sphe/Search&Filter/UseCase.jpg, id=354, 892.33376pt x 606.265pt>
+=======
+<../Diagrams/Sphe/Search&Filter/UseCase.jpg, id=348, 892.33376pt x 606.265pt>
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+>>>>>>> 2d3b2924503beac1082f62828aeb347b3e7a1152
 File: ../Diagrams/Sphe/Search&Filter/UseCase.jpg Graphic file (type jpg)
 
 <use ../Diagrams/Sphe/Search&Filter/UseCase.jpg>
 Package pdftex.def Info: ../Diagrams/Sphe/Search&Filter/UseCase.jpg used on inp
+<<<<<<< HEAD
+ut line 501.
+(pdftex.def)             Requested size: 446.16579pt x 303.13176pt.
+
+Overfull \hbox (86.16579pt too wide) in paragraph at lines 501--502
+[][] 
+ []
+
+[21 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Maret/class/Integrate.jp
+g>]
+<../Diagrams/Sphe/Search&Filter/ActivityDiagram.jpg, id=255, 880.28876pt x 387.
+=======
 ut line 711.
 (pdftex.def)             Requested size: 446.16579pt x 303.13176pt.
 
@@ -678,12 +832,29 @@ Overfull \hbox (86.16579pt too wide) in paragraph at lines 711--712
  []
 
 
+<<<<<<< HEAD
 <../Diagrams/Sphe/Search&Filter/ActivityDiagram.jpg, id=355, 880.28876pt x 387.
+=======
+<../Diagrams/Sphe/Search&Filter/ActivityDiagram.jpg, id=349, 880.28876pt x 387.
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+>>>>>>> 2d3b2924503beac1082f62828aeb347b3e7a1152
 4475pt>
 File: ../Diagrams/Sphe/Search&Filter/ActivityDiagram.jpg Graphic file (type jpg
 )
  <use ../Diagrams/Sphe/Search&Filter/ActivityDiagram.jpg>
 Package pdftex.def Info: ../Diagrams/Sphe/Search&Filter/ActivityDiagram.jpg use
+<<<<<<< HEAD
+d on input line 507.
+(pdftex.def)             Requested size: 440.1433pt x 193.72327pt.
+
+Overfull \hbox (80.1433pt too wide) in paragraph at lines 507--508
+[][] 
+ []
+
+[22 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Sphe/Search&Filter/UseCa
+se.jpg>]
+<../Diagrams/Sphe/Search&Filter/ClassDiagram.jpg, id=260, 675.52374pt x 289.08p
+=======
 d on input line 717.
 (pdftex.def)             Requested size: 440.1433pt x 193.72327pt.
 
@@ -693,29 +864,59 @@ Overfull \hbox (80.1433pt too wide) in paragraph at lines 717--718
 
 [32 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Sphe/Search&Filter/UseCase.jpg>]
 
+<<<<<<< HEAD
 <../Diagrams/Sphe/Search&Filter/ClassDiagram.jpg, id=360, 675.52374pt x 289.08p
+=======
+<../Diagrams/Sphe/Search&Filter/ClassDiagram.jpg, id=354, 675.52374pt x 289.08p
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+>>>>>>> 2d3b2924503beac1082f62828aeb347b3e7a1152
 t>
 File: ../Diagrams/Sphe/Search&Filter/ClassDiagram.jpg Graphic file (type jpg)
  <use ../Diagrams/Sphe/Search&Filter/ClassDiagram.jpg>
 Package pdftex.def Info: ../Diagrams/Sphe/Search&Filter/ClassDiagram.jpg used o
+<<<<<<< HEAD
+n input line 513.
+(pdftex.def)             Requested size: 439.08524pt x 187.89977pt.
+
+Overfull \hbox (79.08524pt too wide) in paragraph at lines 513--514
+=======
 n input line 723.
 (pdftex.def)             Requested size: 439.08524pt x 187.89977pt.
 
 Overfull \hbox (79.08524pt too wide) in paragraph at lines 723--724
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
 [][] 
  []
 
 
+<<<<<<< HEAD
+Underfull \hbox (badness 10000) in paragraph at lines 519--521
+=======
 Underfull \hbox (badness 10000) in paragraph at lines 729--731
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
 
  []
 
 
+<<<<<<< HEAD
+Underfull \hbox (badness 10000) in paragraph at lines 519--521
+=======
 Underfull \hbox (badness 10000) in paragraph at lines 729--731
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
 
  []
 
 
+<<<<<<< HEAD
+Underfull \hbox (badness 10000) in paragraph at lines 519--521
+
+ []
+
+[23 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Sphe/Search&Filter/Activ
+ityDiagram.jpg> <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Sphe/Search&
+Filter/ClassDiagram.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 522--523
+=======
 Underfull \hbox (badness 10000) in paragraph at lines 729--731
 
  []
@@ -724,37 +925,81 @@ Underfull \hbox (badness 10000) in paragraph at lines 729--731
 am.jpg> <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Sphe/Search&Filter/ClassDiag
 ram.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 732--733
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
 
  []
 
 
+<<<<<<< HEAD
+Underfull \hbox (badness 10000) in paragraph at lines 522--523
+=======
 Underfull \hbox (badness 10000) in paragraph at lines 732--733
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
 
  []
 
 
+<<<<<<< HEAD
+Underfull \hbox (badness 10000) in paragraph at lines 523--525
+
+ []
+
+<../Diagrams/Sphe/PostRatings/UseCase.jpg, id=266, 900.36375pt x 556.0775pt>
+=======
 Underfull \hbox (badness 10000) in paragraph at lines 733--735
 
  []
 
+<<<<<<< HEAD
 <../Diagrams/Sphe/PostRatings/UseCase.jpg, id=366, 900.36375pt x 556.0775pt>
+=======
+<../Diagrams/Sphe/PostRatings/UseCase.jpg, id=360, 900.36375pt x 556.0775pt>
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+>>>>>>> 2d3b2924503beac1082f62828aeb347b3e7a1152
 File: ../Diagrams/Sphe/PostRatings/UseCase.jpg Graphic file (type jpg)
 
 <use ../Diagrams/Sphe/PostRatings/UseCase.jpg>
 Package pdftex.def Info: ../Diagrams/Sphe/PostRatings/UseCase.jpg used on input
+<<<<<<< HEAD
+ line 536.
+(pdftex.def)             Requested size: 450.18077pt x 278.03807pt.
+
+Overfull \hbox (90.18077pt too wide) in paragraph at lines 536--537
+=======
  line 746.
 (pdftex.def)             Requested size: 450.18077pt x 278.03807pt.
 
 Overfull \hbox (90.18077pt too wide) in paragraph at lines 746--747
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
 [][] 
  []
 
 
+<<<<<<< HEAD
 <../Diagrams/Sphe/PostRatings/ActivityDiagram.jpg, id=367, 882.29625pt x 567.11
+=======
+<<<<<<< HEAD
+<../Diagrams/Sphe/PostRatings/ActivityDiagram.jpg, id=267, 882.29625pt x 567.11
+=======
+<../Diagrams/Sphe/PostRatings/ActivityDiagram.jpg, id=361, 882.29625pt x 567.11
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+>>>>>>> 2d3b2924503beac1082f62828aeb347b3e7a1152
 874pt>
 File: ../Diagrams/Sphe/PostRatings/ActivityDiagram.jpg Graphic file (type jpg)
  <use ../Diagrams/Sphe/PostRatings/ActivityDiagram.jpg>
 Package pdftex.def Info: ../Diagrams/Sphe/PostRatings/ActivityDiagram.jpg used 
+<<<<<<< HEAD
+on input line 543.
+(pdftex.def)             Requested size: 441.14705pt x 283.55867pt.
+
+Overfull \hbox (81.14705pt too wide) in paragraph at lines 543--544
+[][] 
+ []
+
+[24] [25 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Sphe/PostRatings/Us
+eCase.jpg>]
+<../Diagrams/Sphe/PostRatings/ClassDiagram.jpg, id=277, 823.075pt x 310.15875pt
+=======
 on input line 753.
 (pdftex.def)             Requested size: 441.14705pt x 283.55867pt.
 
@@ -764,11 +1009,37 @@ Overfull \hbox (81.14705pt too wide) in paragraph at lines 753--754
 
 [34] [35 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Sphe/PostRatings/UseCase.jp
 g>]
+<<<<<<< HEAD
 <../Diagrams/Sphe/PostRatings/ClassDiagram.jpg, id=376, 823.075pt x 310.15875pt
+=======
+<../Diagrams/Sphe/PostRatings/ClassDiagram.jpg, id=370, 823.075pt x 310.15875pt
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+>>>>>>> 2d3b2924503beac1082f62828aeb347b3e7a1152
 >
 File: ../Diagrams/Sphe/PostRatings/ClassDiagram.jpg Graphic file (type jpg)
  <use ../Diagrams/Sphe/PostRatings/ClassDiagram.jpg>
 Package pdftex.def Info: ../Diagrams/Sphe/PostRatings/ClassDiagram.jpg used on 
+<<<<<<< HEAD
+input line 548.
+(pdftex.def)             Requested size: 411.53648pt x 155.079pt.
+
+Overfull \hbox (51.53648pt too wide) in paragraph at lines 548--549
+[][] 
+ []
+
+[26 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Sphe/PostRatings/Activit
+yDiagram.jpg> <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Sphe/PostRatin
+gs/ClassDiagram.jpg>]
+<../Diagrams/Matt/Class/StatisticalClass.jpg, id=283, 485.815pt x 310.15875pt>
+File: ../Diagrams/Matt/Class/StatisticalClass.jpg Graphic file (type jpg)
+
+<use ../Diagrams/Matt/Class/StatisticalClass.jpg>
+Package pdftex.def Info: ../Diagrams/Matt/Class/StatisticalClass.jpg used on in
+put line 595.
+(pdftex.def)             Requested size: 242.9069pt x 155.079pt.
+
+<../Diagrams/Matt/Activity/Statisticalinformation.jpg, id=284, 780.9175pt x 605
+=======
 input line 758.
 (pdftex.def)             Requested size: 411.53648pt x 155.079pt.
 
@@ -793,12 +1064,53 @@ Overfull \hbox (43.50652pt too wide) in paragraph at lines 805--806
  []
 
 [37]
+<<<<<<< HEAD
 <../Diagrams/Matt/Activity/Statisticalinformation.jpg, id=388, 780.9175pt x 605
+=======
+<../Diagrams/Matt/Activity/Statisticalinformation.jpg, id=382, 780.9175pt x 605
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+>>>>>>> 2d3b2924503beac1082f62828aeb347b3e7a1152
 .26125pt>
 File: ../Diagrams/Matt/Activity/Statisticalinformation.jpg Graphic file (type j
 pg)
  <use ../Diagrams/Matt/Activity/Statisticalinformation.jpg>
 Package pdftex.def Info: ../Diagrams/Matt/Activity/Statisticalinformation.jpg u
+<<<<<<< HEAD
+sed on input line 601.
+(pdftex.def)             Requested size: 390.4578pt x 302.62987pt.
+
+Overfull \hbox (30.4578pt too wide) in paragraph at lines 601--602
+[][] 
+ []
+
+[27 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Matt/Class/StatisticalCl
+ass.jpg>]
+<../Diagrams/Matt/Case/StatisticalinformationCase.jpg, id=289, 807.015pt x 499.
+8675pt>
+File: ../Diagrams/Matt/Case/StatisticalinformationCase.jpg Graphic file (type j
+pg)
+ <use ../Diagrams/Matt/Case/StatisticalinformationCase.jpg>
+Package pdftex.def Info: ../Diagrams/Matt/Case/StatisticalinformationCase.jpg u
+sed on input line 607.
+(pdftex.def)             Requested size: 403.50652pt x 249.93314pt.
+
+Overfull \hbox (43.50652pt too wide) in paragraph at lines 607--608
+[][] 
+ []
+
+[28 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Matt/Activity/Statistica
+linformation.jpg>] [29 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Matt/
+Case/StatisticalinformationCase.jpg>]
+<../Diagrams/Matt/Class/PostmarkupClass.jpg, id=300, 478.78876pt x 513.92pt>
+File: ../Diagrams/Matt/Class/PostmarkupClass.jpg Graphic file (type jpg)
+
+<use ../Diagrams/Matt/Class/PostmarkupClass.jpg>
+Package pdftex.def Info: ../Diagrams/Matt/Class/PostmarkupClass.jpg used on inp
+ut line 645.
+(pdftex.def)             Requested size: 239.39378pt x 256.95937pt.
+
+<../Diagrams/Matt/Activity/PostMarkupActivity.jpg, id=301, 837.1275pt x 485.815
+=======
 sed on input line 811.
 (pdftex.def)             Requested size: 390.4578pt x 302.62987pt.
 
@@ -831,11 +1143,43 @@ Overfull \hbox (43.50652pt too wide) in paragraph at lines 853--854
  []
 
 [40]
+<<<<<<< HEAD
 <../Diagrams/Matt/Activity/PostMarkupActivity.jpg, id=404, 837.1275pt x 485.815
+=======
+<../Diagrams/Matt/Activity/PostMarkupActivity.jpg, id=398, 837.1275pt x 485.815
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+>>>>>>> 2d3b2924503beac1082f62828aeb347b3e7a1152
 pt>
 File: ../Diagrams/Matt/Activity/PostMarkupActivity.jpg Graphic file (type jpg)
  <use ../Diagrams/Matt/Activity/PostMarkupActivity.jpg>
 Package pdftex.def Info: ../Diagrams/Matt/Activity/PostMarkupActivity.jpg used 
+<<<<<<< HEAD
+on input line 651.
+(pdftex.def)             Requested size: 418.56273pt x 242.9069pt.
+
+Overfull \hbox (58.56273pt too wide) in paragraph at lines 651--652
+[][] 
+ []
+
+[30 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Matt/Class/PostmarkupCla
+ss.jpg>]
+<../Diagrams/Matt/Case/Postmarkupcase.jpg, id=308, 807.015pt x 499.8675pt>
+File: ../Diagrams/Matt/Case/Postmarkupcase.jpg Graphic file (type jpg)
+
+<use ../Diagrams/Matt/Case/Postmarkupcase.jpg>
+Package pdftex.def Info: ../Diagrams/Matt/Case/Postmarkupcase.jpg used on input
+ line 657.
+(pdftex.def)             Requested size: 403.50652pt x 249.93314pt.
+
+Overfull \hbox (43.50652pt too wide) in paragraph at lines 657--658
+[][] 
+ []
+
+[31 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Matt/Activity/PostMarkup
+Activity.jpg>] [32 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Matt/Case
+/Postmarkupcase.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 696--697
+=======
 on input line 859.
 (pdftex.def)             Requested size: 418.56273pt x 242.9069pt.
 
@@ -852,8 +1196,15 @@ Package pdftex.def Info: ../Diagrams/Matt/Class/PostmarkupClass.jpg used on inp
 ut line 865.
 (pdftex.def)             Requested size: 239.39378pt x 256.95937pt.
  [42 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Matt/Activity/PostMarkupActivit
+<<<<<<< HEAD
 y.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 872--875
+=======
+y.jpg>] [43 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Matt/Class/PostmarkupCla
+ss.jpg>]
+File: ../Diagrams/Kyhle/Activity_Diagrams/CRUD.jpg Graphic file (type jpg)
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+>>>>>>> 2d3b2924503beac1082f62828aeb347b3e7a1152
 
  []
 
@@ -954,8 +1305,188 @@ Overfull \hbox (43.50652pt too wide) in paragraph at lines 989--990
 [][] 
  []
 
+<<<<<<< HEAD
 [50 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Tienie/Netiquette/NetProcessDiag
 ram.jpg>]
+=======
+<<<<<<< HEAD
+<../Diagrams/sfiso/socialA.jpg, id=322, 943.525pt x 562.1pt>
+File: ../Diagrams/sfiso/socialA.jpg Graphic file (type jpg)
+
+<use ../Diagrams/sfiso/socialA.jpg>
+Package pdftex.def Info: ../Diagrams/sfiso/socialA.jpg used on input line 700.
+(pdftex.def)             Requested size: 471.76134pt x 281.04932pt.
+
+Overfull \hbox (111.76134pt too wide) in paragraph at lines 700--701
+[][] 
+ []
+
+<../Diagrams/sfiso/buzzA.jpg, id=323, 1001.7425pt x 562.1pt>
+File: ../Diagrams/sfiso/buzzA.jpg Graphic file (type jpg)
+
+<use ../Diagrams/sfiso/buzzA.jpg>
+Package pdftex.def Info: ../Diagrams/sfiso/buzzA.jpg used on input line 705.
+(pdftex.def)             Requested size: 500.87003pt x 281.04932pt.
+
+Overfull \hbox (140.87003pt too wide) in paragraph at lines 705--706
+[][] 
+ []
+
+[33 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/sfiso/socialA.jpg>]
+<../Diagrams/sfiso/selfA.jpg, id=329, 886.31125pt x 562.1pt>
+File: ../Diagrams/sfiso/selfA.jpg Graphic file (type jpg)
+
+<use ../Diagrams/sfiso/selfA.jpg>
+Package pdftex.def Info: ../Diagrams/sfiso/selfA.jpg used on input line 711.
+(pdftex.def)             Requested size: 443.15454pt x 281.04932pt.
+
+Overfull \hbox (83.15454pt too wide) in paragraph at lines 711--712
+[][] 
+ []
+
+[34 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/sfiso/buzzA.jpg>]
+<../Diagrams/sfiso/readA.jpg, id=335, 886.31125pt x 562.1pt>
+File: ../Diagrams/sfiso/readA.jpg Graphic file (type jpg)
+
+<use ../Diagrams/sfiso/readA.jpg>
+Package pdftex.def Info: ../Diagrams/sfiso/readA.jpg used on input line 717.
+(pdftex.def)             Requested size: 443.15454pt x 281.04932pt.
+
+Overfull \hbox (83.15454pt too wide) in paragraph at lines 717--718
+[][] 
+ []
+
+[35 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/sfiso/selfA.jpg>]
+<../Diagrams/Domain.jpg, id=341, 1448.41125pt x 875.27pt>
+File: ../Diagrams/Domain.jpg Graphic file (type jpg)
+
+<use ../Diagrams/Domain.jpg>
+Package pdftex.def Info: ../Diagrams/Domain.jpg used on input line 727.
+(pdftex.def)             Requested size: 463.50107pt x 280.09212pt.
+
+Overfull \hbox (103.50107pt too wide) in paragraph at lines 727--728
+[][] 
+ []
+
+[36 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/sfiso/readA.jpg>]
+[37 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Domain.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 752--757
+
+ []
+
+[38]
+<../Diagrams/Andrew/B1ClassDiagram.png, id=361, 519.44063pt x 366.61969pt>
+File: ../Diagrams/Andrew/B1ClassDiagram.png Graphic file (type png)
+
+<use ../Diagrams/Andrew/B1ClassDiagram.png>
+Package pdftex.def Info: ../Diagrams/Andrew/B1ClassDiagram.png used on input li
+ne 774.
+(pdftex.def)             Requested size: 259.71968pt x 183.30939pt.
+
+<../Diagrams/Andrew/B1UseCase.png, id=362, 610.53094pt x 446.41782pt>
+File: ../Diagrams/Andrew/B1UseCase.png Graphic file (type png)
+
+<use ../Diagrams/Andrew/B1UseCase.png>
+Package pdftex.def Info: ../Diagrams/Andrew/B1UseCase.png used on input line 78
+0.
+(pdftex.def)             Requested size: 305.26472pt x 223.20836pt.
+ [39 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Andrew/B1ClassDiagram.p
+ng> <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Andrew/B1UseCase.png>]
+<../Diagrams/Andrew/B1Activity.png, id=371, 456.95718pt x 457.71pt>
+File: ../Diagrams/Andrew/B1Activity.png Graphic file (type png)
+
+<use ../Diagrams/Andrew/B1Activity.png>
+Package pdftex.def Info: ../Diagrams/Andrew/B1Activity.png used on input line 7
+85.
+(pdftex.def)             Requested size: 228.47803pt x 228.85445pt.
+ [40 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Andrew/B1Activity.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 806--809
+
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+[41] <../Diagrams/Andrew/B2ClassDiagram.png, id=386, 510.40688pt x 397.485pt>
+File: ../Diagrams/Andrew/B2ClassDiagram.png Graphic file (type png)
+
+<use ../Diagrams/Andrew/B2ClassDiagram.png>
+Package pdftex.def Info: ../Diagrams/Andrew/B2ClassDiagram.png used on input li
+ne 830.
+(pdftex.def)             Requested size: 255.2028pt x 198.742pt.
+
+<../Diagrams/Andrew/B2UseCase.png, id=387, 669.2503pt x 462.97969pt>
+File: ../Diagrams/Andrew/B2UseCase.png Graphic file (type png)
+
+<use ../Diagrams/Andrew/B2UseCase.png>
+Package pdftex.def Info: ../Diagrams/Andrew/B2UseCase.png used on input line 83
+5.
+(pdftex.def)             Requested size: 334.62433pt x 231.48927pt.
+
+Overfull \hbox (1.99939pt too wide) in paragraph at lines 835--836
+ [] 
+ []
+
+[42 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Andrew/B2ClassDiagram.pn
+g> <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Andrew/B2UseCase.png>]
+<../Diagrams/Andrew/B2Activity.png, id=397, 478.78876pt x 523.9575pt>
+File: ../Diagrams/Andrew/B2Activity.png Graphic file (type png)
+
+<use ../Diagrams/Andrew/B2Activity.png>
+Package pdftex.def Info: ../Diagrams/Andrew/B2Activity.png used on input line 8
+40.
+(pdftex.def)             Requested size: 239.39378pt x 261.9781pt.
+ [43 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Andrew/B2Activity.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 860--865
+
+ []
+
+[44] <../Diagrams/Andrew/B3ClassDiagram.png, id=412, 518.6878pt x 367.3725pt>
+File: ../Diagrams/Andrew/B3ClassDiagram.png Graphic file (type png)
+
+<use ../Diagrams/Andrew/B3ClassDiagram.png>
+Package pdftex.def Info: ../Diagrams/Andrew/B3ClassDiagram.png used on input li
+ne 880.
+(pdftex.def)             Requested size: 259.34326pt x 183.68579pt.
+
+<../Diagrams/Andrew/B3UseCase.png, id=413, 679.78969pt x 528.47438pt>
+File: ../Diagrams/Andrew/B3UseCase.png Graphic file (type png)
+
+<use ../Diagrams/Andrew/B3UseCase.png>
+Package pdftex.def Info: ../Diagrams/Andrew/B3UseCase.png used on input line 88
+5.
+(pdftex.def)             Requested size: 339.89401pt x 264.23654pt.
+
+Overfull \hbox (7.26907pt too wide) in paragraph at lines 885--886
+ [] 
+ []
+
+[45 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Andrew/B3ClassDiagram.pn
+g> <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Andrew/B3UseCase.png>]
+<../Diagrams/Andrew/B3Activity.png, id=421, 460.72125pt x 274.77657pt>
+File: ../Diagrams/Andrew/B3Activity.png Graphic file (type png)
+
+<use ../Diagrams/Andrew/B3Activity.png>
+Package pdftex.def Info: ../Diagrams/Andrew/B3Activity.png used on input line 8
+90.
+(pdftex.def)             Requested size: 230.36006pt x 137.38794pt.
+ [46 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Andrew/B3Activity.png>]
+ [47] [48] [49] [50] [51]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+ [52]
+<../Diagrams/Tienie/Plagiarism/InputOutput.jpg, id=474, 824.07875pt x 231.86626
+=======
+>>>>>>> 2d3b2924503beac1082f62828aeb347b3e7a1152
 File: ../Diagrams/Kyhle/Activity_Diagrams/messageTracking.jpg Graphic file (typ
 e jpg)
  <use ../Diagrams/Kyhle/Activity_Diagrams/messageTracking.jpg>
@@ -1056,6 +1587,7 @@ File: ../Diagrams/Domain.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../Diagrams/Domain.jpg used on input line 1049.
 (pdftex.def)             Requested size: 463.50107pt x 280.09212pt.
 
+<<<<<<< HEAD
 Overfull \hbox (103.50107pt too wide) in paragraph at lines 1049--1050
 [][] 
  []
@@ -1064,6 +1596,204 @@ Overfull \hbox (103.50107pt too wide) in paragraph at lines 1049--1050
 Andrew/Desktop/New_Repo/Diagrams/Domain.jpg>] [60] [61] [62] [63] [64] [65]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1269.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1269.
+=======
+Overfull \hbox (103.50107pt too wide) in paragraph at lines 968--969
+[][] 
+ []
+
+[51 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/sfiso/readA.jpg>] [52 <C:/Users/
+Andrew/Desktop/New_Repo/Diagrams/Domain.jpg>] [53] [54] [55] [56] [57]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+ [58]
+<../Diagrams/Tienie/Plagiarism/InputOutput.jpg, id=504, 824.07875pt x 231.86626
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+pt>
+File: ../Diagrams/Tienie/Plagiarism/InputOutput.jpg Graphic file (type jpg)
+ <use ../Diagrams/Tienie/Plagiarism/InputOutput.jpg>
+Package pdftex.def Info: ../Diagrams/Tienie/Plagiarism/InputOutput.jpg used on 
+<<<<<<< HEAD
+input line 1132.
+(pdftex.def)             Requested size: 412.03836pt x 115.93283pt.
+
+Overfull \hbox (52.03836pt too wide) in paragraph at lines 1132--1133
+[][] 
+ []
+
+<../Diagrams/Tienie/Plagiarism/UseCase.jpg, id=475, 1035.87pt x 546.04pt>
+=======
+input line 1207.
+(pdftex.def)             Requested size: 412.03836pt x 115.93283pt.
+
+Overfull \hbox (52.03836pt too wide) in paragraph at lines 1207--1208
+[][] 
+ []
+
+<../Diagrams/Tienie/Plagiarism/UseCase.jpg, id=505, 1035.87pt x 546.04pt>
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+File: ../Diagrams/Tienie/Plagiarism/UseCase.jpg Graphic file (type jpg)
+
+<use ../Diagrams/Tienie/Plagiarism/UseCase.jpg>
+Package pdftex.def Info: ../Diagrams/Tienie/Plagiarism/UseCase.jpg used on inpu
+<<<<<<< HEAD
+t line 1137.
+(pdftex.def)             Requested size: 414.34065pt x 218.41212pt.
+
+Overfull \hbox (54.34065pt too wide) in paragraph at lines 1137--1138
+[][] 
+ []
+
+[53 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Tienie/Plagiarism/InputO
+utput.jpg> <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Tienie/Plagiarism
+/UseCase.jpg>]
+<../Diagrams/Tienie/Plagiarism/Activity.jpg, id=481, 1021.8175pt x 626.34pt>
+=======
+t line 1212.
+(pdftex.def)             Requested size: 414.34065pt x 218.41212pt.
+
+Overfull \hbox (54.34065pt too wide) in paragraph at lines 1212--1213
+[][] 
+ []
+
+[59 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Tienie/Plagiarism/InputOutput.jp
+g> <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Tienie/Plagiarism/UseCase.jpg>]
+<../Diagrams/Tienie/Plagiarism/Activity.jpg, id=511, 1021.8175pt x 626.34pt>
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+File: ../Diagrams/Tienie/Plagiarism/Activity.jpg Graphic file (type jpg)
+
+<use ../Diagrams/Tienie/Plagiarism/Activity.jpg>
+Package pdftex.def Info: ../Diagrams/Tienie/Plagiarism/Activity.jpg used on inp
+<<<<<<< HEAD
+ut line 1142.
+(pdftex.def)             Requested size: 408.71976pt x 250.53156pt.
+
+Overfull \hbox (48.71976pt too wide) in paragraph at lines 1142--1143
+[][] 
+ []
+
+[54 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Tienie/Plagiarism/Activi
+ty.jpg>] [55]
+<../Diagrams/Tienie/Netiquette/NetInputOutput.jpg, id=495, 1192.455pt x 728.722
+=======
+ut line 1217.
+(pdftex.def)             Requested size: 408.71976pt x 250.53156pt.
+
+Overfull \hbox (48.71976pt too wide) in paragraph at lines 1217--1218
+[][] 
+ []
+
+[60 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Tienie/Plagiarism/Activity.jpg>]
+[61]
+<../Diagrams/Tienie/Netiquette/NetInputOutput.jpg, id=525, 1192.455pt x 728.722
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+5pt>
+File: ../Diagrams/Tienie/Netiquette/NetInputOutput.jpg Graphic file (type jpg)
+ <use ../Diagrams/Tienie/Netiquette/NetInputOutput.jpg>
+Package pdftex.def Info: ../Diagrams/Tienie/Netiquette/NetInputOutput.jpg used 
+<<<<<<< HEAD
+on input line 1183.
+(pdftex.def)             Requested size: 417.36551pt x 255.05669pt.
+
+Overfull \hbox (57.36551pt too wide) in paragraph at lines 1183--1184
+[][] 
+ []
+
+[56 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Tienie/Netiquette/NetInp
+utOutput.jpg>]
+<../Diagrams/Tienie/Netiquette/NetUseCase.jpg, id=500, 1218.5525pt x 881.2925pt
+=======
+on input line 1258.
+(pdftex.def)             Requested size: 417.36551pt x 255.05669pt.
+
+Overfull \hbox (57.36551pt too wide) in paragraph at lines 1258--1259
+[][] 
+ []
+
+[62 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Tienie/Netiquette/NetInputOutput
+.jpg>]
+<../Diagrams/Tienie/Netiquette/NetUseCase.jpg, id=530, 1218.5525pt x 881.2925pt
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+>
+File: ../Diagrams/Tienie/Netiquette/NetUseCase.jpg Graphic file (type jpg)
+ <use ../Diagrams/Tienie/Netiquette/NetUseCase.jpg>
+Package pdftex.def Info: ../Diagrams/Tienie/Netiquette/NetUseCase.jpg used on i
+<<<<<<< HEAD
+nput line 1189.
+(pdftex.def)             Requested size: 426.49977pt x 308.45699pt.
+
+Overfull \hbox (66.49977pt too wide) in paragraph at lines 1189--1190
+[][] 
+ []
+
+[57 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Tienie/Netiquette/NetUse
+Case.jpg>]
+<../Diagrams/Tienie/Netiquette/NetProcessDiagram.jpg, id=506, 1048.91875pt x 66
+=======
+nput line 1264.
+(pdftex.def)             Requested size: 426.49977pt x 308.45699pt.
+
+Overfull \hbox (66.49977pt too wide) in paragraph at lines 1264--1265
+[][] 
+ []
+
+[63 <C:/Users/Andrew/Desktop/New_Repo/Diagrams/Tienie/Netiquette/NetUseCase.jpg
+>]
+<../Diagrams/Tienie/Netiquette/NetProcessDiagram.jpg, id=536, 1048.91875pt x 66
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+4.4825pt>
+File: ../Diagrams/Tienie/Netiquette/NetProcessDiagram.jpg Graphic file (type jp
+g)
+ <use ../Diagrams/Tienie/Netiquette/NetProcessDiagram.jpg>
+Package pdftex.def Info: ../Diagrams/Tienie/Netiquette/NetProcessDiagram.jpg us
+<<<<<<< HEAD
+ed on input line 1194.
+(pdftex.def)             Requested size: 419.56006pt x 265.78828pt.
+
+Overfull \hbox (59.56006pt too wide) in paragraph at lines 1194--1195
+[][] 
+ []
+
+[58 <C:/Users/Matt/Documents/COS301-Group-4_B/Diagrams/Tienie/Netiquette/NetPro
+cessDiagram.jpg>] [59]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1212.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1212.
+
+(C:\Users\Matt\Documents\COS301-Group-4_B\latexFiles\testFileLaTex.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1212.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1212.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1212.
+ ) 
+Here is how much of TeX's memory you used:
+ 6497 strings out of 493921
+ 102405 string characters out of 3146483
+ 174338 words of memory out of 3000000
+ 9478 multiletter control sequences out of 15000+200000
+ 9360 words of font info for 33 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 30i,7n,34p,486b,579s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/
+Program Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
+m Files (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Fil
+es (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86
+)/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX/font
+s/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmtt10.pfb>
+Output written on testFileLaTex.pdf (60 pages, 5310506 bytes).
+PDF statistics:
+ 692 PDF objects out of 1000 (max. 8388607)
+ 202 named destinations out of 1000 (max. 500000)
+ 512 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ed on input line 1269.
+(pdftex.def)             Requested size: 419.56006pt x 265.78828pt.
+
+Overfull \hbox (59.56006pt too wide) in paragraph at lines 1269--1270
+[][] 
+ []
+>>>>>>> 2d3b2924503beac1082f62828aeb347b3e7a1152
 
 (C:\Users\Andrew\Desktop\New_Repo\latexFiles\testFileLaTex.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1269.
@@ -1088,7 +1818,14 @@ OS301/MikTex Full install/fonts/type1/public/amsfonts/cm/cmsy10.pfb><G:/uni/COS
 1/MikTex Full install/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 Output written on testFileLaTex.pdf (66 pages, 5344066 bytes).
 PDF statistics:
+<<<<<<< HEAD
  691 PDF objects out of 1000 (max. 8388607)
  192 named destinations out of 1000 (max. 500000)
  461 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 707 PDF objects out of 1000 (max. 8388607)
+ 200 named destinations out of 1000 (max. 500000)
+ 485 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> a408a99323636ace0bea08e151886342de77f948
+>>>>>>> 2d3b2924503beac1082f62828aeb347b3e7a1152
 
