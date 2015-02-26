@@ -1,4 +1,5 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces CRUD Use case diagram}}{7}{figure.1}
+<<<<<<< HEAD
 \contentsline {figure}{\numberline {2}{\ignorespaces Message Tracking Use case diagram}}{8}{figure.2}
 \contentsline {figure}{\numberline {3}{\ignorespaces Message Restrictions Use case diagram}}{9}{figure.3}
 \contentsline {figure}{\numberline {4}{\ignorespaces Restricting users posts Use case diagram}}{10}{figure.4}
@@ -22,3 +23,31 @@
 \contentsline {figure}{\numberline {22}{\ignorespaces Buzz Tag Activity Diagram}}{32}{figure.22}
 \contentsline {figure}{\numberline {23}{\ignorespaces Self organise Activity Diagram}}{33}{figure.23}
 \contentsline {figure}{\numberline {24}{\ignorespaces Read later section Activity Diagram}}{34}{figure.24}
+=======
+\contentsline {figure}{\numberline {2}{\ignorespaces CRUD Activity diagram}}{8}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Message Tracking Use case diagram}}{9}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Message Tracking Activity diagram}}{9}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Message Restrictions Activity diagram}}{10}{figure.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Message Restrictions Use case diagram}}{11}{figure.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Social Tag User case diagram}}{12}{figure.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Self organise User case diagram}}{13}{figure.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Buzz Tag Use case diagram}}{14}{figure.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Read later section Use case diagram}}{16}{figure.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Search and Filter Use case diagram}}{19}{figure.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Search and Filter Activity Diagram}}{20}{figure.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Search and Filter Class Diagram}}{20}{figure.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Post Rating Use case diagram}}{22}{figure.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Post Rating Activity Diagram}}{23}{figure.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Post Rating Class Diagram}}{23}{figure.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Statistical information Use case Diagram}}{25}{figure.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Statistical information Activity Diagram}}{26}{figure.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Statistical information Class Diagram}}{26}{figure.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Statistical information Use case Diagram}}{28}{figure.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Post Markup Activity Diagram}}{29}{figure.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Post Markup class Diagram}}{30}{figure.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Social Tag Activity Diagram}}{31}{figure.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Buzz Tag Activity Diagram}}{32}{figure.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Self organise Activity Diagram}}{33}{figure.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces Read later section Activity Diagram}}{34}{figure.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces Complete System Domain Model}}{35}{figure.27}
+>>>>>>> 31bf78e7107ba5f83346eac9e6bd7dee2f46cdcc

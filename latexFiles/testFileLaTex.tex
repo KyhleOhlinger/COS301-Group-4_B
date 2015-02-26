@@ -7,9 +7,9 @@
 \usepackage{bookmark}%Required to do pdf bookmarking
 \usepackage{hyperref}%Required for referencing website pages
 
-
-
 \begin{document}
+
+
 \input{./titlePage.tex}
 
 \tableofcontents	%Creates Table of contents from sections and 							 subsections, etc...
@@ -64,12 +64,10 @@ The scope of the Buzz System project can be encapsulated as a solution that allo
 \end{itemize}
 The system shall be designed primarily for use by lecturers, teaching
 assistants, and students for the core purpose of engaging in activities related to learning the content of specific modules, and increasing the participation, and consequently deeper understanding of the modules at hand. \newline
-\textbf{Limitations/Exclusions: } \newline
 
 \subsection{Required Functionality}
 The following system processes describe the functional requirements of the system.
 \begin{enumerate}
-\graphicspath{ {../Diagrams/Kyhle/Use_Case_Diagrams/} }
 
 \item CRUD Operations:
 	\begin{itemize}
@@ -133,11 +131,18 @@ The following system processes describe the functional requirements of the syste
 		\end{itemize}
 	
 	\end{itemize}
-	
+\graphicspath{ {../Diagrams/Kyhle/Use_Case_Diagrams/} }	
 	\begin{figure}[H]	
     	\includegraphics[scale=0.5]{CRUD.jpg}
     	\caption{CRUD Use case diagram}
 	\end{figure}
+	
+\graphicspath{ {../Diagrams/Kyhle/Activity_Diagrams/} }
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{CRUD.jpg}
+    	\caption{CRUD Activity diagram}
+	\end{figure}
+
 	
 \item Tracking read and unread messages:
 \begin{itemize}
@@ -162,9 +167,16 @@ The system must keep track of who has read what, and highlight unread messages f
 
 \end{itemize}
 
+\graphicspath{ {../Diagrams/Kyhle/Use_Case_Diagrams/} }	  	
 \begin{figure}[H]	
     	\includegraphics[scale=0.5]{messageTracking.jpg}
     	\caption{Message Tracking Use case diagram}
+	\end{figure}
+	
+\graphicspath{ {../Diagrams/Kyhle/Activity_Diagrams/} }	    	
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{messageTracking.jpg}
+    	\caption{Message Tracking Activity diagram}
 	\end{figure}
 	
 \item Message Restrictions: 
@@ -190,6 +202,13 @@ Message length should be restricted. Content type should also be restricted base
 	\item Post may not have been created due to some error.
 	\end{itemize}
 \end{itemize}
+
+\graphicspath{ {../Diagrams/Kyhle/Use_Case_Diagrams/} }	    	
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{messageRestrictions.jpg}
+    	\caption{Message Restrictions Activity diagram}
+	\end{figure}
+\graphicspath{ {../Diagrams/Kyhle/Activity_Diagrams/} }
 	\begin{figure}[H]	
     	\includegraphics[scale=0.5]{messageRestrictions.jpg}
     	\caption{Message Restrictions Use case diagram}
@@ -409,13 +428,13 @@ tag buzz space
 \item Self organise
 \begin{itemize}
 \item \textbf{Purpose:}
-TThis deals with self-organisation based on social tagging and
+This deals with self-organization based on social tagging and
 allow the user to view according to the base structure, owns structure
 or public structure.
 \newline
 \textbf{Limitations:} 
 Users with higher privileges will be able to
-organise view to their own structure.
+organize view to their own structure.
 
 \item \textbf{Importance:}  Nice to have\newline
 \textbf{Pre-Conditions: }
@@ -428,11 +447,10 @@ organise view to their own structure.
 
 \textbf{Post-Conditions: }
 	\begin{itemize}
-	\item Tagged buzz space with higher rating from users will be organised
+	\item Tagged buzz space with higher rating from users will be organized
 to be in base structure
-	\item Most accessed tagged buzz space will be included in public struc-
-ture.
-	\item Users with buzz space can organise their own structure.
+	\item Most accessed tagged buzz space will be included in public structure.
+	\item Users with buzz space can organize their own structure.
 	\end{itemize}
 \end{itemize}
 \begin{figure}[H]	
@@ -464,7 +482,7 @@ All users will have this feature by default
 	\item Read later section will be created and added on the side of the
 users portal
 	\item Buzz space reference must be saved in a read later section on the
-user’s portal is the user clicked a buzz space to read later section
+users portal is the user clicked a buzz space to read later section
 	
 	\end{itemize}
 \end{itemize}
@@ -491,8 +509,7 @@ All users will have this feature by default
 	\begin{itemize}
 	\item Buzz space must exist.
 	\item User must be registered to the buzz system.
-	\item User optioned for notifications when registering on the buzz sys-
-tem
+	\item User optioned for notifications when registering on the buzz system
 
 	\end{itemize}
 
@@ -521,14 +538,14 @@ inform about a new comment on the buzz space user commented
 \item \textbf{Purpose: }The management staff must be able to send template messages automatically to individual users or specified groups. These messages would typically be welcoming messages or notification messages. 
 
 	\item  \textbf{Limitation/Exclusions: }
-Staff members must be able to add new templates. The staff member should be able to select the reciever(s) based on certain properties.
+Staff members must be able to add new templates. The staff member should be able to select the receiver(s) based on certain properties.
 
 \item \textbf{Importance:} Nice to have\newline
 \textbf{Pre-Conditions: }
 	\begin{itemize}
-		\item The reciever must be registered to the buzz system.
+		\item The receiver must be registered to the buzz system.
 		\item The sender must be registered as a staff member.
-		\item The system must be able to select a cetain group based on specific information, to send the group message to.
+		\item The system must be able to select a certain group based on specific information, to send the group message to.
 
 	\end{itemize}
 
@@ -541,7 +558,23 @@ Staff members must be able to add new templates. The staff member should be able
 	\end{itemize}
 \end{itemize}
 
+\graphicspath{ {../Diagrams/Maret/usecase/} }	
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{TemplateMessage.png}
+    	\caption{Template Message Use Case Diagram}
+	\end{figure}
 	
+\graphicspath{ {../Diagrams/Maret/activity/} }
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{TemplateMessage.png}
+    	\caption{Template Message Activity Diagram}
+	\end{figure}
+
+\graphicspath{ {../Diagrams/Maret/class/} }
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{TemplateMessage.jpg}
+    	\caption{Template Message Class Diagram}
+	\end{figure}		
 
 \item \textbf{Status Updating}
 \begin{itemize}
@@ -563,9 +596,27 @@ Staff members must be able to add new templates. The staff member should be able
 		\item The users points change and as a result of this, his level may change.
 		\item The users level, and therefore his privileges, may change when his status change.
 		\item The user must be able to view his status.
-		\item The users stutus is public.
+		\item The users status is public.
 	\end{itemize}
 \end{itemize}
+
+\graphicspath{ {../Diagrams/Maret/usecase/} }	
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{UpdateStatus.png}
+    	\caption{Update Status Use Case Diagram}
+	\end{figure}
+	
+\graphicspath{ {../Diagrams/Maret/activity/} }
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{UpdateStatus.png}
+    	\caption{Update Status Activity Diagram}
+	\end{figure}
+	
+\graphicspath{ {../Diagrams/Maret/class/} }
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{UpdateStatus.jpg}
+    	\caption{Update Status Class Diagram}
+	\end{figure}
 
 \item \textbf{Integrate with host site}
 \begin{itemize}
@@ -577,7 +628,7 @@ Staff members must be able to add new templates. The staff member should be able
 \textbf{Pre-Conditions: }
 	\begin{itemize}
 		\item The host site must support the technologies of the BuzzSpace system.
-		\item TheBuzzSpace sytem must support the technologies of the host site.
+		\item TheBuzzSpace system must support the technologies of the host site.
 
 	\end{itemize}
 
@@ -591,7 +642,23 @@ Staff members must be able to add new templates. The staff member should be able
 	\end{itemize}
 \end{itemize}
 
-
+\graphicspath{ {../Diagrams/Maret/usecase/} }	
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{Integrate.png}
+    	\caption{Integrate with host site use case diagram}
+	\end{figure}
+	
+\graphicspath{ {../Diagrams/Maret/activity/} }
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{Integrate.png}
+    	\caption{Integrate with host site activity diagram}
+	\end{figure}
+\graphicspath{ {../Diagrams/Maret/class/} }
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{Integrate.jpg}
+    	\caption{Integrate with host site class diagram}
+	\end{figure}
+	
 \item \textbf{Search and Filter }
 \begin{itemize}
 \item \textbf{Purpose: }The website will allow users to search the website for topics and buzz spaces, and then filter those search results by various categories. \newline \newline
@@ -610,8 +677,20 @@ Users will be limited to 4 filter categories, namely: topic, date posted/last up
 	  \end{itemize}
 	  \graphicspath{ {../Diagrams/Sphe/Search&Filter/} }
 	  \begin{figure}[H]	
-    	\includegraphics[scale=0.65]{UseCase.jpg}
+    	\includegraphics[scale=0.5]{UseCase.jpg}
     	\caption{Search and Filter Use case diagram}
+	\end{figure}
+	
+	\graphicspath{ {../Diagrams/Sphe/Search&Filter/} }
+	  \begin{figure}[H]	
+    	\includegraphics[scale=0.5]{ActivityDiagram.jpg}
+    	\caption{Search and Filter Activity Diagram}
+	\end{figure}
+	
+	
+	 \begin{figure}[H]	
+    	\includegraphics[scale=0.65]{ClassDiagram.jpg}
+    	\caption{Search and Filter Class Diagram}
 	\end{figure}
 	 
 \item \textbf{Post Rating}
@@ -633,16 +712,131 @@ Users will be limited to 4 filter categories, namely: topic, date posted/last up
 	  
 	  \graphicspath{ {../Diagrams/Sphe/PostRatings/} }
 	  \begin{figure}[H]	
-    	\includegraphics[scale=0.65]{UseCase.jpg}
+    	\includegraphics[scale=0.5]{UseCase.jpg}
     	\caption{Post Rating Use case diagram}
+    	
+    	
+	\end{figure}
+	\graphicspath{ {../Diagrams/Sphe/PostRatings/} }
+	  \begin{figure}[H]	
+    	\includegraphics[scale=0.5]{ActivityDiagram.jpg}
+    	\caption{Post Rating Activity Diagram}
+	\end{figure}
+	
+	 \begin{figure}[H]	
+    	\includegraphics[scale=0.5]{ClassDiagram.jpg}
+    	\caption{Post Rating Class Diagram}
 	\end{figure}
 	  \end{itemize}
 	  \end{itemize}
+
+
+
+\item \textbf{Statistical Information}
+
+\textbf{Purpose:}
+Statistical information created from evaluation to capture average mark of every student within a time frame. Visual reporting of a participants evaluation in correlation to the average of the evaluation of all users or certain groups of users for gamification concept.
+
+\textbf{Limitations/exclusions:} : Not all users may see statistical information of users. Only higher level users may view statistical information and visual reporting of users.
+
+ 
+\textbf{Use case Prioritization:} Important.
+
+
+\textbf{Use case/Service Contracts:} 
+
+\textbf{Pre-Conditions: }
+\begin{itemize}
+\item User must be connected to buzz.
+
+\item User must be part of discussion or module to be evaluated.
+
+\item User may not be of higher level of the users who monitor the statistical information.
+
+
+\end{itemize}
+ 
+
+\textbf{Post-Conditions: }
+\begin{itemize}
+
+\item Results and statistical information may not be altered.
+\item No more statistical information may be formulated once time period passes.
+\item All users may see there statistical information.
+\item Statistical information will be represented in a visual representation from that time period.
+
+
+
+\end{itemize}
+
+\graphicspath{ {../Diagrams/Matt/Case/} }
+	  \begin{figure}[H]	
+    	\includegraphics[scale=0.5]{StatisticalinformationCase.jpg}
+    	\caption{Statistical information Use case Diagram}
+	\end{figure}
+
+\graphicspath{ {../Diagrams/Matt/Activity/} }
+	  \begin{figure}[H]	
+    	\includegraphics[scale=0.5]{Statisticalinformation.jpg}
+    	\caption{Statistical information Activity Diagram}
+	\end{figure}
+	
+\graphicspath{ {../Diagrams/Matt/Class/} }
+	  \begin{figure}[H]	
+    	\includegraphics[scale=0.5]{StatisticalClass.jpg}
+    	\caption{Statistical information Class Diagram}
+	\end{figure}
+
+\item \textbf{Post mark up}
+
+\textbf{Purpose:}
+Improved post editor for example text formatting and automatic pretty printing of code in posts.
+\newline
+\textbf{Limitations/exclusions:} 
+
+Not all users will be able to use these options. Has to be earned. Certain options are available for all users by default.
+
+ 
+\textbf{Use case Prioritization:} Nice-To-Have.
+
+ 
+\textbf{Use case/Service Contracts:} 
+\newline
+\textbf{Pre-Conditions: }
+\begin{itemize}
+\item User must be connected to buzz system.
+\item User must be of a high enough level.
+\item Users must be using the post editor.
+\end{itemize}
+ 
+
+\textbf{Post-Conditions: }
+\begin{itemize}
+
+\item Message will be formatted accordingly and marked up (e.g. font colouring,emoticons,various fonts)to how the user wanted. 
+\item User must send message to be viewable by other users.
+\end{itemize}
+
+\graphicspath{ {../Diagrams/Matt/Case/} }
+	  \begin{figure}[H]	
+    	\includegraphics[scale=0.5]{Postmarkupcase.jpg}
+    	\caption{Statistical information Use case Diagram}
+	\end{figure}
+
+\graphicspath{ {../Diagrams/Matt/Activity/} }
+	  \begin{figure}[H]	
+    	\includegraphics[scale=0.5]{PostMarkupActivity.jpg}
+    	\caption{Post Markup Activity Diagram}
+	\end{figure}
+	
+\graphicspath{ {../Diagrams/Matt/Class/} }
+	  \begin{figure}[H]	
+    	\includegraphics[scale=0.5]{PostmarkupClass.jpg}
+    	\caption{Post Markup class Diagram}
+	\end{figure}
+
 \item
-\item
-\item
-\item
-\item
+\item 
 \item
 
 \end{enumerate}
@@ -677,6 +871,7 @@ Users will be limited to 4 filter categories, namely: topic, date posted/last up
 
 \subsection{Process Specifications}
 Requirements around the processes which needs to be followed regarding the use cases: \newline
+<<<<<<< HEAD
 \graphicspath{ {../Diagrams/Kyhle/Activity_Diagrams/} }
 	\begin{figure}[H]	
     	\includegraphics[scale=0.5]{CRUD.jpg}
@@ -722,6 +917,9 @@ Requirements around the processes which needs to be followed regarding the use c
     	\caption{Post Rating Use Activity Diagram}
 	\end{figure}
 	
+=======
+
+>>>>>>> 31bf78e7107ba5f83346eac9e6bd7dee2f46cdcc
 	\begin{figure}[H]	
 \graphicspath{ {../Diagrams/sfiso/} }
     	\includegraphics[scale=0.5]{socialA.jpg}
@@ -749,7 +947,11 @@ Requirements around the processes which needs to be followed regarding the use c
 
 
 \subsection{Domain Model}
-Temporary words
+\graphicspath{ {../Diagrams/} }
+	  \begin{figure}[H]	
+    	\includegraphics[scale=0.32]{Domain.jpg}
+    	\caption{Complete System Domain Model}
+	\end{figure}
 
 \newpage
 \section{Temporary Space}
