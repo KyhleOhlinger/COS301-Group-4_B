@@ -131,6 +131,13 @@ The following system processes describe the functional requirements of the syste
 		\end{itemize}
 	
 	\end{itemize}
+	
+\graphicspath{ {../Diagrams/Kyhle/Class_Diagrams/} }	
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{CRUD.jpg}
+    	\caption{CRUD Use case diagram}
+	\end{figure}
+		
 \graphicspath{ {../Diagrams/Kyhle/Use_Case_Diagrams/} }	
 	\begin{figure}[H]	
     	\includegraphics[scale=0.5]{CRUD.jpg}
@@ -166,6 +173,12 @@ The system must keep track of who has read what, and highlight unread messages f
 	\end{itemize}
 
 \end{itemize}
+
+\graphicspath{ {../Diagrams/Kyhle/Class_Diagrams/} }	  	
+\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{messageTracking.jpg}
+    	\caption{Message Tracking Use case diagram}
+	\end{figure}
 
 \graphicspath{ {../Diagrams/Kyhle/Use_Case_Diagrams/} }	  	
 \begin{figure}[H]	
@@ -203,6 +216,11 @@ Message length should be restricted. Content type should also be restricted base
 	\end{itemize}
 \end{itemize}
 
+\graphicspath{ {../Diagrams/Kyhle/Class_Diagrams/} }	    	
+	\begin{figure}[H]	
+    	\includegraphics[scale=0.5]{messageRestrictions.jpg}
+    	\caption{Message Restrictions Activity diagram}
+	\end{figure}
 \graphicspath{ {../Diagrams/Kyhle/Use_Case_Diagrams/} }	    	
 	\begin{figure}[H]	
     	\includegraphics[scale=0.5]{messageRestrictions.jpg}
@@ -695,7 +713,11 @@ Staff members must be able to add new templates. The staff member should be able
 \item \textbf{Purpose: }The website will allow users to search the website for topics and buzz spaces, and then filter those search results by various categories. \newline \newline
 	\item  \textbf{Limitation/Exclusions: }
 Users will be limited to 4 filter categories, namely: topic, date posted/last updated, buzz space name and rating.
-
+ \graphicspath{ {../Diagrams/Sphe/Search&Filter/} }
+ \begin{figure}[H]	
+    	\includegraphics[scale=0.65]{ClassDiagram.jpg}
+    	\caption{Search and Filter Class Diagram}
+	\end{figure}
 \item \textbf{Importance: } Important
 
 \item \textbf{Use case/Service Contracts: } \newline \newline
@@ -719,17 +741,18 @@ Users will be limited to 4 filter categories, namely: topic, date posted/last up
 	\end{figure}
 	
 	
-	 \begin{figure}[H]	
-    	\includegraphics[scale=0.65]{ClassDiagram.jpg}
-    	\caption{Search and Filter Class Diagram}
-	\end{figure}
+	
 	 
 \item \textbf{Post Rating}
 \begin{itemize}
 \item \textbf{Purpose: }The website will allow users to evaluate/vote for posts on the website. \newline \newline
 	  \textbf{Limitations/Exclusions:} Only users that are logged in to the system and have the privilege rights to evaluate/vote on posts will be allowed to evaluate/vote on posts. Higher Privileged users' votes will push posts higher (or lower) than lower privileged users. \newline \newline
-	  
-	  \item \textbf{Use case Prioritization: } Important \newline \newline
+	  \graphicspath{ {../Diagrams/Sphe/PostRatings/} }
+	  \begin{figure}[H]	
+    	\includegraphics[scale=0.5]{ClassDiagram.jpg}
+    	\caption{Post Rating Class Diagram}
+	\end{figure}
+	  \item \textbf{Importance: } Important \newline \newline
 	  \item \textbf{Use Case/Service Contract: } \newline \newline
 	  \textbf{Pre-Conditions}
 	  \begin{itemize}
@@ -754,10 +777,7 @@ Users will be limited to 4 filter categories, namely: topic, date posted/last up
     	\caption{Post Rating Activity Diagram}
 	\end{figure}
 	
-	 \begin{figure}[H]	
-    	\includegraphics[scale=0.5]{ClassDiagram.jpg}
-    	\caption{Post Rating Class Diagram}
-	\end{figure}
+	 
 	  \end{itemize}
 	  \end{itemize}
 
@@ -1016,9 +1036,6 @@ Requirements around the processes which needs to be followed regarding the use c
     	\caption{Post Rating Use Activity Diagram}
 	\end{figure}
 	
-=======
-
->>>>>>> 31bf78e7107ba5f83346eac9e6bd7dee2f46cdcc
 	\begin{figure}[H]	
 \graphicspath{ {../Diagrams/sfiso/} }
     	\includegraphics[scale=0.5]{socialA.jpg}
@@ -1055,129 +1072,8 @@ Requirements around the processes which needs to be followed regarding the use c
 \newpage
 \section{Temporary Space}
 
-\subsection{Sifiso}
-\subsubsection{Point 1:} 
-\begin{enumerate}
-\item 
-\textbf{Scope:}
-This deals with social tagging, broad folksnomy type is used in this social tagging
-\newline
-\textbf{Limitations/exclusions:} 
-Not all users will be able to tag a buzz space, Users with higher privileges and lectures will be able to social tag buzz space
-
-\item 
-\textbf{Use case Prioritization:} nice to have
-
-\item 
-\textbf{Use case/Service Contracts:} 
-\newline
-\textbf{Pre-Conditions: }
-\begin{itemize}
-\item User must be registered to the buzz system.
-\item User must have necessary privileges.
-\item Buzz space must have a rating from users to be tagged
-\end{itemize}
- 
-
-\textbf{Post-Conditions: }
-\begin{itemize}
-\item Buzz space tagged with a keyword.
-\item Buzz space available at tag box for fast access.
-\end{itemize}
-\end{enumerate}
-
-\subsubsection{Point 2:} 
-\begin{enumerate}
-\item 
-\textbf{Scope:}
-This deals with self-organisation based on social tagging and allow the user to view according to the base structure, owns structure or public structure.
-\newline
-\textbf{Limitations/exclusions:} 
-Users with higher privileges will be able to organise view to their own structure.
-\item 
-\textbf{Use case Prioritization:} nice to have
-
-\item 
-\textbf{Use case/Service Contracts:} 
-\newline
-\textbf{Pre-Conditions: }
-\begin{itemize}
-\item User must be registered to the buzz system.
-\item User must have necessary privileges.
-\item Buzz space must have a rating from users.
-\item Social tagging must be applied to other buzz space
-\end{itemize}
- 
-
-\textbf{Post-Conditions: }
-\begin{itemize}
-\item Tagged buzz space with higher rating from users will be organised to be in base structure
-\item Most accessed tagged buzz space will be included in public structure.
-\item Users with buzz space can organise their own structure.
-\end{itemize}
-\end{enumerate}
-
-\subsubsection{Point 3:} 
-\begin{enumerate}
-\item 
-\textbf{Scope:}
-This deals with an addition of a read later section, which saves buzz space with long comments for a user to read later when logged in and remind the user every time when logged.
-\newline
-\textbf{Limitations/exclusions:} 
-All users will have this feature by default
-\item 
-\textbf{Use case Prioritization:} nice to have
-
-\item 
-\textbf{Use case/Service Contracts:} 
-\newline
-\textbf{Pre-Conditions: }
-\begin{itemize}
-\item User must be registered to the buzz system.
-\end{itemize}
- 
-
-\textbf{Post-Conditions: }
-\begin{itemize}
-\item Read later section will be created and added on the side of the users portal
-\item Buzz space reference must be saved in a read later section on the user's portal is the user clicked a buzz space to read later section 
-\end{itemize}
-\end{enumerate}
-
-\subsubsection{Point 4:} 
-\begin{enumerate}
-\item 
-\textbf{Scope:}
-This deals with buzz space tagging for least privilege users ,this will help social tagging by providing trending buzz space and notification system for users who opened buzz space or waiting for a reply on a comment.
-\newline
-\textbf{Limitations/exclusions:} 
-All users will have this feature by default
-\item 
-\textbf{Use case Prioritization:} nice to have
-
-\item 
-\textbf{Use case/Service Contracts:} 
-\newline
-\textbf{Pre-Conditions: }
-\begin{itemize}
-\item User must be registered to the buzz system.
-\item User must be allowed to the buzz space.
-\item User optioned for notifications when registering on the buzz system
-
-\end{itemize}
- 
-
-\textbf{Post-Conditions: }
-\begin{itemize}
-\item Menu will be provided to the user with icons similar to Glyphicons to describe the buzz space thread for the user to click on.
-\item After user click a certain icon , thread will be rated according to the icon and each icon have description of the buzz space thread ranging from lame buzz thread space to must read buzz thread space and also apply to comments on the buzz space thread .
-\item Notification will be send atomically to users read later section to inform about a new comment on the buzz space user commented 
-\end{itemize}
-\end{enumerate}
 
 
-
-\newpage
 
 
 
@@ -1253,19 +1149,5 @@ Not all users will be able to use these options. Has to be earned. Certain optio
 \item User must send message to be viewable by other users.
 \end{itemize}
 \end{enumerate}
-
-\newpage
-
-\subsection{name}
-\begin{enumerate}
-\item 
-\item 
-\item 
-\item 
-\item 
-\item 
-\end{enumerate}
-
-\newpage
 
 \end{document}
