@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.15)  27 FEB 2015 12:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.15)  27 FEB 2015 12:40
 entering extended mode
 **testFileLaTex.tex
 (testFileLaTex.tex
@@ -398,6 +398,16 @@ Overfull \hbox (76.1283pt too wide) in paragraph at lines 202--203
 
 [11 <../Diagrams/Kyhle/Use_Case_Diagrams/messageTracking.jpg> <../Diagrams/Kyhl
 e/Activity_Diagrams/messageTracking.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 209--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+
 <../Diagrams/Kyhle/Class_Diagrams/messageRestrictions.jpg, id=216, 552.0625pt x
  330.23375pt>
 File: ../Diagrams/Kyhle/Class_Diagrams/messageRestrictions.jpg Graphic file (ty
@@ -713,16 +723,6 @@ d on input line 731.
 (pdftex.def)             Requested size: 440.1433pt x 193.72327pt.
  [45 <../Diagrams/Sphe/Search&Filter/UseCase.jpg>] [46 <../Diagrams/Sphe/Search
 &Filter/ActivityDiagram.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 740--742
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 740--742
-
- []
-
-
 <../Diagrams/Sphe/PostRatings/ClassDiagram.jpg, id=412, 823.075pt x 310.15875pt
 >
 File: ../Diagrams/Sphe/PostRatings/ClassDiagram.jpg Graphic file (type jpg)
@@ -835,6 +835,11 @@ ut line 900.
 (pdftex.def)             Requested size: 408.71976pt x 250.53156pt.
  [57 <../Diagrams/Tienie/Plagiarism/InputOutput.jpg> <../Diagrams/Tienie/Plagia
 rism/UseCase.jpg>] [58 <../Diagrams/Tienie/Plagiarism/Activity.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 908--911
+
+ []
+
+
 <../Diagrams/Tienie/Netiquette/NetInputOutput.jpg, id=478, 1192.455pt x 728.722
 5pt>
 File: ../Diagrams/Tienie/Netiquette/NetInputOutput.jpg Graphic file (type jpg)
@@ -892,7 +897,7 @@ onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmti12.pfb>
-Output written on testFileLaTex.pdf (65 pages, 5824243 bytes).
+Output written on testFileLaTex.pdf (65 pages, 5822975 bytes).
 PDF statistics:
  613 PDF objects out of 1000 (max. 8388607)
  158 named destinations out of 1000 (max. 500000)

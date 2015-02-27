@@ -209,11 +209,11 @@ The system must keep track of who has read what, and highlight unread messages f
 \item \textbf{Purpose:}
 This deals with the restriction of posting messages.
 \newline
-\textbf{Limitations:} 
+\item \textbf{Limitations:} 
 The message length should be restricted. Content type should also be restricted based on level and status of the user posting the message.
 
 \item \textbf{Importance:} Critical\newline
-\textbf{Pre-Conditions: }
+\item \textbf{Pre-Conditions: }
 	\begin{itemize}
 	\item Buzz space must exist.
 	\item The user must be registered to the buzz system.
@@ -221,7 +221,7 @@ The message length should be restricted. Content type should also be restricted 
 	\item Content type and message length must be established by the creator of that specific Buzz (configurable).
 	\end{itemize}
 
-\textbf{Post-Conditions: }
+\item \textbf{Post-Conditions: }
 	\begin{itemize}
 	\item The post is created.
 	\item The post may not have been created due to some error.
@@ -577,7 +577,7 @@ inform about a new comment on the buzz space user commented.
     	\caption{Buzz Tag Activity Diagram}
 	\end{figure}
 \newpage
-\item \textbf{Template messages }
+\item Template messages
 \begin{itemize}
 \item \textbf{Purpose: }The management staff must be able to send template messages automatically to individual users or specified groups. These messages would typically be welcoming messages or notification messages. 
 Staff members must be able to add new templates. The staff member should be able to select the receiver(s) based on certain properties.
@@ -618,11 +618,11 @@ Staff members must be able to add new templates. The staff member should be able
 
 \newpage		
 
-\item \textbf{Status Updating}
+\item Status Updating
 \begin{itemize}
 \item \textbf{Purpose: }The system must automatically change the status of a user based on his participation. The system award points to the user based on his actions, these points are then added and influence the users level. The user may lose points for "bad behaviour" and may win points for participation.
  
-\item  \textbf{Limitation/Exclusions: } The status may only change after an action is performed.
+\item  \textbf{Limitation: } The status may only change after an action is performed.
 
 \item \textbf{Importance:} Important 
 \item\textbf{Pre-Conditions: }
@@ -659,7 +659,7 @@ Staff members must be able to add new templates. The staff member should be able
 	
 \newpage
 
-\item \textbf{Integrate with host site}
+\item Integrate with host site
 \begin{itemize}
 \item \textbf{Purpose: }The system must be able to integrate with a specified host site.
  
@@ -700,7 +700,7 @@ Staff members must be able to add new templates. The staff member should be able
 	\end{figure}
 \newpage
 	
-\item \textbf{Search and Filter }
+\item Search and Filter
 \begin{itemize}
 	\item \textbf{Purpose: }The website will allow users to search the website for topics and Buzz spaces, and then filter those search results by various categories. 
 	\item \textbf{Limitation: } Users will be limited to four filter categories, namely: topic, date posted/last updated, Buzz space name and rating.
@@ -733,11 +733,11 @@ Staff members must be able to add new templates. The staff member should be able
 		\end{figure}
 \newpage	
  
-\item \textbf{Post Rating}
+\item Post Rating
 \begin{itemize}
 	\item \textbf{Purpose: }The website will allow users to evaluate/vote for posts on the website. 
-	\item\textbf{Exclusions:} Only users that are logged in to the system and have the privilege rights to evaluate/vote on posts will be allowed to evaluate/vote on posts. Higher Privileged users' votes will push posts higher (or lower) than lower privileged users. 
- 	\item \textbf{Importance: } Important \newline \newline
+	\item\textbf{Limitations:} Only users that are logged in to the system and have the privilege rights to evaluate/vote on posts will be allowed to evaluate/vote on posts. Higher Privileged users' votes will push posts higher (or lower) than lower privileged users. 
+ 	\item \textbf{Importance: } Important
 %	  \item \textbf{Use Case/Service Contract: } \newline \newline
 	\item\textbf{Pre-Conditions}
 	  	\begin{itemize}
@@ -768,7 +768,7 @@ Staff members must be able to add new templates. The staff member should be able
 
 \newpage
 
-\item \textbf{Statistical Information}
+\item Statistical Information
 \begin{itemize}
 \item\textbf{Purpose:}
 Statistical information created from evaluation to capture average mark of every student within a time frame. Visual reporting of a participants evaluation in correlation to the average of the evaluation of all users or certain groups of users for gamification concept.
@@ -818,10 +818,10 @@ Statistical information created from evaluation to capture average mark of every
 \newpage	
 
 
-\item \textbf{Post mark up}
+\item Post mark up
 \begin{itemize}
 \item\textbf{Purpose:}Improved post editor for example text formatting and automatic pretty printing of code in posts.
-\item\textbf{Limitations/exclusions:} 
+\item\textbf{Limitations:} 
 
 Not all users will be able to use these options, it has to be earned. Certain options are available for all users by default.
 
@@ -863,7 +863,7 @@ Not all users will be able to use these options, it has to be earned. Certain op
     	\caption{Post Markup Use case Diagram}
 	\end{figure}
 \newpage
-\item \textbf{Plagiarism Checker}
+\item Plagiarism Checker
 \graphicspath{ {../Diagrams/Tienie/Plagiarism/}}
 	\begin{itemize}
 		\item \textbf{Purpose: }
@@ -908,7 +908,7 @@ Not all users will be able to use these options, it has to be earned. Certain op
 \item \textbf{Purpose: }
 This deals with the built in Netiquette checker. It describes the functionality of the Netiquette checker as well as its aims and goals.
 \newline
-\textbf{Limitations:} 
+\item \textbf{Limitations:} 
 The netiquette checker is built into the system, and is thus not an optional feature for users posting. However, the checker may be configurable (i.e. turned on and off) by board administrators.
 \item 	\textbf{Importance: } Nice-To-Have
 	\item	\textbf{Pre-Conditions}
