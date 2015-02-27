@@ -769,170 +769,159 @@ Staff members must be able to add new templates. The staff member should be able
 	
 \item \textbf{Search and Filter }
 \begin{itemize}
-\item \textbf{Purpose: }The website will allow users to search the website for topics and buzz spaces, and then filter those search results by various categories. \newline \newline
-	\item  \textbf{Limitation/Exclusions: }
-Users will be limited to 4 filter categories, namely: topic, date posted/last updated, buzz space name and rating.
- \graphicspath{ {../Diagrams/Sphe/Search&Filter/} }
- \begin{figure}[H]	
-    	\includegraphics[scale=0.65]{ClassDiagram.jpg}
-    	\caption{Search and Filter Class Diagram}
-	\end{figure}
-\item \textbf{Importance: } Important
+	\item \textbf{Purpose: }The website will allow users to search the website for topics and Buzz spaces, and then filter those search results by various categories. 
+	\item \textbf{Limitation: } Users will be limited to four filter categories, namely: topic, date posted/last updated, Buzz space name and rating.
+	\item \textbf{Importance: } Important
 
-\item \textbf{Use case/Service Contracts: } \newline \newline
-\end{itemize}
-	  \textbf{Post-Conditions: }
-	   
-	  \begin{itemize}
-	  \item Search results are returned
-	  \item	Search filters are successfully executed
-	  \end{itemize}
-	  \graphicspath{ {../Diagrams/Sphe/Search&Filter/} }
-	  \begin{figure}[H]	
-    	\includegraphics[scale=0.5]{UseCase.jpg}
-    	\caption{Search and Filter Use case diagram}
-	\end{figure}
+ 
+	\item\textbf{Pre-Conditions:} None
+	\item\textbf{Post-Conditions: }
+	    \begin{itemize}
+		\item Search results are returned.
+	  	\item Search filters are successfully executed.
+	     \end{itemize}
+%\item \textbf{Use case/Service Contracts: } \newline \newline
+  \end{itemize}
+	\graphicspath{ {../Diagrams/Sphe/Search&Filter/} }
+		 \begin{figure}[H]	
+	 		\includegraphics[scale=0.65]{ClassDiagram.jpg}
+    			\caption{Search and Filter Class Diagram}
+		\end{figure}
+	\graphicspath{ {../Diagrams/Sphe/Search&Filter/} }
+		\begin{figure}[H]	
+    			\includegraphics[scale=0.5]{UseCase.jpg}
+    			\caption{Search and Filter Use Case Diagram}
+		\end{figure}
 	
 	\graphicspath{ {../Diagrams/Sphe/Search&Filter/} }
-	  \begin{figure}[H]	
-    	\includegraphics[scale=0.5]{ActivityDiagram.jpg}
-    	\caption{Search and Filter Activity Diagram}
-	\end{figure}
+		\begin{figure}[H]	
+    			\includegraphics[scale=0.5]{ActivityDiagram.jpg}
+	  		\caption{Search and Filter Activity Diagram}
+		\end{figure}
 	
 	
 	
 	 
 \item \textbf{Post Rating}
 \begin{itemize}
-\item \textbf{Purpose: }The website will allow users to evaluate/vote for posts on the website. \newline \newline
-	  \textbf{Limitations/Exclusions:} Only users that are logged in to the system and have the privilege rights to evaluate/vote on posts will be allowed to evaluate/vote on posts. Higher Privileged users' votes will push posts higher (or lower) than lower privileged users. \newline \newline
-	  \graphicspath{ {../Diagrams/Sphe/PostRatings/} }
-	  \begin{figure}[H]	
-    	\includegraphics[scale=0.5]{ClassDiagram.jpg}
-    	\caption{Post Rating Class Diagram}
+	\item \textbf{Purpose: }The website will allow users to evaluate/vote for posts on the website. 
+	\item\textbf{Exclusions:} Only users that are logged in to the system and have the privilege rights to evaluate/vote on posts will be allowed to evaluate/vote on posts. Higher Privileged users' votes will push posts higher (or lower) than lower privileged users. 
+ 	\item \textbf{Importance: } Important \newline \newline
+%	  \item \textbf{Use Case/Service Contract: } \newline \newline
+	\item\textbf{Pre-Conditions}
+	  	\begin{itemize}
+	  		\item The user privilege level allows user to vote for post.
+			\item The post must exist and not be removed.
+		\end{itemize}
+	\item\textbf{Post Conditions}
+		\begin{itemize}
+			\item Post rating is updated
+		\end{itemize}
+ \end{itemize}
+    \graphicspath{ {../Diagrams/Sphe/PostRatings/} }
+	\begin{figure}[H]	
+    		\includegraphics[scale=0.5]{ClassDiagram.jpg}
+    		\caption{Post Rating Class Diagram}
 	\end{figure}
-	  \item \textbf{Importance: } Important \newline \newline
-	  \item \textbf{Use Case/Service Contract: } \newline \newline
-	  \textbf{Pre-Conditions}
-	  \begin{itemize}
-	  
-	  \item User privilege level allows user to vote for post
-	  \item post must exist and not be removed
-	  \end{itemize}
-	  \textbf{Post Conditions}
-	  \begin{itemize}
-	  \item Post rating is updated
-	  
-	  \graphicspath{ {../Diagrams/Sphe/PostRatings/} }
-	  \begin{figure}[H]	
-    	\includegraphics[scale=0.5]{UseCase.jpg}
-    	\caption{Post Rating Use case diagram}
-    	
-    	
+	
+    \graphicspath{ {../Diagrams/Sphe/PostRatings/} }
+	\begin{figure}[H]	
+    		\includegraphics[scale=0.5]{UseCase.jpg}
+    		\caption{Post Rating Use Case diagram}
 	\end{figure}
-	\graphicspath{ {../Diagrams/Sphe/PostRatings/} }
-	  \begin{figure}[H]	
-    	\includegraphics[scale=0.5]{ActivityDiagram.jpg}
-    	\caption{Post Rating Activity Diagram}
+    \graphicspath{ {../Diagrams/Sphe/PostRatings/} }
+	\begin{figure}[H]	
+		\includegraphics[scale=0.5]{ActivityDiagram.jpg}
+    		\caption{Post Rating Activity Diagram}
 	\end{figure}
 	
 	 
-	  \end{itemize}
-	  \end{itemize}
+	  
+	 
 
 \newpage
 
 \item \textbf{Statistical Information}
-
-\textbf{Purpose:}
+\begin{itemize}
+\item\textbf{Purpose:}
 Statistical information created from evaluation to capture average mark of every student within a time frame. Visual reporting of a participants evaluation in correlation to the average of the evaluation of all users or certain groups of users for gamification concept.
 
-\textbf{Limitations/exclusions:} : Not all users may see statistical information of users. Only higher level users may view statistical information and visual reporting of users.
+\item\textbf{Limitations:} Not all users may see statistical information of users. Only higher level users may view statistical information and visual reporting of users.
 
  
-\textbf{Importance:} Important.
+\item\textbf{Importance:} Important.
 
 
-\textbf{Use case/Service Contracts:} 
+%\textbf{Use case/Service Contracts:} 
 
-\textbf{Pre-Conditions: }
-\begin{itemize}
-\item User must be connected to buzz.
-
-\item User must be part of discussion or module to be evaluated.
-
-\item User may not be of higher level of the users who monitor the statistical information.
-
-
-\end{itemize}
+\item\textbf{Pre-Conditions: }
+	\begin{itemize}
+		\item The user must be connected to the Buzz system.
+		\item The user must be part of discussion or module to be evaluated.
+	%	\item User may not be of higher level of the users who monitor the statistical information.
+		\item The user may not be a high level user or the staff member that monitor the statistical information.
+	\end{itemize}
  
 
-\textbf{Post-Conditions: }
-\begin{itemize}
-
-\item Results and statistical information may not be altered.
-\item No more statistical information may be formulated once time period passes.
-\item All users may see there statistical information.
-\item Statistical information will be represented in a visual representation from that time period.
-
-
-
+\item\textbf{Post-Conditions: }
+	\begin{itemize}
+		\item Results and statistical information may not be altered.
+		\item No more statistical information may be formulated once time period passes.
+		\item All users may see there statistical information.
+		\item Statistical information will be represented in a visual representation from that time period.
+	\end{itemize}
 \end{itemize}
-
 \graphicspath{ {../Diagrams/Matt/Class/} }
 	  \begin{figure}[H]	
     	\includegraphics[scale=0.5]{StatisticalClass.jpg}
-    	\caption{Statistical information Class Diagram}
+    	\caption{Statistical Information Class Diagram}
 	\end{figure}
 
 \graphicspath{ {../Diagrams/Matt/Activity/} }
 	  \begin{figure}[H]	
     	\includegraphics[scale=0.5]{Statisticalinformation.jpg}
-    	\caption{Statistical information Activity Diagram}
+    	\caption{Statistical Information Activity Diagram}
 	\end{figure}
 
 \graphicspath{ {../Diagrams/Matt/Case/} }
 	  \begin{figure}[H]	
     	\includegraphics[scale=0.5]{StatisticalinformationCase.jpg}
-    	\caption{Statistical information Use case Diagram}
+    	\caption{Statistical Information Use Case Diagram}
 	\end{figure}
 	
 
 
 \item \textbf{Post mark up}
-
-\textbf{Purpose:}
-Improved post editor for example text formatting and automatic pretty printing of code in posts.
-\newline
-\textbf{Limitations/exclusions:} 
-
-Not all users will be able to use these options. Has to be earned. Certain options are available for all users by default.
-
- 
-\textbf{Importance:} Nice-To-Have.
-
- 
-\textbf{Use case/Service Contracts:} 
-\newline
-\textbf{Pre-Conditions: }
 \begin{itemize}
-\item User must be connected to buzz system.
-\item User must be of a high enough level.
-\item Users must be using the post editor.
-\end{itemize}
+\item\textbf{Purpose:}Improved post editor for example text formatting and automatic pretty printing of code in posts.
+\item\textbf{Limitations/exclusions:} 
+
+Not all users will be able to use these options, it has to be earned. Certain options are available for all users by default.
+
+ 
+\item\textbf{Importance:} Nice-To-Have.
+
+ 
+%\textbf{Use case/Service Contracts:} 
+\item\textbf{Pre-Conditions: }
+	\begin{itemize}
+		\item The user must be connected to Buzz system.
+		\item The user must be of a high enough level.
+		\item The users must be using the post editor.
+	\end{itemize}
  
 
-\textbf{Post-Conditions: }
-\begin{itemize}
+\item\textbf{Post-Conditions: }
+	\begin{itemize}
 
-\item Message will be formatted accordingly and marked up (e.g. font colouring,emoticons,various fonts)to how the user wanted. 
-\item User must send message to be viewable by other users.
+		\item The post will be formatted accordingly and marked up (e.g. font colouring,emoticons,various fonts)to how the user wanted. 
+		\item The user must send message to be viewable by other users.
+	\end{itemize}
 \end{itemize}
-
 \graphicspath{ {../Diagrams/Matt/Class/} }
 	  \begin{figure}[H]	
     	\includegraphics[scale=0.5]{PostmarkupClass.jpg}
-    	\caption{Post Markup class Diagram}
+    	\caption{Post Markup Class Diagram}
 	\end{figure}
 
 \graphicspath{ {../Diagrams/Matt/Activity/} }
@@ -944,7 +933,7 @@ Not all users will be able to use these options. Has to be earned. Certain optio
 \graphicspath{ {../Diagrams/Matt/Case/} }
 	  \begin{figure}[H]	
     	\includegraphics[scale=0.5]{Postmarkupcase.jpg}
-    	\caption{Statistical information Use case Diagram}
+    	\caption{Post Markup Use case Diagram}
 	\end{figure}
 
 \item \textbf{Plagiarism Checker}
@@ -952,10 +941,10 @@ Not all users will be able to use these options. Has to be earned. Certain optio
 	\begin{itemize}
 		\item \textbf{Purpose: }
 			This deals with the built in plagiarism checker. It describes the functionality of the plagiarism checker as well as its aims and goals.
-		\newline
+	%	\newline
 		\item \textbf{Limitations:} 
 		The plagiarism checker is built into the system, and is thus not an optional feature for users posting. However, the checker may be configurable (i.e. turned on and off) by board administrators.
-		\item 	\textbf{Importance: } Nice-To-Have
+		\item 	\textbf{Importance: }Nice-To-Have
 		\item 	\textbf{Pre-Conditions: }
 			\begin{itemize}
 	  			\item All posts from within the website will need to be available for traversal in text format.
@@ -973,16 +962,16 @@ Not all users will be able to use these options. Has to be earned. Certain optio
 		  	\end{itemize}
 		  	\newpage
 	  			\begin{figure}[H]
-	  				\caption{Plagiarism Checker Class Diagrams}
-    				\includegraphics[scale=0.5]{InputOutput.jpg}
+	  				\includegraphics[scale=0.5]{InputOutput.jpg}
+    					\caption{Plagiarism Checker Class Diagrams}
 				\end{figure}
 				\begin{figure}[H]
+		    			\includegraphics[scale=0.4]{UseCase.jpg}
 					\caption{Plagiarism Checker Use Case Diagram}
-		    		\includegraphics[scale=0.4]{UseCase.jpg}
 				\end{figure}
 				\begin{figure}[H]
+    					\includegraphics[scale=0.4]{Activity.jpg}
 					\caption{Plagiarism Checker Activity Diagram}
-    				\includegraphics[scale=0.4]{Activity.jpg}
 				\end{figure}
 	  	\end{itemize}
 
@@ -1019,16 +1008,16 @@ The netiquette checker is built into the system, and is thus not an optional fea
 	  		\item The system itself must alert the user of what netiquette rules they have violated as well as give them the opportunity to edit the post and fix them.
 	  	\end{itemize}
 	  		\begin{figure}[H]
-	  			\caption{Netiquette Checker Class Diagram}
 	  			\includegraphics[scale=0.35]{NetInputOutput.jpg}
+	  			\caption{Netiquette Checker Class Diagram}
 	  		\end{figure}
 	  		\begin{figure}[H]
-	  			\caption{Netiquette Checker Use Case}
 	  			\includegraphics[scale=0.35]{NetUseCase.jpg}
+	  			\caption{Netiquette Checker Use Case}
 	  		\end{figure}
 	  		\begin{figure}[H]
-	  			\caption{Netiquette Checker Activity Diagram}
 	  			\includegraphics[scale=0.35]{NetProcessDiagram.jpg}
+	  			\caption{Netiquette Checker Activity Diagram}
 	  		\end{figure}
 	  	\end{itemize}
 
