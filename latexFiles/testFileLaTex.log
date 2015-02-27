@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.15)  27 FEB 2015 12:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.15)  27 FEB 2015 12:30
 entering extended mode
 **testFileLaTex.tex
 (testFileLaTex.tex
@@ -316,24 +316,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--66
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--76
+
+ []
+
 [6]
 <../Diagrams/Kyhle/Class_Diagrams/CRUD.jpg, id=189, 530.98375pt x 372.39125pt>
 File: ../Diagrams/Kyhle/Class_Diagrams/CRUD.jpg Graphic file (type jpg)
 
 <use ../Diagrams/Kyhle/Class_Diagrams/CRUD.jpg>
 Package pdftex.def Info: ../Diagrams/Kyhle/Class_Diagrams/CRUD.jpg used on inpu
-t line 137.
+t line 138.
 (pdftex.def)             Requested size: 265.49121pt x 186.19516pt.
  [7]
 <../Diagrams/Kyhle/Use_Case_Diagrams/CRUD.jpg, id=194, 815.045pt x 508.90125pt>
 File: ../Diagrams/Kyhle/Use_Case_Diagrams/CRUD.jpg Graphic file (type jpg)
 <use ../Diagrams/Kyhle/Use_Case_Diagrams/CRUD.jpg>
 Package pdftex.def Info: ../Diagrams/Kyhle/Use_Case_Diagrams/CRUD.jpg used on i
-nput line 143.
+nput line 146.
 (pdftex.def)             Requested size: 407.5215pt x 254.45pt.
 
-Overfull \hbox (47.5215pt too wide) in paragraph at lines 143--144
-[][] 
+Overfull \hbox (47.5215pt too wide) in paragraph at lines 146--147
+ [] 
  []
 
 
@@ -341,16 +346,16 @@ Overfull \hbox (47.5215pt too wide) in paragraph at lines 143--144
 File: ../Diagrams/Kyhle/Activity_Diagrams/CRUD.jpg Graphic file (type jpg)
 <use ../Diagrams/Kyhle/Activity_Diagrams/CRUD.jpg>
 Package pdftex.def Info: ../Diagrams/Kyhle/Activity_Diagrams/CRUD.jpg used on i
-nput line 149.
+nput line 154.
 (pdftex.def)             Requested size: 403.50652pt x 289.58116pt.
 
-Overfull \hbox (43.50652pt too wide) in paragraph at lines 149--150
-[][] 
+Overfull \hbox (43.50652pt too wide) in paragraph at lines 154--155
+ [] 
  []
 
 [8 <../Diagrams/Kyhle/Class_Diagrams/CRUD.jpg> <../Diagrams/Kyhle/Use_Case_Diag
 rams/CRUD.jpg>] [9 <../Diagrams/Kyhle/Activity_Diagrams/CRUD.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 157--160
+Underfull \hbox (badness 10000) in paragraph at lines 163--166
 
  []
 
@@ -361,7 +366,7 @@ File: ../Diagrams/Kyhle/Class_Diagrams/messageTracking.jpg Graphic file (type j
 pg)
  <use ../Diagrams/Kyhle/Class_Diagrams/messageTracking.jpg>
 Package pdftex.def Info: ../Diagrams/Kyhle/Class_Diagrams/messageTracking.jpg u
-sed on input line 179.
+sed on input line 186.
 (pdftex.def)             Requested size: 204.7645pt x 84.81665pt.
 
 <../Diagrams/Kyhle/Use_Case_Diagrams/messageTracking.jpg, id=205, 766.865pt x 3
@@ -370,11 +375,11 @@ File: ../Diagrams/Kyhle/Use_Case_Diagrams/messageTracking.jpg Graphic file (typ
 e jpg)
  <use ../Diagrams/Kyhle/Use_Case_Diagrams/messageTracking.jpg>
 Package pdftex.def Info: ../Diagrams/Kyhle/Use_Case_Diagrams/messageTracking.jp
-g used on input line 185.
+g used on input line 194.
 (pdftex.def)             Requested size: 383.43156pt x 186.69704pt.
 
-Overfull \hbox (23.43156pt too wide) in paragraph at lines 185--186
-[][] 
+Overfull \hbox (23.43156pt too wide) in paragraph at lines 194--195
+ [] 
  []
 
 [10 <../Diagrams/Kyhle/Class_Diagrams/messageTracking.jpg>]
@@ -384,11 +389,11 @@ File: ../Diagrams/Kyhle/Activity_Diagrams/messageTracking.jpg Graphic file (typ
 e jpg)
  <use ../Diagrams/Kyhle/Activity_Diagrams/messageTracking.jpg>
 Package pdftex.def Info: ../Diagrams/Kyhle/Activity_Diagrams/messageTracking.jp
-g used on input line 191.
+g used on input line 202.
 (pdftex.def)             Requested size: 436.1283pt x 169.13145pt.
 
-Overfull \hbox (76.1283pt too wide) in paragraph at lines 191--192
-[][] 
+Overfull \hbox (76.1283pt too wide) in paragraph at lines 202--203
+ [] 
  []
 
 [11 <../Diagrams/Kyhle/Use_Case_Diagrams/messageTracking.jpg> <../Diagrams/Kyhl
@@ -399,7 +404,7 @@ File: ../Diagrams/Kyhle/Class_Diagrams/messageRestrictions.jpg Graphic file (ty
 pe jpg)
  <use ../Diagrams/Kyhle/Class_Diagrams/messageRestrictions.jpg>
 Package pdftex.def Info: ../Diagrams/Kyhle/Class_Diagrams/messageRestrictions.j
-pg used on input line 221.
+pg used on input line 234.
 (pdftex.def)             Requested size: 276.03056pt x 165.11646pt.
 
 <../Diagrams/Kyhle/Use_Case_Diagrams/messageRestrictions.jpg, id=217, 737.75626
@@ -409,11 +414,11 @@ File: ../Diagrams/Kyhle/Use_Case_Diagrams/messageRestrictions.jpg Graphic file
 
 <use ../Diagrams/Kyhle/Use_Case_Diagrams/messageRestrictions.jpg>
 Package pdftex.def Info: ../Diagrams/Kyhle/Use_Case_Diagrams/messageRestriction
-s.jpg used on input line 226.
+s.jpg used on input line 241.
 (pdftex.def)             Requested size: 368.87723pt x 214.3001pt.
 
-Overfull \hbox (8.87723pt too wide) in paragraph at lines 226--227
-[][] 
+Overfull \hbox (8.87723pt too wide) in paragraph at lines 241--242
+ [] 
  []
 
 
@@ -424,11 +429,11 @@ File: ../Diagrams/Kyhle/Activity_Diagrams/messageRestrictions.jpg Graphic file
 
 <use ../Diagrams/Kyhle/Activity_Diagrams/messageRestrictions.jpg>
 Package pdftex.def Info: ../Diagrams/Kyhle/Activity_Diagrams/messageRestriction
-s.jpg used on input line 231.
+s.jpg used on input line 248.
 (pdftex.def)             Requested size: 430.6077pt x 191.2139pt.
 
-Overfull \hbox (70.6077pt too wide) in paragraph at lines 231--232
-[][] 
+Overfull \hbox (70.6077pt too wide) in paragraph at lines 248--249
+ [] 
  []
 
 [12 <../Diagrams/Kyhle/Class_Diagrams/messageRestrictions.jpg>] [13 <../Diagram
@@ -439,15 +444,15 @@ File: ../Diagrams/Andrew/B1ClassDiagram.png Graphic file (type png)
 
 <use ../Diagrams/Andrew/B1ClassDiagram.png>
 Package pdftex.def Info: ../Diagrams/Andrew/B1ClassDiagram.png used on input li
-ne 264.
+ne 282.
 (pdftex.def)             Requested size: 259.71968pt x 183.30939pt.
  [14]
 <../Diagrams/Andrew/B1UseCase.png, id=235, 654.19406pt x 506.6428pt>
 File: ../Diagrams/Andrew/B1UseCase.png Graphic file (type png)
 
 <use ../Diagrams/Andrew/B1UseCase.png>
-Package pdftex.def Info: ../Diagrams/Andrew/B1UseCase.png used on input line 26
-9.
+Package pdftex.def Info: ../Diagrams/Andrew/B1UseCase.png used on input line 28
+7.
 (pdftex.def)             Requested size: 327.09622pt x 253.32079pt.
 
 <../Diagrams/Andrew/B1Activity.png, id=236, 505.13719pt x 496.10344pt>
@@ -455,7 +460,7 @@ File: ../Diagrams/Andrew/B1Activity.png Graphic file (type png)
 
 <use ../Diagrams/Andrew/B1Activity.png>
 Package pdftex.def Info: ../Diagrams/Andrew/B1Activity.png used on input line 2
-74.
+92.
 (pdftex.def)             Requested size: 252.56798pt x 248.0511pt.
  [15 <../Diagrams/Andrew/B1ClassDiagram.png> <../Diagrams/Andrew/B1UseCase.png>
 ] [16 <../Diagrams/Andrew/B1Activity.png>]
@@ -473,31 +478,27 @@ File: ../Diagrams/Andrew/B2ClassDiagram.png Graphic file (type png)
 
 <use ../Diagrams/Andrew/B2ClassDiagram.png>
 Package pdftex.def Info: ../Diagrams/Andrew/B2ClassDiagram.png used on input li
-ne 311.
+ne 329.
 (pdftex.def)             Requested size: 255.2028pt x 198.742pt.
 
 <../Diagrams/Andrew/B2UseCase.png, id=247, 721.19438pt x 478.03593pt>
 File: ../Diagrams/Andrew/B2UseCase.png Graphic file (type png)
 
 <use ../Diagrams/Andrew/B2UseCase.png>
-Package pdftex.def Info: ../Diagrams/Andrew/B2UseCase.png used on input line 31
-5.
+Package pdftex.def Info: ../Diagrams/Andrew/B2UseCase.png used on input line 33
+3.
 (pdftex.def)             Requested size: 360.59631pt x 239.01738pt.
-
-Overfull \hbox (0.59631pt too wide) in paragraph at lines 315--316
-[][] 
- []
-
-[17] <../Diagrams/Andrew/B2Activity.png, id=253, 506.6428pt x 527.72156pt>
+ [17]
+<../Diagrams/Andrew/B2Activity.png, id=253, 506.6428pt x 527.72156pt>
 File: ../Diagrams/Andrew/B2Activity.png Graphic file (type png)
 
 <use ../Diagrams/Andrew/B2Activity.png>
 Package pdftex.def Info: ../Diagrams/Andrew/B2Activity.png used on input line 3
-19.
+37.
 (pdftex.def)             Requested size: 253.32079pt x 263.86014pt.
  [18 <../Diagrams/Andrew/B2ClassDiagram.png> <../Diagrams/Andrew/B2UseCase.png>
 ] [19 <../Diagrams/Andrew/B2Activity.png>]
-Overfull \hbox (4.39822pt too wide) in paragraph at lines 342--343
+Overfull \hbox (4.39822pt too wide) in paragraph at lines 360--361
 []\OT1/cmr/m/n/10.95 Medium, High and Cre-ator may state whether a cer-tain thr
 ead
  []
@@ -507,173 +508,117 @@ File: ../Diagrams/Andrew/B3ClassDiagram.png Graphic file (type png)
 
 <use ../Diagrams/Andrew/B3ClassDiagram.png>
 Package pdftex.def Info: ../Diagrams/Andrew/B3ClassDiagram.png used on input li
-ne 359.
+ne 377.
 (pdftex.def)             Requested size: 259.34326pt x 183.68579pt.
  [20]
 <../Diagrams/Andrew/B3UseCase.png, id=270, 721.19438pt x 596.2275pt>
 File: ../Diagrams/Andrew/B3UseCase.png Graphic file (type png)
 
 <use ../Diagrams/Andrew/B3UseCase.png>
-Package pdftex.def Info: ../Diagrams/Andrew/B3UseCase.png used on input line 36
-4.
+Package pdftex.def Info: ../Diagrams/Andrew/B3UseCase.png used on input line 38
+2.
 (pdftex.def)             Requested size: 360.59631pt x 298.11302pt.
-
-Overfull \hbox (0.59631pt too wide) in paragraph at lines 364--365
-[][] 
- []
-
-[21 <../Diagrams/Andrew/B3ClassDiagram.png>]
-<../Diagrams/Andrew/B3Activity.png, id=275, 470.50781pt x 287.57437pt>
+ [21 <../Diagrams/Andrew/B3ClassDiagram.png>] <../Diagrams/Andrew/B3Activity.pn
+g, id=275, 470.50781pt x 287.57437pt>
 File: ../Diagrams/Andrew/B3Activity.png Graphic file (type png)
 
 <use ../Diagrams/Andrew/B3Activity.png>
 Package pdftex.def Info: ../Diagrams/Andrew/B3Activity.png used on input line 3
-69.
+87.
 (pdftex.def)             Requested size: 235.25333pt x 143.78683pt.
  [22 <../Diagrams/Andrew/B3UseCase.png> <../Diagrams/Andrew/B3Activity.png>]
 <../Diagrams/sfiso/socialC.jpg, id=280, 640.3925pt x 181.67876pt>
 File: ../Diagrams/sfiso/socialC.jpg Graphic file (type jpg)
 
 <use ../Diagrams/sfiso/socialC.jpg>
-Package pdftex.def Info: ../Diagrams/sfiso/socialC.jpg used on input line 401.
+Package pdftex.def Info: ../Diagrams/sfiso/socialC.jpg used on input line 419.
 (pdftex.def)             Requested size: 320.19547pt x 90.83914pt.
 
 <../Diagrams/sfiso/socialtag.jpg, id=281, 894.34125pt x 604.2575pt>
 File: ../Diagrams/sfiso/socialtag.jpg Graphic file (type jpg)
 
 <use ../Diagrams/sfiso/socialtag.jpg>
-Package pdftex.def Info: ../Diagrams/sfiso/socialtag.jpg used on input line 406
+Package pdftex.def Info: ../Diagrams/sfiso/socialtag.jpg used on input line 424
 .
 (pdftex.def)             Requested size: 447.16953pt x 302.128pt.
-
-Overfull \hbox (87.16953pt too wide) in paragraph at lines 406--407
-[][] 
- []
-
-[23 <../Diagrams/sfiso/socialC.jpg>]
+ [23 <../Diagrams/sfiso/socialC.jpg>]
 <../Diagrams/sfiso/socialA.jpg, id=287, 943.525pt x 562.1pt>
 File: ../Diagrams/sfiso/socialA.jpg Graphic file (type jpg)
 
 <use ../Diagrams/sfiso/socialA.jpg>
-Package pdftex.def Info: ../Diagrams/sfiso/socialA.jpg used on input line 412.
+Package pdftex.def Info: ../Diagrams/sfiso/socialA.jpg used on input line 430.
 (pdftex.def)             Requested size: 471.76134pt x 281.04932pt.
-
-Overfull \hbox (111.76134pt too wide) in paragraph at lines 412--413
-[][] 
- []
-
-[24 <../Diagrams/sfiso/socialtag.jpg>] [25 <../Diagrams/sfiso/socialA.jpg>]
+ [24 <../Diagrams/sfiso/socialtag.jpg>]
+[25 <../Diagrams/sfiso/socialA.jpg>]
 <../Diagrams/sfiso/selfC.jpg, id=297, 887.315pt x 562.1pt>
 File: ../Diagrams/sfiso/selfC.jpg Graphic file (type jpg)
 
 <use ../Diagrams/sfiso/selfC.jpg>
-Package pdftex.def Info: ../Diagrams/sfiso/selfC.jpg used on input line 446.
+Package pdftex.def Info: ../Diagrams/sfiso/selfC.jpg used on input line 464.
 (pdftex.def)             Requested size: 443.65642pt x 281.04932pt.
-
-Overfull \hbox (83.65642pt too wide) in paragraph at lines 446--447
-[][] 
- []
-
-[26] <../Diagrams/sfiso/self.jpg, id=303, 886.31125pt x 562.1pt>
+ [26]
+<../Diagrams/sfiso/self.jpg, id=303, 886.31125pt x 562.1pt>
 File: ../Diagrams/sfiso/self.jpg Graphic file (type jpg)
 
 <use ../Diagrams/sfiso/self.jpg>
-Package pdftex.def Info: ../Diagrams/sfiso/self.jpg used on input line 452.
+Package pdftex.def Info: ../Diagrams/sfiso/self.jpg used on input line 470.
 (pdftex.def)             Requested size: 443.15454pt x 281.04932pt.
-
-Overfull \hbox (83.15454pt too wide) in paragraph at lines 452--453
-[][] 
- []
-
-[27 <../Diagrams/sfiso/selfC.jpg>]
+ [27 <../Diagrams/sfiso/selfC.jpg>]
 <../Diagrams/sfiso/selfA.jpg, id=308, 886.31125pt x 562.1pt>
 File: ../Diagrams/sfiso/selfA.jpg Graphic file (type jpg)
 
 <use ../Diagrams/sfiso/selfA.jpg>
-Package pdftex.def Info: ../Diagrams/sfiso/selfA.jpg used on input line 458.
+Package pdftex.def Info: ../Diagrams/sfiso/selfA.jpg used on input line 476.
 (pdftex.def)             Requested size: 443.15454pt x 281.04932pt.
-
-Overfull \hbox (83.15454pt too wide) in paragraph at lines 458--459
-[][] 
- []
-
-[28 <../Diagrams/sfiso/self.jpg>] [29 <../Diagrams/sfiso/selfA.jpg>]
+ [28 <../Diagrams/sfiso/self.jpg>] [29 <../Diagrams/sfiso/selfA.jpg>]
 <../Diagrams/sfiso/readC.jpg, id=317, 886.31125pt x 574.145pt>
 File: ../Diagrams/sfiso/readC.jpg Graphic file (type jpg)
 
 <use ../Diagrams/sfiso/readC.jpg>
-Package pdftex.def Info: ../Diagrams/sfiso/readC.jpg used on input line 493.
+Package pdftex.def Info: ../Diagrams/sfiso/readC.jpg used on input line 511.
 (pdftex.def)             Requested size: 443.15454pt x 287.0718pt.
-
-Overfull \hbox (83.15454pt too wide) in paragraph at lines 493--494
-[][] 
- []
-
-[30] <../Diagrams/sfiso/read.jpg, id=324, 886.31125pt x 574.145pt>
+ [30]
+<../Diagrams/sfiso/read.jpg, id=324, 886.31125pt x 574.145pt>
 File: ../Diagrams/sfiso/read.jpg Graphic file (type jpg)
 
 <use ../Diagrams/sfiso/read.jpg>
-Package pdftex.def Info: ../Diagrams/sfiso/read.jpg used on input line 499.
+Package pdftex.def Info: ../Diagrams/sfiso/read.jpg used on input line 517.
 (pdftex.def)             Requested size: 443.15454pt x 287.0718pt.
-
-Overfull \hbox (83.15454pt too wide) in paragraph at lines 499--500
-[][] 
- []
-
-[31 <../Diagrams/sfiso/readC.jpg>]
+ [31 <../Diagrams/sfiso/readC.jpg>]
 <../Diagrams/sfiso/readA.jpg, id=329, 886.31125pt x 562.1pt>
 File: ../Diagrams/sfiso/readA.jpg Graphic file (type jpg)
 
 <use ../Diagrams/sfiso/readA.jpg>
-Package pdftex.def Info: ../Diagrams/sfiso/readA.jpg used on input line 505.
+Package pdftex.def Info: ../Diagrams/sfiso/readA.jpg used on input line 523.
 (pdftex.def)             Requested size: 443.15454pt x 281.04932pt.
-
-Overfull \hbox (83.15454pt too wide) in paragraph at lines 505--506
-[][] 
- []
-
-[32 <../Diagrams/sfiso/read.jpg>] [33 <../Diagrams/sfiso/readA.jpg>]
+ [32 <../Diagrams/sfiso/read.jpg>] [33 <../Diagrams/sfiso/readA.jpg>]
 <../Diagrams/sfiso/buzzC.jpg, id=338, 893.3375pt x 562.1pt>
 File: ../Diagrams/sfiso/buzzC.jpg Graphic file (type jpg)
 
 <use ../Diagrams/sfiso/buzzC.jpg>
-Package pdftex.def Info: ../Diagrams/sfiso/buzzC.jpg used on input line 545.
+Package pdftex.def Info: ../Diagrams/sfiso/buzzC.jpg used on input line 563.
 (pdftex.def)             Requested size: 446.66765pt x 281.04932pt.
-
-Overfull \hbox (86.66765pt too wide) in paragraph at lines 545--546
-[][] 
- []
-
-[34] <../Diagrams/sfiso/tag.jpg, id=344, 893.3375pt x 562.1pt>
+ [34]
+<../Diagrams/sfiso/tag.jpg, id=344, 893.3375pt x 562.1pt>
 File: ../Diagrams/sfiso/tag.jpg Graphic file (type jpg)
 
 <use ../Diagrams/sfiso/tag.jpg>
-Package pdftex.def Info: ../Diagrams/sfiso/tag.jpg used on input line 551.
+Package pdftex.def Info: ../Diagrams/sfiso/tag.jpg used on input line 569.
 (pdftex.def)             Requested size: 446.66765pt x 281.04932pt.
-
-Overfull \hbox (86.66765pt too wide) in paragraph at lines 551--552
-[][] 
- []
-
-[35 <../Diagrams/sfiso/buzzC.jpg>]
+ [35 <../Diagrams/sfiso/buzzC.jpg>]
 <../Diagrams/sfiso/buzzA.jpg, id=349, 1001.7425pt x 562.1pt>
 File: ../Diagrams/sfiso/buzzA.jpg Graphic file (type jpg)
 
 <use ../Diagrams/sfiso/buzzA.jpg>
-Package pdftex.def Info: ../Diagrams/sfiso/buzzA.jpg used on input line 558.
+Package pdftex.def Info: ../Diagrams/sfiso/buzzA.jpg used on input line 576.
 (pdftex.def)             Requested size: 500.87003pt x 281.04932pt.
-
-Overfull \hbox (140.87003pt too wide) in paragraph at lines 558--559
-[][] 
- []
-
-[36 <../Diagrams/sfiso/tag.jpg>] [37 <../Diagrams/sfiso/buzzA.jpg>]
+ [36 <../Diagrams/sfiso/tag.jpg>] [37 <../Diagrams/sfiso/buzzA.jpg>]
 <../Diagrams/Maret/class/TemplateMessages.jpg, id=359, 377.41pt x 327.2225pt>
 File: ../Diagrams/Maret/class/TemplateMessages.jpg Graphic file (type jpg)
 
 <use ../Diagrams/Maret/class/TemplateMessages.jpg>
 Package pdftex.def Info: ../Diagrams/Maret/class/TemplateMessages.jpg used on i
-nput line 586.
+nput line 604.
 (pdftex.def)             Requested size: 188.70453pt x 163.61084pt.
 
 <../Diagrams/Maret/usecase/TemplateMessage.png, id=360, 302.63063pt x 219.06844
@@ -681,7 +626,7 @@ pt>
 File: ../Diagrams/Maret/usecase/TemplateMessage.png Graphic file (type png)
  <use ../Diagrams/Maret/usecase/TemplateMessage.png>
 Package pdftex.def Info: ../Diagrams/Maret/usecase/TemplateMessage.png used on 
-input line 591.
+input line 609.
 (pdftex.def)             Requested size: 151.31494pt x 109.53394pt.
  [38 <../Diagrams/Maret/class/TemplateMessages.jpg>]
 <../Diagrams/Maret/activity/TemplateMessage.png, id=366, 548.80031pt x 349.305p
@@ -689,7 +634,7 @@ t>
 File: ../Diagrams/Maret/activity/TemplateMessage.png Graphic file (type png)
  <use ../Diagrams/Maret/activity/TemplateMessage.png>
 Package pdftex.def Info: ../Diagrams/Maret/activity/TemplateMessage.png used on
- input line 597.
+ input line 615.
 (pdftex.def)             Requested size: 274.39948pt x 174.65207pt.
  [39 <../Diagrams/Maret/usecase/TemplateMessage.png> <../Diagrams/Maret/activit
 y/TemplateMessage.png>]
@@ -698,14 +643,14 @@ File: ../Diagrams/Maret/class/UpdateStatus.jpg Graphic file (type jpg)
 
 <use ../Diagrams/Maret/class/UpdateStatus.jpg>
 Package pdftex.def Info: ../Diagrams/Maret/class/UpdateStatus.jpg used on input
- line 627.
+ line 645.
 (pdftex.def)             Requested size: 285.56618pt x 138.01527pt.
 
 <../Diagrams/Maret/usecase/UpdateStatus.png, id=372, 304.88907pt x 166.37157pt>
 File: ../Diagrams/Maret/usecase/UpdateStatus.png Graphic file (type png)
 <use ../Diagrams/Maret/usecase/UpdateStatus.png>
 Package pdftex.def Info: ../Diagrams/Maret/usecase/UpdateStatus.png used on inp
-ut line 632.
+ut line 650.
 (pdftex.def)             Requested size: 152.44415pt x 83.18556pt.
  [40 <../Diagrams/Maret/class/UpdateStatus.jpg>]
 <../Diagrams/Maret/activity/UpdateStatus.png, id=378, 590.95781pt x 349.305pt>
@@ -713,7 +658,7 @@ File: ../Diagrams/Maret/activity/UpdateStatus.png Graphic file (type png)
 
 <use ../Diagrams/Maret/activity/UpdateStatus.png>
 Package pdftex.def Info: ../Diagrams/Maret/activity/UpdateStatus.png used on in
-put line 638.
+put line 656.
 (pdftex.def)             Requested size: 295.47818pt x 174.65207pt.
  [41 <../Diagrams/Maret/usecase/UpdateStatus.png> <../Diagrams/Maret/activity/U
 pdateStatus.png>]
@@ -722,7 +667,7 @@ File: ../Diagrams/Maret/class/Integrate.jpg Graphic file (type jpg)
 
 <use ../Diagrams/Maret/class/Integrate.jpg>
 Package pdftex.def Info: ../Diagrams/Maret/class/Integrate.jpg used on input li
-ne 669.
+ne 687.
 (pdftex.def)             Requested size: 219.31883pt x 142.03026pt.
 
 <../Diagrams/Maret/usecase/Integrate.png, id=384, 508.14844pt x 308.65312pt>
@@ -730,7 +675,7 @@ File: ../Diagrams/Maret/usecase/Integrate.png Graphic file (type png)
 
 <use ../Diagrams/Maret/usecase/Integrate.png>
 Package pdftex.def Info: ../Diagrams/Maret/usecase/Integrate.png used on input 
-line 674.
+line 692.
 (pdftex.def)             Requested size: 254.0736pt x 154.32617pt.
  [42 <../Diagrams/Maret/class/Integrate.jpg>]
 <../Diagrams/Maret/activity/Integrate.png, id=391, 581.17125pt x 371.88937pt>
@@ -738,7 +683,7 @@ File: ../Diagrams/Maret/activity/Integrate.png Graphic file (type png)
 
 <use ../Diagrams/Maret/activity/Integrate.png>
 Package pdftex.def Info: ../Diagrams/Maret/activity/Integrate.png used on input
- line 680.
+ line 698.
 (pdftex.def)             Requested size: 290.58492pt x 185.94423pt.
  [43 <../Diagrams/Maret/usecase/Integrate.png> <../Diagrams/Maret/activity/Inte
 grate.png>]
@@ -747,47 +692,33 @@ t>
 File: ../Diagrams/Sphe/Search&Filter/ClassDiagram.jpg Graphic file (type jpg)
  <use ../Diagrams/Sphe/Search&Filter/ClassDiagram.jpg>
 Package pdftex.def Info: ../Diagrams/Sphe/Search&Filter/ClassDiagram.jpg used o
-n input line 702.
+n input line 720.
 (pdftex.def)             Requested size: 439.08524pt x 187.89977pt.
-
-Overfull \hbox (79.08524pt too wide) in paragraph at lines 702--703
-[][] 
- []
 
 <../Diagrams/Sphe/Search&Filter/UseCase.jpg, id=397, 892.33376pt x 606.265pt>
 File: ../Diagrams/Sphe/Search&Filter/UseCase.jpg Graphic file (type jpg)
 
 <use ../Diagrams/Sphe/Search&Filter/UseCase.jpg>
 Package pdftex.def Info: ../Diagrams/Sphe/Search&Filter/UseCase.jpg used on inp
-ut line 707.
+ut line 725.
 (pdftex.def)             Requested size: 446.16579pt x 303.13176pt.
-
-Overfull \hbox (86.16579pt too wide) in paragraph at lines 707--708
-[][] 
- []
-
-[44 <../Diagrams/Sphe/Search&Filter/ClassDiagram.jpg>]
+ [44 <../Diagrams/Sphe/Search&Filter/ClassDiagram.jpg>]
 <../Diagrams/Sphe/Search&Filter/ActivityDiagram.jpg, id=403, 880.28876pt x 387.
 4475pt>
 File: ../Diagrams/Sphe/Search&Filter/ActivityDiagram.jpg Graphic file (type jpg
 )
  <use ../Diagrams/Sphe/Search&Filter/ActivityDiagram.jpg>
 Package pdftex.def Info: ../Diagrams/Sphe/Search&Filter/ActivityDiagram.jpg use
-d on input line 713.
+d on input line 731.
 (pdftex.def)             Requested size: 440.1433pt x 193.72327pt.
-
-Overfull \hbox (80.1433pt too wide) in paragraph at lines 713--714
-[][] 
- []
-
-[45 <../Diagrams/Sphe/Search&Filter/UseCase.jpg>] [46 <../Diagrams/Sphe/Search&
-Filter/ActivityDiagram.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 722--724
+ [45 <../Diagrams/Sphe/Search&Filter/UseCase.jpg>] [46 <../Diagrams/Sphe/Search
+&Filter/ActivityDiagram.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 740--742
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 722--724
+Underfull \hbox (badness 10000) in paragraph at lines 740--742
 
  []
 
@@ -797,46 +728,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 722--724
 File: ../Diagrams/Sphe/PostRatings/ClassDiagram.jpg Graphic file (type jpg)
  <use ../Diagrams/Sphe/PostRatings/ClassDiagram.jpg>
 Package pdftex.def Info: ../Diagrams/Sphe/PostRatings/ClassDiagram.jpg used on 
-input line 736.
+input line 754.
 (pdftex.def)             Requested size: 411.53648pt x 155.079pt.
-
-Overfull \hbox (51.53648pt too wide) in paragraph at lines 736--737
-[][] 
- []
 
 <../Diagrams/Sphe/PostRatings/UseCase.jpg, id=413, 900.36375pt x 556.0775pt>
 File: ../Diagrams/Sphe/PostRatings/UseCase.jpg Graphic file (type jpg)
 
 <use ../Diagrams/Sphe/PostRatings/UseCase.jpg>
 Package pdftex.def Info: ../Diagrams/Sphe/PostRatings/UseCase.jpg used on input
- line 742.
+ line 760.
 (pdftex.def)             Requested size: 450.18077pt x 278.03807pt.
-
-Overfull \hbox (90.18077pt too wide) in paragraph at lines 742--743
-[][] 
- []
-
 
 <../Diagrams/Sphe/PostRatings/ActivityDiagram.jpg, id=414, 882.29625pt x 567.11
 874pt>
 File: ../Diagrams/Sphe/PostRatings/ActivityDiagram.jpg Graphic file (type jpg)
  <use ../Diagrams/Sphe/PostRatings/ActivityDiagram.jpg>
 Package pdftex.def Info: ../Diagrams/Sphe/PostRatings/ActivityDiagram.jpg used 
-on input line 747.
+on input line 765.
 (pdftex.def)             Requested size: 441.14705pt x 283.55867pt.
-
-Overfull \hbox (81.14705pt too wide) in paragraph at lines 747--748
-[][] 
- []
-
-[47 <../Diagrams/Sphe/PostRatings/ClassDiagram.jpg>] [48 <../Diagrams/Sphe/Post
-Ratings/UseCase.jpg>] [49 <../Diagrams/Sphe/PostRatings/ActivityDiagram.jpg>]
+ [47 <../Diagrams/Sphe/PostRatings/ClassDiagram.jpg>] [48 <../Diagrams/Sphe/Pos
+tRatings/UseCase.jpg>] [49 <../Diagrams/Sphe/PostRatings/ActivityDiagram.jpg>]
 <../Diagrams/Matt/Class/StatisticalClass.jpg, id=429, 485.815pt x 310.15875pt>
 File: ../Diagrams/Matt/Class/StatisticalClass.jpg Graphic file (type jpg)
 
 <use ../Diagrams/Matt/Class/StatisticalClass.jpg>
 Package pdftex.def Info: ../Diagrams/Matt/Class/StatisticalClass.jpg used on in
-put line 785.
+put line 803.
 (pdftex.def)             Requested size: 242.9069pt x 155.079pt.
 
 <../Diagrams/Matt/Activity/Statisticalinformation.jpg, id=430, 780.9175pt x 605
@@ -845,30 +762,20 @@ File: ../Diagrams/Matt/Activity/Statisticalinformation.jpg Graphic file (type j
 pg)
  <use ../Diagrams/Matt/Activity/Statisticalinformation.jpg>
 Package pdftex.def Info: ../Diagrams/Matt/Activity/Statisticalinformation.jpg u
-sed on input line 791.
+sed on input line 809.
 (pdftex.def)             Requested size: 390.4578pt x 302.62987pt.
-
-Overfull \hbox (30.4578pt too wide) in paragraph at lines 791--792
-[][] 
- []
-
-[50 <../Diagrams/Matt/Class/StatisticalClass.jpg>]
+ [50 <../Diagrams/Matt/Class/StatisticalClass.jpg>]
 <../Diagrams/Matt/Case/StatisticalinformationCase.jpg, id=436, 807.015pt x 499.
 8675pt>
 File: ../Diagrams/Matt/Case/StatisticalinformationCase.jpg Graphic file (type j
 pg)
  <use ../Diagrams/Matt/Case/StatisticalinformationCase.jpg>
 Package pdftex.def Info: ../Diagrams/Matt/Case/StatisticalinformationCase.jpg u
-sed on input line 797.
+sed on input line 815.
 (pdftex.def)             Requested size: 403.50652pt x 249.93314pt.
-
-Overfull \hbox (43.50652pt too wide) in paragraph at lines 797--798
-[][] 
- []
-
-[51 <../Diagrams/Matt/Activity/Statisticalinformation.jpg>] [52 <../Diagrams/Ma
-tt/Case/StatisticalinformationCase.jpg>]
-Overfull \hbox (4.88483pt too wide) in paragraph at lines 826--827
+ [51 <../Diagrams/Matt/Activity/Statisticalinformation.jpg>] [52 <../Diagrams/M
+att/Case/StatisticalinformationCase.jpg>]
+Overfull \hbox (4.88483pt too wide) in paragraph at lines 844--845
 \OT1/cmr/m/n/10.95 font colour-ing,emoticons,various fonts)to how the user want
 ed. 
  []
@@ -878,7 +785,7 @@ File: ../Diagrams/Matt/Class/PostmarkupClass.jpg Graphic file (type jpg)
 
 <use ../Diagrams/Matt/Class/PostmarkupClass.jpg>
 Package pdftex.def Info: ../Diagrams/Matt/Class/PostmarkupClass.jpg used on inp
-ut line 832.
+ut line 850.
 (pdftex.def)             Requested size: 239.39378pt x 256.95937pt.
 
 <../Diagrams/Matt/Activity/PostMarkupActivity.jpg, id=446, 837.1275pt x 485.815
@@ -886,129 +793,88 @@ pt>
 File: ../Diagrams/Matt/Activity/PostMarkupActivity.jpg Graphic file (type jpg)
  <use ../Diagrams/Matt/Activity/PostMarkupActivity.jpg>
 Package pdftex.def Info: ../Diagrams/Matt/Activity/PostMarkupActivity.jpg used 
-on input line 838.
+on input line 856.
 (pdftex.def)             Requested size: 418.56273pt x 242.9069pt.
-
-Overfull \hbox (58.56273pt too wide) in paragraph at lines 838--839
-[][] 
- []
-
-[53 <../Diagrams/Matt/Class/PostmarkupClass.jpg>]
+ [53 <../Diagrams/Matt/Class/PostmarkupClass.jpg>]
 <../Diagrams/Matt/Case/Postmarkupcase.jpg, id=452, 807.015pt x 499.8675pt>
 File: ../Diagrams/Matt/Case/Postmarkupcase.jpg Graphic file (type jpg)
 
 <use ../Diagrams/Matt/Case/Postmarkupcase.jpg>
 Package pdftex.def Info: ../Diagrams/Matt/Case/Postmarkupcase.jpg used on input
- line 844.
+ line 862.
 (pdftex.def)             Requested size: 403.50652pt x 249.93314pt.
-
-Overfull \hbox (43.50652pt too wide) in paragraph at lines 844--845
-[][] 
- []
-
-[54 <../Diagrams/Matt/Activity/PostMarkupActivity.jpg>] [55 <../Diagrams/Matt/C
-ase/Postmarkupcase.jpg>]
+ [54 <../Diagrams/Matt/Activity/PostMarkupActivity.jpg>] [55 <../Diagrams/Matt/
+Case/Postmarkupcase.jpg>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [56]
+
+[56]
 <../Diagrams/Tienie/Plagiarism/InputOutput.jpg, id=467, 824.07875pt x 231.86626
 pt>
 File: ../Diagrams/Tienie/Plagiarism/InputOutput.jpg Graphic file (type jpg)
  <use ../Diagrams/Tienie/Plagiarism/InputOutput.jpg>
 Package pdftex.def Info: ../Diagrams/Tienie/Plagiarism/InputOutput.jpg used on 
-input line 874.
+input line 892.
 (pdftex.def)             Requested size: 412.03836pt x 115.93283pt.
-
-Overfull \hbox (52.03836pt too wide) in paragraph at lines 874--875
-[][] 
- []
 
 <../Diagrams/Tienie/Plagiarism/UseCase.jpg, id=468, 1035.87pt x 546.04pt>
 File: ../Diagrams/Tienie/Plagiarism/UseCase.jpg Graphic file (type jpg)
 
 <use ../Diagrams/Tienie/Plagiarism/UseCase.jpg>
 Package pdftex.def Info: ../Diagrams/Tienie/Plagiarism/UseCase.jpg used on inpu
-t line 878.
+t line 896.
 (pdftex.def)             Requested size: 414.34065pt x 218.41212pt.
-
-Overfull \hbox (54.34065pt too wide) in paragraph at lines 878--879
-[][] 
- []
 
 <../Diagrams/Tienie/Plagiarism/Activity.jpg, id=469, 1021.8175pt x 626.34pt>
 File: ../Diagrams/Tienie/Plagiarism/Activity.jpg Graphic file (type jpg)
 
 <use ../Diagrams/Tienie/Plagiarism/Activity.jpg>
 Package pdftex.def Info: ../Diagrams/Tienie/Plagiarism/Activity.jpg used on inp
-ut line 882.
+ut line 900.
 (pdftex.def)             Requested size: 408.71976pt x 250.53156pt.
-
-Overfull \hbox (48.71976pt too wide) in paragraph at lines 882--883
-[][] 
- []
-
-[57 <../Diagrams/Tienie/Plagiarism/InputOutput.jpg> <../Diagrams/Tienie/Plagiar
-ism/UseCase.jpg>] [58 <../Diagrams/Tienie/Plagiarism/Activity.jpg>]
+ [57 <../Diagrams/Tienie/Plagiarism/InputOutput.jpg> <../Diagrams/Tienie/Plagia
+rism/UseCase.jpg>] [58 <../Diagrams/Tienie/Plagiarism/Activity.jpg>]
 <../Diagrams/Tienie/Netiquette/NetInputOutput.jpg, id=478, 1192.455pt x 728.722
 5pt>
 File: ../Diagrams/Tienie/Netiquette/NetInputOutput.jpg Graphic file (type jpg)
  <use ../Diagrams/Tienie/Netiquette/NetInputOutput.jpg>
 Package pdftex.def Info: ../Diagrams/Tienie/Netiquette/NetInputOutput.jpg used 
-on input line 919.
+on input line 937.
 (pdftex.def)             Requested size: 417.36551pt x 255.05669pt.
-
-Overfull \hbox (57.36551pt too wide) in paragraph at lines 919--920
-[][] 
- []
-
 
 <../Diagrams/Tienie/Netiquette/NetUseCase.jpg, id=479, 1218.5525pt x 881.2925pt
 >
 File: ../Diagrams/Tienie/Netiquette/NetUseCase.jpg Graphic file (type jpg)
  <use ../Diagrams/Tienie/Netiquette/NetUseCase.jpg>
 Package pdftex.def Info: ../Diagrams/Tienie/Netiquette/NetUseCase.jpg used on i
-nput line 923.
+nput line 941.
 (pdftex.def)             Requested size: 426.49977pt x 308.45699pt.
-
-Overfull \hbox (66.49977pt too wide) in paragraph at lines 923--924
-[][] 
- []
-
-[59]
+ [59]
 <../Diagrams/Tienie/Netiquette/NetProcessDiagram.jpg, id=485, 1048.91875pt x 66
 4.4825pt>
 File: ../Diagrams/Tienie/Netiquette/NetProcessDiagram.jpg Graphic file (type jp
 g)
  <use ../Diagrams/Tienie/Netiquette/NetProcessDiagram.jpg>
 Package pdftex.def Info: ../Diagrams/Tienie/Netiquette/NetProcessDiagram.jpg us
-ed on input line 927.
+ed on input line 945.
 (pdftex.def)             Requested size: 367.12706pt x 232.57236pt.
-
-Overfull \hbox (7.12706pt too wide) in paragraph at lines 927--928
-[][] 
- []
-
-[60 <../Diagrams/Tienie/Netiquette/NetInputOutput.jpg>] [61 <../Diagrams/Tienie
-/Netiquette/NetUseCase.jpg>] [62 <../Diagrams/Tienie/Netiquette/NetProcessDiagr
-am.jpg>] [63] <../Diagrams/Domain.jpg, id=503, 1448.41125pt x 875.27pt>
+ [60 <../Diagrams/Tienie/Netiquette/NetInputOutput.jpg>] [61 <../Diagrams/Tieni
+e/Netiquette/NetUseCase.jpg>] [62 <../Diagrams/Tienie/Netiquette/NetProcessDiag
+ram.jpg>]
+[63] <../Diagrams/Domain.jpg, id=503, 1448.41125pt x 875.27pt>
 File: ../Diagrams/Domain.jpg Graphic file (type jpg)
 
 <use ../Diagrams/Domain.jpg>
-Package pdftex.def Info: ../Diagrams/Domain.jpg used on input line 971.
+Package pdftex.def Info: ../Diagrams/Domain.jpg used on input line 989.
 (pdftex.def)             Requested size: 463.50107pt x 280.09212pt.
-
-Overfull \hbox (103.50107pt too wide) in paragraph at lines 971--972
-[][] 
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 975.
-[64 <../Diagrams/Domain.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 975.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 993.
+ [64 <../Diagrams/Domain.jpg>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 993.
  (testFileLaTex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 975.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 975.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 975.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 993.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 993.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 993.
  ) 
 Here is how much of TeX's memory you used:
  6473 strings out of 493698
@@ -1017,7 +883,7 @@ Here is how much of TeX's memory you used:
  9523 multiletter control sequences out of 15000+200000
  9192 words of font info for 32 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 30i,6n,34p,486b,573s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,8n,34p,486b,579s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
@@ -1026,7 +892,7 @@ onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmti12.pfb>
-Output written on testFileLaTex.pdf (65 pages, 5824190 bytes).
+Output written on testFileLaTex.pdf (65 pages, 5824243 bytes).
 PDF statistics:
  613 PDF objects out of 1000 (max. 8388607)
  158 named destinations out of 1000 (max. 500000)
