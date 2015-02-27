@@ -9,7 +9,6 @@
 
 \begin{document}
 
-
 \input{./titlePage.tex}
 
 \tableofcontents	%Creates Table of contents from sections and 							 subsections, etc...
@@ -58,12 +57,12 @@ The system will be assigned administrators from the Computer Science Department 
 \textbf{Scope: } \newline
 The scope of the Buzz System project can be encapsulated as a solution that allows the users of the system to:
 \begin{itemize}
-\item Have access to basic the functionalities that are common on all online forums.
+\item Have access to the basic functionalities that are common on all online forums.
 \item The administrative staff should be able to manage the registration of users to the forum.
 \item Users have to be able to participate in discussions. 
 \end{itemize}
 The system shall be designed primarily for use by lecturers, teaching
-assistants, and students for the core purpose of engaging in activities related to learning the content of specific modules, and increasing the participation, and consequently deeper understanding of the modules at hand. \newline
+assistants, and students, for the core purpose of engaging in activities related to learning the content of specific modules, increasing the participation, and consequently gaining a deeper understanding of the modules at hand. \newline
 
 \subsection{Required Functionality}
 The following system processes describe the functional requirements of the system.
@@ -79,29 +78,29 @@ The following system processes describe the functional requirements of the syste
 	\item \textbf{Pre-Conditions: }
 		\begin{itemize}
 		\item Buzz space must exist.
-		\item User must be connected to the buzz system.\item 	
+		\item The user must be connected to the buzz system.\item 	
 		
 		\textit{Create: }
 			\begin{itemize}
-    			\item Must have necessary permission to create posts.
-    			\item Must be registered on the buzz system.
+    			\item The user must have the necessary permissions to create posts.
+    			\item The user must be registered on the buzz system.
   			\end{itemize}
   			
 		\item \textit{Read: }
 			\begin{itemize}
-			\item Post must exist.
+			\item The post must exist.
 			\end{itemize}
 	
 		\item \textit{Update: }
 			\begin{itemize}
-			\item Post must exist.
-			\item Must either be owner of the post, or have necessary 				permissions to update the post.
+			\item The post must exist.
+			\item The user must either be the owner of the post, or have the necessary permissions to update the post.
 			\end{itemize}
 
 		\item \textit{Delete: }
 			\begin{itemize}
-			\item Post must exist.
-			\item Must either be owner of the post, or have necessary 				permissions to delete the post
+			\item The post must exist.
+			\item The user must either be the owner of the post, or have the necessary permissions to delete the post
 			\end{itemize}  			
   			
 		\end{itemize}
@@ -109,8 +108,8 @@ The following system processes describe the functional requirements of the syste
 		\begin{itemize}
 		\item \textit{Create: }
 			\begin{itemize}
-			\item Post will have been created.
-			\item Post may not have been created, due to some error.
+			\item The post will have been created.
+			\item The post may not have been created, due to some error.
 			\end{itemize}
 		\item \textit{Read: }
 			\begin{itemize}
@@ -118,14 +117,15 @@ The following system processes describe the functional requirements of the syste
 			\end{itemize}
 		\item \textit{Update: }
 			\begin{itemize}
-			\item Post will be updated if user has required 						permissions.
-			\item Post may not have been updated due to some error.
+			\item The post will be updated if the user has the required permissions.
+			\item The post may not have been updated due to some error.
 			\end{itemize}
 		\item \textit{Delete: }
 			\begin{itemize}
-			\item Post will be marked as deleted, and thus removed 					from the discussion board.
-			\item Post is not actually removed from the server, it is 					however hidden from all users.
-		\item Post may not have been deleted due to some error. 
+			\item The post will be marked as deleted, and thus removed 					from the discussion board.
+			\item The post is not actually removed from the server, it is however hidden from all users.
+		\item The post may not have been deleted due to some error. 
+		\item Users with the necessary permissions may view deleted posts.
 			\end{itemize}			
 			
 		\end{itemize}
@@ -149,7 +149,7 @@ The following system processes describe the functional requirements of the syste
     	\includegraphics[scale=0.5]{CRUD.jpg}
     	\caption{CRUD Activity diagram}
 	\end{figure}
-
+\newpage
 	
 \item Tracking read and unread messages:
 \begin{itemize}
@@ -162,14 +162,14 @@ The system must keep track of who has read what, and highlight unread messages f
 \item \textbf{Pre-Conditions: }
 	\begin{itemize}
 	\item Buzz space must exist.
-	\item User must be registered to the buzz system.
-	\item User must be logged into the system while viewing the post.
+	\item The user must be registered to the buzz system.
+	\item The user must be logged into the system while viewing the post.
 	\end{itemize}
 
 \textbf{Post-Conditions: }
 	\begin{itemize}
-	\item Post is marked as read.
-	\item Post remains unmarked due to some error.
+	\item The post is marked as read.
+	\item The post remains unmarked due to some error.
 	\end{itemize}
 
 \end{itemize}
@@ -191,28 +191,28 @@ The system must keep track of who has read what, and highlight unread messages f
     	\includegraphics[scale=0.5]{messageTracking.jpg}
     	\caption{Message Tracking Activity diagram}
 	\end{figure}
-	
+\newpage	
 \item Message Restrictions: 
 \begin{itemize}
 \item \textbf{Purpose:}
 This deals with the restriction of posting messages.
 \newline
 \textbf{Limitations:} 
-Message length should be restricted. Content type should also be restricted based on level and status of the user posting the message.
+The message length should be restricted. Content type should also be restricted based on level and status of the user posting the message.
 
 \item \textbf{Importance:} Critical\newline
 \textbf{Pre-Conditions: }
 	\begin{itemize}
 	\item Buzz space must exist.
-	\item User must be registered to the buzz system.
-	\item User must have necessary permissions to create posts of a certain length or content type.
-	\item Content type and message length must be established by the creator of that specific buzz (configurable).
+	\item The user must be registered to the buzz system.
+	\item The user must have the necessary permissions to create posts of a certain length or content type.
+	\item Content type and message length must be established by the creator of that specific Buzz (configurable).
 	\end{itemize}
 
 \textbf{Post-Conditions: }
 	\begin{itemize}
-	\item Post is created.
-	\item Post may not have been created due to some error.
+	\item The post is created.
+	\item The post may not have been created due to some error.
 	\end{itemize}
 \end{itemize}
 
@@ -231,37 +231,7 @@ Message length should be restricted. Content type should also be restricted base
     	\includegraphics[scale=0.5]{messageRestrictions.jpg}
     	\caption{Message Restrictions Use case diagram}
 	\end{figure}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\newpage
 
 \item  Restricting users posts depending on user level:
 \begin{itemize}	
@@ -304,9 +274,6 @@ Message length should be restricted. Content type should also be restricted base
 				\includegraphics[scale=0.5]{B1Activity.png}
 				\caption{Post Restriction Activity Diagram}
 			\end{figure}
-
-			 	  		
-	\newpage	 
 		 
 \end{itemize}			
 
@@ -352,12 +319,7 @@ Message length should be restricted. Content type should also be restricted base
 		\includegraphics[scale=0.5]{B2Activity.png}
 		\caption{Staff Message Updating Activity Diagram}
 	\end{figure}
-
-
-			 	  		
-	\newpage
-			
-			 
+ 
 				
 \end{itemize}	
  \newpage
@@ -407,33 +369,10 @@ Message length should be restricted. Content type should also be restricted base
 			\includegraphics[scale=0.5]{B3Activity.png}
 			\caption{Semi-automatic Summaries Activity Diagram}
 		\end{figure}
-			 	  					 	  		
-
-	\newpage
-			
-			 
-				
+		
 \end{itemize}	
 
 \newpage
-
-
-
-				
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 \item Social Tagging 
 \begin{itemize}
@@ -473,7 +412,7 @@ Not all users will be able to tag a Buzz space, users with higher levels and lec
     	\includegraphics[scale=0.5]{socialA.jpg}
     	\caption{Social Tag Activity  diagram}
 	\end{figure}
-
+\newpage
 \item Self organise
 \begin{itemize}
 \item \textbf{Purpose:}
@@ -520,7 +459,7 @@ to be in base structure
     	\caption{Self organise Activity diagram}
 	\end{figure}
 
-
+\newpage
 \item Read Later Section
 
 \begin{itemize}
@@ -566,7 +505,7 @@ users portal is the user clicked a Buzz space to read later section.
     	\includegraphics[scale=0.5]{readA.jpg}
     	\caption{Read Later Section Acitivity Diagram}
 	\end{figure}
-
+\newpage
 
 \item Buzz Tag
 \begin{itemize}
@@ -619,30 +558,7 @@ inform about a new comment on the buzz space user commented.
     	\includegraphics[scale=0.5]{buzzA.jpg}
     	\caption{Buzz Tag Activity Diagram}
 	\end{figure}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\newpage
 \item \textbf{Template messages }
 \begin{itemize}
 \item \textbf{Purpose: }The management staff must be able to send template messages automatically to individual users or specified groups. These messages would typically be welcoming messages or notification messages. 
@@ -682,14 +598,13 @@ Staff members must be able to add new templates. The staff member should be able
     	\caption{Template Message Activity Diagram}
 	\end{figure}
 
-		
+\newpage		
 
 \item \textbf{Status Updating}
 \begin{itemize}
 \item \textbf{Purpose: }The system must automatically change the status of a user based on his participation. The system award points to the user based on his actions, these points are then added and influence the users level. The user may lose points for "bad behaviour" and may win points for participation.
  
-
-	\item  \textbf{Limitation/Exclusions: } The status may only change after an action is performed.
+\item  \textbf{Limitation/Exclusions: } The status may only change after an action is performed.
 
 \item \textbf{Importance:} Important 
 \item\textbf{Pre-Conditions: }
@@ -724,7 +639,7 @@ Staff members must be able to add new templates. The staff member should be able
     	\caption{Update Status Activity Diagram}
 	\end{figure}
 	
-
+\newpage
 
 \item \textbf{Integrate with host site}
 \begin{itemize}
@@ -765,7 +680,7 @@ Staff members must be able to add new templates. The staff member should be able
     	\includegraphics[scale=0.5]{Integrate.png}
     	\caption{Integrate With Host Site Activity Diagram}
 	\end{figure}
-
+\newpage
 	
 \item \textbf{Search and Filter }
 \begin{itemize}
@@ -798,10 +713,8 @@ Staff members must be able to add new templates. The staff member should be able
     			\includegraphics[scale=0.5]{ActivityDiagram.jpg}
 	  		\caption{Search and Filter Activity Diagram}
 		\end{figure}
-	
-	
-	
-	 
+\newpage	
+ 
 \item \textbf{Post Rating}
 \begin{itemize}
 	\item \textbf{Purpose: }The website will allow users to evaluate/vote for posts on the website. 
@@ -834,10 +747,6 @@ Staff members must be able to add new templates. The staff member should be able
 		\includegraphics[scale=0.5]{ActivityDiagram.jpg}
     		\caption{Post Rating Activity Diagram}
 	\end{figure}
-	
-	 
-	  
-	 
 
 \newpage
 
@@ -888,7 +797,7 @@ Statistical information created from evaluation to capture average mark of every
     	\includegraphics[scale=0.5]{StatisticalinformationCase.jpg}
     	\caption{Statistical Information Use Case Diagram}
 	\end{figure}
-	
+\newpage	
 
 
 \item \textbf{Post mark up}
@@ -935,7 +844,7 @@ Not all users will be able to use these options, it has to be earned. Certain op
     	\includegraphics[scale=0.5]{Postmarkupcase.jpg}
     	\caption{Post Markup Use case Diagram}
 	\end{figure}
-
+\newpage
 \item \textbf{Plagiarism Checker}
 \graphicspath{ {../Diagrams/Tienie/Plagiarism/}}
 	\begin{itemize}
@@ -974,9 +883,8 @@ Not all users will be able to use these options, it has to be earned. Certain op
 					\caption{Plagiarism Checker Activity Diagram}
 				\end{figure}
 	  	\end{itemize}
-
-\graphicspath{ {../Diagrams/Tienie/Netiquette/} }
 \newpage
+\graphicspath{ {../Diagrams/Tienie/Netiquette/} }
 \item Netiquette Checker 
 \begin{itemize}
 \item \textbf{Purpose: }
@@ -1022,7 +930,7 @@ The netiquette checker is built into the system, and is thus not an optional fea
 	  	\end{itemize}
 
 \end{enumerate}
-
+\newpage
 \subsection{Use case Prioritization}
 \begin{itemize}
 \item \textbf{Critical: }
@@ -1056,67 +964,7 @@ The netiquette checker is built into the system, and is thus not an optional fea
 		\item Netiquette Checker
 	\end{itemize}
 \end{itemize}
-
-
-\subsection{Process Specifications}
-Requirements around the processes which needs to be followed regarding the use cases: \newline
-
-\graphicspath{ {../Diagrams/Kyhle/Activity_Diagrams/} }
-	\begin{figure}[H]	
-    	\includegraphics[scale=0.5]{CRUD.jpg}
-    	\caption{CRUD Activity diagram}
-	\end{figure}
-    	
-	\begin{figure}[H]	
-    	\includegraphics[scale=0.5]{messageTracking.jpg}
-    	\caption{Message Tracking Activity diagram}
-	\end{figure}
-	
-	\begin{figure}[H]	
-    	\includegraphics[scale=0.5]{messageRestrictions.jpg}
-    	\caption{Message Restrictions Activity diagram}
-	\end{figure}
-
-					
-	
-	\graphicspath{ {../Diagrams/Sphe/Search&Filter/} }
-	  \begin{figure}[H]	
-    	\includegraphics[scale=0.65]{ActivityDiagram.jpg}
-    	\caption{Search and Filter Activity Diagram}
-	\end{figure}
-	
-	\graphicspath{ {../Diagrams/Sphe/PostRatings/} }
-	  \begin{figure}[H]	
-    	\includegraphics[scale=0.65]{ActivityDiagram.jpg}
-    	\caption{Post Rating Use Activity Diagram}
-	\end{figure}
-	
-	\begin{figure}[H]	
-\graphicspath{ {../Diagrams/sfiso/} }
-    	\includegraphics[scale=0.5]{socialA.jpg}
-    	\caption{Social Tag  Activity Diagram}
-	\end{figure}
-	\begin{figure}[H]	
-\graphicspath{ {../Diagrams/sfiso/} }
-    	\includegraphics[scale=0.5]{buzzA.jpg}
-    	\caption{Buzz Tag  Activity Diagram}
-	\end{figure}
-
-	\begin{figure}[H]	
-\graphicspath{ {../Diagrams/sfiso/} }
-    	\includegraphics[scale=0.5]{selfA.jpg}
-    	\caption{Self organise Activity Diagram}
-	\end{figure}
-
-	\begin{figure}[H]	
-\graphicspath{ {../Diagrams/sfiso/} }
-    	\includegraphics[scale=0.5]{readA.jpg}
-    	\caption{Read later section Activity Diagram}
-	\end{figure}
-
-
-
-
+\newpage
 \subsection{Domain Model}
 \graphicspath{ {../Diagrams/} }
 	  \begin{figure}[H]	
